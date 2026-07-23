@@ -148,7 +148,9 @@ header {
 
 }
 
-
+.coffee-card:hover {
+    transform: translateY(-10px) scale(1.20);
+}
 
 
 a {
