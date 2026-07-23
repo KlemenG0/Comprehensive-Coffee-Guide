@@ -1,41 +1,44 @@
 const coffees = [
-
 {
-id:"espresso",
-name:"Espresso",
-category:"Espresso",
-description:"Majhna koncentrirana kava z intenzivnim okusom.",
-origin:"Italija",
-preparation:"Približno 7–9 g mlete kave in 25–30 ml vode pri visokem tlaku."
-},
+    id: "espresso",
+
+    name: "Espresso",
+
+    category: "espresso",
+
+    image: "espresso.jpg",
+
+    definition:
+    "Espresso je majhen, koncentriran kavni napitek, pripravljen s prepuščanjem vroče vode pod visokim tlakom skozi fino mleto kavo.",
 
 
-{
-id:"cappuccino",
-name:"Cappuccino",
-category:"Espresso + mleko",
-description:"Espresso z vročim mlekom in mlečno peno.",
-origin:"Italija",
-preparation:"Običajno razmerje 1/3 espresso, 1/3 mleko, 1/3 pena."
-},
+    origin:
+    "Italija. Razvil se je v začetku 20. stoletja z razvojem prvih espresso aparatov.",
 
 
-{
-id:"americano",
-name:"Americano",
-category:"Načini priprave",
-description:"Espresso razredčen z vročo vodo.",
-origin:"ZDA",
-preparation:"Espresso se prelije z dodatkom vroče vode."
-},
+    composition:
+    {
+        coffee: "7–9 g mlete kave",
+        water: "25–30 ml",
+        milk: "Brez mleka"
+    },
 
-  {
-id:"americano",
-name:"Americano",
-category:"Načini priprave",
-description:"Espresso razredčen z vročo vodo.",
-origin:"ZDA",
-preparation:"Espresso se prelije z dodatkom vroče vode."
-},
+
+    preparation:
+    "Kava se pripravi z ekstrakcijo pri približno 9 bar tlak in temperaturi vode okoli 90–96 °C.",
+
+
+    serving:
+    "Majhna skodelica (25–30 ml)",
+
+
+    strength: 5,
+
+
+    caffeine:
+    "Približno 60–80 mg kofeina",
+  
+
+}
 
 ];
