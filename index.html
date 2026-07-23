@@ -2,12 +2,13 @@
 <html lang="sl">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Izčrpen kavni vodnik</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <title>Kavni meni</title>
+
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -17,52 +18,81 @@
 
 <header>
 
-<h1>☕ Izčrpen kavni vodnik</h1>
+    <h1>Kavni meni</h1>
 
-<p>
-To je izčrpen kavni vodnik, ki vključuje vse vrste kavnih napitkov,
-njihovo definicijo, pripravo in izvor.
-</p>
+    <p>
+        Izberi svojo najljubšo kavo
+    </p>
 
 </header>
 
 
 
-<div class="category-buttons">
+<!-- IZBIRA RUBRIK -->
 
-<button onclick="filterCoffee('all')">Vsi</button>
-<button onclick="filterCoffee('espresso')">Espresso</button>
-<button onclick="filterCoffee('milk')">Espresso + mleko</button>
-<button onclick="filterCoffee('methods')">Načini priprave</button>
-<button onclick="filterCoffee('regional')">Regionalno</button>
-<button onclick="filterCoffee('cold')">Ledeno in hladno</button>
-<button onclick="filterCoffee('dessert')">Sladice</button>
-<button onclick="filterCoffee('alcohol')">Z žganjem</button>
+<div class="categories">
+
+
+    <button onclick="filterCards('all')">
+        Vsi
+    </button>
+
+
+    <button onclick="filterCards('espresso')">
+        Espresso
+    </button>
+
+
+    <button onclick="filterCards('espresso-mleko')">
+        Espresso + mleko
+    </button>
+
+
+    <button onclick="filterCards('priprava')">
+        Načini priprave
+    </button>
+
+
+    <button onclick="filterCards('regionalno')">
+        Regionalno
+    </button>
+
+
+    <button onclick="filterCards('hladno')">
+        Ledeno in hladno
+    </button>
+
+
+    <button onclick="filterCards('sladice')">
+        Sladice
+    </button>
+
+
+    <button onclick="filterCards('zganje')">
+        Z žganjem
+    </button>
+
 
 </div>
 
 
 
-<h2 id="category-title">
-Vsi kavni napitki
-</h2>
+
+
+<!-- KARTICE SE USTVARIJO AVTOMATSKO -->
+
+<main class="cards" id="coffee-container">
+
+
+</main>
 
 
 
-<div id="coffee-container" class="coffee-grid">
-
-</div>
 
 
+<script src="js/coffee-data.js"></script>
 
-<div id="coffee-detail">
-
-</div>
-
-
-
-<script src="coffee-data.js"></script>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 
 
 </body>
