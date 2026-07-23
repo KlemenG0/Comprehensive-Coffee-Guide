@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f0;
+    margin: 0;
+    color: #3b2a1a;
+}
+
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+header p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.coffee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+
+.coffee-card {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+
+
+.coffee-card:hover {
+    transform: translateY(-5px);
+}
+
+
+.coffee-card h3 {
+    font-size: 26px;
+    margin-top: 0;
+}
