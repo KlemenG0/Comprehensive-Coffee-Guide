@@ -1,143 +1,121 @@
-const container = document.getElementById("coffee-container");
-const title = document.getElementById("category-title");
-
-
-function displayCoffees(list){
-
-
-container.innerHTML="";
-
-
-list.forEach(coffee=>{
-
-
-let card=document.createElement("div");
-
-card.className="coffee-card";
-
-card.id=coffee.id;
-
-
-card.innerHTML=`
-
-<h3>${coffee.name}</h3>
-
-<p>${coffee.description}</p>
-
-`;
-
-
-card.onclick=function(){
-
-showCoffee(coffee);
-
-};
-
-
-container.appendChild(card);
-
-
-});
-
-
-}
-
-
-
-function filterCoffee(category){
-
-
-if(category==="all"){
-
-title.innerHTML="Vsi kavni napitki";
-
-displayCoffees(coffees);
-
-return;
-
-}
-
-
-let filtered=coffees.filter(
-coffee=>coffee.category===category
+const container = document.getElementById(
+    "coffee-container"
 );
 
 
-title.innerHTML=category;
 
-displayCoffees(filtered);
-
-
-}
+function displayCards(coffeeList) {
 
 
-
-function showCoffee(coffee){
-
-
-container.innerHTML="";
-
-
-title.innerHTML=coffee.name;
-
-
-container.innerHTML=`
-
-<div class="coffee-detail">
-
-<h2>${coffee.name}</h2>
-
-<h3>Opis</h3>
-<p>${coffee.description}</p>
-
-<h3>Izvor</h3>
-<p>${coffee.origin}</p>
-
-<h3>Priprava</h3>
-<p>${coffee.preparation}</p>
-
-
-</div>
-
-`;
-
-}
+    container.innerHTML = "";
 
 
 
-
-function openFromQR(){
-
-
-let params=new URLSearchParams(window.location.search);
-
-let coffeeID=params.get("coffee");
+    coffeeList.forEach(coffee => {
 
 
-if(coffeeID){
+
+        const card = document.createElement("div");
 
 
-let coffee=coffees.find(
-c=>c.id===coffeeID
-);
+
+        card.classList.add(
+            "card",
+            coffee.category
+        );
 
 
-if(coffee){
 
-showCoffee(coffee);
-
-return;
-
-}
-
-}
+        card.innerHTML = `
 
 
-displayCoffees(coffees);
+            <img src="images/${coffee.image}">
+
+
+            <div class="card-content">
+
+
+                <h2>
+                    ${coffee.name}
+                </h2>
+
+
+
+                <p>
+                    ${coffee.definition}
+                </p>
+
+
+
+                <a href="coffee.html?id=${coffee.id}">
+
+                    <button>
+                        Več
+                    </button>
+
+                </a>
+
+
+            </div>
+
+
+        `;
+
+
+
+        container.appendChild(card);
+
+
+    });
 
 
 }
 
 
 
-openFromQR();
+
+
+// PRVI PRIKAZ STRANI
+
+displayCards(coffees);
+
+
+
+
+
+
+
+// FILTRIRANJE PO RUBRIKAH
+
+
+function filterCards(category) {
+
+
+
+    if(category === "all") {
+
+
+        displayCards(coffees);
+
+
+    } 
+    
+    
+    else {
+
+
+        const filtered =
+        coffees.filter(
+            coffee =>
+            coffee.category === category
+        );
+
+
+
+        displayCards(filtered);
+
+
+    }
+
+
+}
