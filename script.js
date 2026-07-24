@@ -88,11 +88,16 @@ function showCoffee(coffee) {
 
     let beans = "";
 
-    for(let i=0;i<coffee.caffeine;i++){
+for(let i = 0; i < coffee.caffeine; i++){
 
-        beans += "🫘";
+    beans += `
+        <img
+            src="icons/coffee-bean.png"
+            class="bean-icon"
+            alt="Kavno zrno">
+    `;
 
-    }
+}
 
     container.innerHTML = `
 
@@ -122,7 +127,11 @@ function showCoffee(coffee) {
 
                 <h3>Kofeinska moč</h3>
 
-                <p class="beans">${beans}</p>
+                <div class="beans">
+
+                ${beans}
+
+                </div>
 
             </section>
 
