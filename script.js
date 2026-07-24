@@ -12,6 +12,32 @@ const categoryNames = {
     alcohol: "Z žganjem"
 };
 
+function createCard(coffee) {
+
+    const card = document.createElement("div");
+
+    card.className = "coffee-card";
+
+    card.innerHTML = `
+
+        <img src="${coffee.image}" alt="${coffee.name}" class="coffee-image">
+
+        <h3>${coffee.name}</h3>
+
+    `;
+
+    card.onclick = () => {
+
+        history.pushState({}, "", "?coffee=" + coffee.id);
+
+        showCoffee(coffee);
+
+    };
+
+    return card;
+
+}
+
 function displayCoffees(list) {
 
     title.textContent = "Vsi kavni napitki";
@@ -20,21 +46,7 @@ function displayCoffees(list) {
 
     list.forEach(coffee => {
 
-        const card = document.createElement("div");
-
-        card.className = "coffee-card";
-
-        card.innerHTML = `
-            <h3>${coffee.name}</h3>
-            <p>${coffee.description}</p>
-        `;
-
-        card.onclick = () => {
-            history.pushState({}, "", "?coffee=" + coffee.id);
-            showCoffee(coffee);
-        };
-
-        container.appendChild(card);
+        container.appendChild(createCard(coffee));
 
     });
 
@@ -46,37 +58,27 @@ function filterCoffee(category) {
 
     title.textContent = categoryNames[category];
 
+    container.innerHTML = "";
+
     if (category === "all") {
 
-        displayCoffees(coffees);
+        coffees.forEach(coffee => {
+
+            container.appendChild(createCard(coffee));
+
+        });
 
         return;
 
     }
 
-    const filtered = coffees.filter(coffee => coffee.category === category);
+    coffees
+        .filter(coffee => coffee.category === category)
+        .forEach(coffee => {
 
-    container.innerHTML = "";
+            container.appendChild(createCard(coffee));
 
-    filtered.forEach(coffee => {
-
-        const card = document.createElement("div");
-
-        card.className = "coffee-card";
-
-        card.innerHTML = `
-            <h3>${coffee.name}</h3>
-            <p>${coffee.description}</p>
-        `;
-
-        card.onclick = () => {
-            history.pushState({}, "", "?coffee=" + coffee.id);
-            showCoffee(coffee);
-        };
-
-        container.appendChild(card);
-
-    });
+        });
 
 }
 
@@ -84,19 +86,19 @@ function showCoffee(coffee) {
 
     title.textContent = coffee.categoryName;
 
-    let stars = "";
+    let beans = "";
 
-    for (let i = 0; i < coffee.caffeine; i++) {
-        stars += "★";
-    }
+    for(let i=0;i<coffee.caffeine;i++){
 
-    for (let i = coffee.caffeine; i < 5; i++) {
-        stars += "☆";
+        beans += "🫘";
+
     }
 
     container.innerHTML = `
 
         <div class="coffee-detail">
+
+            <img src="${coffee.image}" class="detail-image">
 
             <h2>${coffee.name}</h2>
 
@@ -120,7 +122,7 @@ function showCoffee(coffee) {
 
                 <h3>Kofeinska moč</h3>
 
-                <p style="font-size:28px">${stars}</p>
+                <p class="beans">${beans}</p>
 
             </section>
 
@@ -144,11 +146,11 @@ function openFromQR() {
 
     const coffeeID = params.get("coffee");
 
-    if (coffeeID) {
+    if(coffeeID){
 
         const coffee = coffees.find(c => c.id === coffeeID);
 
-        if (coffee) {
+        if(coffee){
 
             showCoffee(coffee);
 
