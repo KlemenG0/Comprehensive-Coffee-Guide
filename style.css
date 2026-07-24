@@ -58,12 +58,10 @@ h2 {
 }
 
 .category-buttons {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
-
     margin: 40px auto;
 
 }
@@ -72,58 +70,48 @@ h2 {
 
     background-color: #5c3b22;
     color: white;
-
     border: none;
     border-radius: 25px;
-
     padding: 12px 22px;
-
     font-size: 16px;
-
     cursor: pointer;
-
     transition: 0.2s;
 
 }
 
 .category-buttons button:hover {
-
     transform: translateY(-3px);
 
 }
 
 .coffee-image{
-
     width:100%;
-
     height:170px;
-
     object-fit:cover;
-
     border-radius:12px;
 
 }
 
 .detail-image{
-
     width:100%;
-
     max-width:450px;
-
     border-radius:15px;
-
     display:block;
-
     margin:auto;
-
     margin-bottom:30px;
 
 }
 
 .beans{
+    display:flex;
+    gap:8px;
+    align-items:center;
+    margin-top:10px;
 
-    font-size:32px;
+}
 
-    letter-spacing:4px;
+.bean-icon{
+    width:24px;
+    height:24px;
 
 }
