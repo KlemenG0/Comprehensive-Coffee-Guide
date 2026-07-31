@@ -85,29 +85,29 @@ h2 {
 }
 
 .coffee-image{
-    width:90%;
-    height:140px;
-    object-fit:contain;
-    display:block;
+    width: 90%;
+    height: 140px;
+    object-fit: contain;
+    display: block;
     margin: 10px auto 15px auto;
 
 }
 
 .detail-image{
-    width:100%;
-    max-width:200px;
-    border-radius:15px;
-    display:block;
-    margin:auto;
-    margin-bottom:30px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
 
 }
 
 .beans{
-    display:flex;
-    gap:8px;
-    align-items:center;
-    margin-top:10px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 10px;
 
 }
 
