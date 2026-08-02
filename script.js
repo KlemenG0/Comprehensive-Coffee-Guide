@@ -42,8 +42,6 @@ function createCard(coffee) {
 
 function displayCoffees(list) {
 
-    title.textContent = "Vsi kavni napitki";
-
     container.innerHTML = "";
 
     list.forEach(coffee => {
@@ -60,27 +58,17 @@ function filterCoffee(category) {
 
     title.textContent = categoryNames[category];
 
-    container.innerHTML = "";
-
     if (category === "all") {
 
-        coffees.forEach(coffee => {
-
-            container.appendChild(createCard(coffee));
-
-        });
+        displayCoffees(coffees);
 
         return;
 
     }
 
-    coffees
-        .filter(coffee => coffee.category === category)
-        .forEach(coffee => {
+    const filtered = coffees.filter(coffee => coffee.category === category);
 
-            container.appendChild(createCard(coffee));
-
-        });
+    displayCoffees(filtered);
 
 }
 
