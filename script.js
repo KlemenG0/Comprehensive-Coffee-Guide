@@ -20,7 +20,9 @@ function createCard(coffee) {
 
     card.innerHTML = `
 
-        <img src="${coffee.image}" alt="${coffee.name}" class="coffee-image">
+    <img src="${coffee.cardImage}"
+    alt="${coffee.name}"
+    class="coffee-image">
 
         <h3>${coffee.name}</h3>
 
@@ -103,7 +105,10 @@ for(let i = 0; i < coffee.caffeine; i++){
 
         <div class="coffee-detail">
 
-            <img src="${coffee.image}" class="detail-image">
+            <img
+            src="${coffee.detailImage}"
+            alt="${coffee.name}"
+            class="detail-image">
 
             <h2>${coffee.name}</h2>
 
