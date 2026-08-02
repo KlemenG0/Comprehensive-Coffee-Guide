@@ -74,7 +74,7 @@ function filterCoffee(category) {
 
 function showCoffee(coffee) {
 
-    title.textContent = coffee.categoryName;
+    title.textContent = categoryNames[coffee.category];
 
     let beans = "";
 
