@@ -16,7 +16,8 @@ const coffees = [
     id: "cappuccino",
     name: "Cappuccino",
     category: "milk",
-    image: "images/cappuccino.jpg",
+    cardimage: "images/cappuccino.jpg",
+    detailimage: "images/cappuccino_1.jpg";
     description: "Espresso z vročim mlekom in mlečno peno.",
     preparation: "Pripravi se iz espressa, vročega mleka in goste mlečne pene.",
     caffeine: 4,
