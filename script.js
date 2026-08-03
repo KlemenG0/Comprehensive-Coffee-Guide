@@ -1,5 +1,6 @@
 const container = document.getElementById("coffee-container");
 const title = document.getElementById("category-title");
+const buttons = document.querySelectorAll(".category-buttons button");
 
 const categoryNames = {
     all: "Vsi kavni napitki",
