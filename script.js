@@ -68,7 +68,7 @@ function filterCoffee(category) {
 
     console.log(category);
     
-    history.pushState({}, "", "index.html");
+    history.pushState({}, "", window.location.pathname);
 
     title.textContent = categoryNames[category];
 
