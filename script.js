@@ -66,6 +66,8 @@ function displayCoffees(list) {
 
 function filterCoffee(category) {
 
+    console.log(category);
+    
     history.pushState({}, "", "index.html");
 
     title.textContent = categoryNames[category];
