@@ -1,6 +1,5 @@
 const container = document.getElementById("coffee-container");
 const title = document.getElementById("category-title");
-const buttons = document.querySelectorAll(".category-buttons button");
 
 const categoryNames = {
     all: "Vsi kavni napitki",
@@ -12,6 +11,18 @@ const categoryNames = {
     dessert: "Sladice",
     alcohol: "Z žganjem"
 };
+
+const buttons = document.querySelectorAll(".category-buttons button");
+
+buttons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        filterCoffee(button.dataset.category);
+
+    });
+
+});
 
 function createCard(coffee) {
 
