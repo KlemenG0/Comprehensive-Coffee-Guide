@@ -8,7 +8,7 @@ const coffees = [
     detailImage: "images/espresso_1.jpg",
     description: "Majhen koncentriran, sirupasti kavni napitek z bogato kremo. Izraz espresso izvira iz italijanščine in pomeni »izstisnjen«. Razmerje med fino mleto kavo in vodo je 1:2. Običajna količina napitka znaša med 25 mL in 30 mL, količina samega kofeina pa 64 mg. Napitek se postreže vroč, pogosto v majhni skodelici.",
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund.",
-    caffeine: 5,
+    caffeine: 1.5,
     alternativeNames: "Un caffè (Italija), Café solo (Španija), Bica (Lizbona, Portugalska), Cimbalino (Porto, Portugalska), Café express (Francija).",
     origin: "Turin in Milan, Italija. Konec 19. in začetek 20. stoletja."
 },
@@ -21,7 +21,7 @@ const coffees = [
     detailImage: "images/ristretto_1.jpg",
     description: "Majhen koncentriran, sirupasti kavni napitek z bogato kremo. Izraz ristretto izvira iz italijanščine in pomeni »skrajšan« oz. »omejen«. Ristretto je torej »omejena« italijanska različica espressa, pripravljena z enako količino mlete kave, vendar s približno dvakrat manj vode (razmerje kava:voda je od 1:1 do 1:1,5), kar znese približno 20 mL napitka. Zaradi krajše ekstrakcije je okus slajši, bolj sirupast in intenzivnejši. Kljub slovesu in mišljenju, da je »močnejši« od espressa (višja koncentracija kot neposredna posledica manjše količine vode in enake količine kave), prav zaradi manjše količine vode vsebuje nekoliko manj kofeina kot običajen espresso (zaradi zgodnejšega padca koncentracijskega gradienta med kavo in vodo, hitrost difuzije med ekstrakcijo hitreje pade. Svoj prispevek k temu doda tudi krajši ekstrakcijski čas). Njegova »moč« torej izvira iz večje intenzivnosti okusa (večje koncentracije kofeina), ki zamaskira nekoliko nižjo količino kofeina. Količina samega kofeina znaša od 55 mg do 60 mg. Napitek se postreže vroč, pogosto v majhni skodelici.",
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli 20 sekund.",
-    caffeine: 5,
+    caffeine: 1,
     alternativeNames: "Café serré (Francija), Short shot/restricted shot (angleško govoreče države), Caffè corto (Italija).",
     origin: "Italija. Začetek 20. stoletja."
 },
