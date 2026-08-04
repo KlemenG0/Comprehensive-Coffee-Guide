@@ -25,6 +25,19 @@ const coffees = [
     alternativeNames: "Café serré (Francija), Short shot/restricted shot (angleško govoreče države), Caffè corto (Italija).",
     origin: "Italija. Začetek 20. stoletja."
 },
+
+{
+    id: "lungo",
+    name: "Lungo",
+    category: "espresso",
+    cardImage: "images/lungo.png",
+    detailImage: "images/lungo_1.png",
+    description: "Lungo je italijanski »dolgi« espresso, pripravljen z enako količino mlete kave kot espresso, vendar s približno dvakrat do trikrat več vode (razmerje kava:voda približno 1:3 do 1:4). Izraz lungo izvira iz italijanščine in pomeni »dolg«. Po navadi je količina napitka od 50 mL do 60 mL. Zaradi daljše ekstrakcije se razvije izrazitejša grenkoba in višja vsebnost kofeina kot pri espressu (med 75 mg in 90 mg).",
+    preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli eno minuto.",
+    caffeine: 1.5,
+    alternativeNames: "Café allongé (Francija, Kanada), long shot (angleško govoreče države).",
+    origin: "Italija. Začetek 20. stoletja."
+},
     
 {
     id: "cappuccino",
