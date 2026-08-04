@@ -115,6 +115,13 @@ h5 {
     
 }
 
+h6 {
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    
+}
+
 .beans{
     display: flex;
     gap: 8px;
