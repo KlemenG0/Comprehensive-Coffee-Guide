@@ -9,7 +9,7 @@ const coffees = [
     description: "Majhen koncentriran, sirupasti kavni napitek z bogato kremo. Razmerje med fino mleto kavo in vodo je 1:2. Običajna količina napitka znaša med 25 mL in 30 mL, količina samega kofeina pa 64 mg. Napitek se postreže vroč, pogosto v majhni skodelici.",
     preparation: "Pripravljen z ekstrakcijo fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar.",
     caffeine: 5,
-    alternativeNames: ""Un caffè" (Italija), "Café solo" (Španija), "Bica" (Lizbona, Portugalska), "Cimbalino" (Porto, Portugalska), "Café express" (Francija).",
+    alternativeNames: "Un caffè (Italija), Café solo (Španija), Bica (Lizbona, Portugalska), Cimbalino (Porto, Portugalska), Café express (Francija).",
     origin: "Turin in Milan, Italija. Konec 19. in začetek 20. stoletja."
 },
 
