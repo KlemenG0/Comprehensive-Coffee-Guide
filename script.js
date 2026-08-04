@@ -90,17 +90,29 @@ function showCoffee(coffee) {
 
     title.textContent = categoryNames[coffee.category];
 
-    let beans = "";
+   let beans = "";
 
-for(let i = 0; i < coffee.caffeine; i++){
+const fullBeans = Math.floor(coffee.caffeine);
+const hasHalfBean = coffee.caffeine % 1 >= 0.5;
 
+// Cela zrna
+for (let i = 0; i < fullBeans; i++) {
     beans += `
         <img
             src="icons/coffee-bean.png"
             class="bean-icon"
             alt="Kavno zrno">
     `;
+}
 
+// Polovično zrno
+if (hasHalfBean) {
+    beans += `
+        <img
+            src="icons/coffee-bean-half.png"
+            class="bean-icon"
+            alt="Polovično kavno zrno">
+    `;
 }
 
     container.innerHTML = `
