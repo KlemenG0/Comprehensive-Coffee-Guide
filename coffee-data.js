@@ -38,7 +38,20 @@ const coffees = [
     alternativeNames: "Café allongé (Francija, Kanada), long shot (angleško govoreče države).",
     origin: "Italija. Začetek 20. stoletja."
 },
-    
+
+{
+    id: "doppio",
+    name: "Doppio",
+    category: "espresso",
+    cardImage: "images/doppio.png",
+    detailImage: "images/doppio_1.webp",
+    description: "",
+    preparation: "",
+    caffeine:,
+    alternativeNames: "",
+    origin: ""
+},
+
 {
     id: "cappuccino",
     name: "Cappuccino",
