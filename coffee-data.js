@@ -6,7 +6,7 @@ const coffees = [
     category: "espresso",
     cardImage: "images/espresso.png",
     detailImage: "images/espresso_1.jpg",
-    description: "Majhen koncentriran, sirupasti kavni napitek z bogato kremo. Razmerje med fino mleto kavo in vodo je 1:2. Običajna količina napitka znaša 25 mL - 30 mL, količina kofeina pa 64 mg. Napitek se postreže vroč, pogosto v majhni skodelici.",
+    description: "Majhen koncentriran, sirupasti kavni napitek z bogato kremo. Razmerje med fino mleto kavo in vodo je 1:2. Običajna količina napitka znaša med 25 mL in 30 mL, količina samega kofeina pa 64 mg. Napitek se postreže vroč, pogosto v majhni skodelici.",
     preparation: "Pripravljen z ekstrakcijo fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar.",
     caffeine: 5,
     alternativeName: "Un caffè (Italija), Café solo (Španija), Bica (Lizbona, Portugalska), Cimbalino (Porto, Portugalska), Café express (Francija).",
