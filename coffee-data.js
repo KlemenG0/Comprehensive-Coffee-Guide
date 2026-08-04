@@ -45,11 +45,11 @@ const coffees = [
     category: "espresso",
     cardImage: "images/doppio.png",
     detailImage: "images/doppio_1.webp",
-    description: "",
-    preparation: "",
-    caffeine:,
-    alternativeNames: "",
-    origin: ""
+    description: "c.",
+    preparation: "c.",
+    caffeine: 1,
+    alternativeNames: "c.",
+    origin: "c."
 },
 
 {
