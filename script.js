@@ -144,7 +144,7 @@ for(let i = 0; i < coffee.caffeine; i++){
             
             <section>
 
-                <h3>"Alternativna imena"</h3>
+                <h3>Alternativna imena</h3>
 
                 <p>${coffee.alternativeNames}</p>
 
