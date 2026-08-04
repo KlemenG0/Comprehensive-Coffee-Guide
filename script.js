@@ -116,7 +116,7 @@ for(let i = 0; i < coffee.caffeine; i++){
 
             <section>
 
-                <h3>Opis</h3>
+                <h5>Opis</h5>
 
                 <p>${coffee.description}</p>
 
@@ -124,7 +124,7 @@ for(let i = 0; i < coffee.caffeine; i++){
 
             <section>
 
-                <h3>Priprava</h3>
+                <h5>Priprava</h5>
 
                 <p>${coffee.preparation}</p>
 
@@ -132,7 +132,7 @@ for(let i = 0; i < coffee.caffeine; i++){
 
             <section>
 
-                <h3>Kofeinska moč</h3>
+                <h5>Kofeinska moč</h5>
 
                 <div class="beans">
 
@@ -144,7 +144,7 @@ for(let i = 0; i < coffee.caffeine; i++){
             
             <section>
 
-                <h3>Alternativna imena</h3>
+                <h5>Alternativna imena</h5>
 
                 <p>${coffee.alternativeNames}</p>
 
@@ -152,7 +152,7 @@ for(let i = 0; i < coffee.caffeine; i++){
             
             <section>
 
-                <h3>Izvor</h3>
+                <h5>Izvor</h5>
 
                 <p>${coffee.origin}</p>
 
