@@ -112,7 +112,7 @@ for(let i = 0; i < coffee.caffeine; i++){
             alt="${coffee.name}"
             class="detail-image">
 
-            <h2>${coffee.name}</h2>
+            <h6>${coffee.name}</h6>
 
             <section>
 
