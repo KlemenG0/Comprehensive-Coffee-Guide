@@ -141,7 +141,15 @@ for(let i = 0; i < coffee.caffeine; i++){
                 </div>
 
             </section>
+            
+            <section>
 
+                <h3>"Alternativna imena"</h3>
+
+                <p>${coffee.alternativeNames}</p>
+
+            </section>
+            
             <section>
 
                 <h3>Izvor</h3>
