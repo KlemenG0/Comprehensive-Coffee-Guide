@@ -93,7 +93,7 @@ const coffees = [
 
 {
     id: "crema",
-    name: "Crema",
+    name: "Caffè crema",
     category: "espresso",
     cardImage: "images/crema.jpg",
     detailImage: "images/crema_1.png",
