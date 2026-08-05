@@ -56,7 +56,7 @@ const coffees = [
     id: "americano",
     name: "Caffè americano",
     category: "espresso",
-    cardImage: "images/americano.png",
+    cardImage: "images/americano.jpg",
     detailImage: "images/americano_1.webp",
     description: "Caffè americano je kavni napitek, pripravljen iz ene ali dveh porcij espressa, ki se mu/jima dolije vroča voda v približnem razmerju od 1:2 do 1:4. Po priljubljeni zgodbi njegov izvor sega v čas druge svetovne vojne, ko so ameriški vojaki v Italiji espresso redčili z vročo vodo, da bi bil bolj podoben filtrirani kavi, ki so je bili vajeni. Rezultat je napitek s čistejšim in bolj aromatičnim okusom, podoben filtrirani kavi. Odvisno od količine dodanega espressa ima napitek lahko od 64 mg do 128 mg kofeina. Postreže se ga vročega v večji skodelici, saj ga običajno znese od 150 mL do 240 mL. Po predlogih ameriškega predsednika Donalda Trumpa za priključitev Kanade leta 2025 so nekatere kavarne v Kanadi na svojih menijih caffè americano preimenovale v canadiano. Gre za simbolično preimenovanje, ki izraža kanadsko identiteto in predstavlja odziv na politične razprave.",
     preparation: "Pri pripravi americana se najprej s pomočjo espresso aparata pripravi espresso, nato pa se dolije vroča voda, kar je glavna razlika v primerjavi z napitkom long black.",
