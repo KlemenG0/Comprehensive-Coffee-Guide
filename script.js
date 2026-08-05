@@ -86,33 +86,48 @@ function filterCoffee(category) {
 
 }
 
+function createBeans(value) {
+    let html = "";
+
+    const fullBeans = Math.floor(value);
+    const hasHalfBean = value % 1 >= 0.5;
+
+    for (let i = 0; i < fullBeans; i++) {
+        html += `
+            <img src="icons/coffee-bean.svg"
+                 class="bean-icon"
+                 alt="Kavno zrno">
+        `;
+    }
+
+    if (hasHalfBean) {
+        html += `
+            <img src="icons/coffee-bean-half.svg"
+                 class="bean-icon"
+                 alt="Polovično kavno zrno">
+        `;
+    }
+
+    return html;
+}
+
 function showCoffee(coffee) {
 
     title.textContent = categoryNames[coffee.category];
 
    let beans = "";
 
-const fullBeans = Math.floor(coffee.caffeine);
-const hasHalfBean = coffee.caffeine % 1 >= 0.5;
+if (typeof coffee.caffeine === "number") {
 
-// Cela zrna
-for (let i = 0; i < fullBeans; i++) {
-    beans += `
-        <img
-            src="icons/coffee-bean.svg"
-            class="bean-icon"
-            alt="Kavno zrno">
-    `;
-}
+    beans = createBeans(coffee.caffeine);
 
-// Polovično zrno
-if (hasHalfBean) {
-    beans += `
-        <img
-            src="icons/coffee-bean-half.svg"
-            class="bean-icon"
-            alt="Polovično kavno zrno">
-    `;
+} else {
+
+    beans =
+        createBeans(coffee.caffeine.min) +
+        `<span class="bean-range">–</span>` +
+        createBeans(coffee.caffeine.max);
+
 }
 
     container.innerHTML = `
