@@ -45,11 +45,11 @@ const coffees = [
     category: "espresso",
     cardImage: "images/doppio.png",
     detailImage: "images/doppio_1.webp",
-    description: "c.",
-    preparation: "c.",
-    caffeine: 1,
-    alternativeNames: "c.",
-    origin: "c."
+    description: "Doppio je italijanski dvojni espresso – dve porciji espressa, pripravljeni v eni skodelici, s skupno prostornino od 50 mL do 60 mL. Izraz izvira iz italijanske besede duplus, kar pomeni »dvojno«. Okus je enak običajnemu espressu, saj gre preprosto za dvojno količino istega napitka. V eni skodelici vsebuje približno 128 mg kofeina. Za razliko od lunga se pri doppiu koncentracija glede na espresso ne poveča, zato ostane intenzivnost okusa enaka. Napitek se postreže vroč, pogosto v skodelici. V večini kavarn v ZDA ob naročilu espressa dejansko dobiš doppio. Zunaj Italije je pogosta praksa priprave espressa iz doppia, saj je za espresso potrebna manjša košarica v portafiltru. Pripravi se ga tako, da se iz aparata z dvema izlivoma prestreže vsak curek posebej. Tako se dobi dve porciji espressa – en se postreže, drugi pa se običajno zavrže ali uporabi za pripravo drugega kavnega napitka.",
+    preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli 30 sekund.",
+    caffeine: 2.5,
+    alternativeNames: "Double espresso (angleško govoreče države), espresso (pogosto v ZDA).",
+    origin: "Italija. Začetek 20. stoletja."
 },
 
 {
