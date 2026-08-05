@@ -108,7 +108,7 @@ const coffees = [
     id: "romano",
     name: "Espresso romano",
     category: "espresso",
-    cardImage: "images/espresso_romano.jpg",
+    cardImage: "images/espresso_romano.png",
     detailImage: "images/espresso_romano_1.jpg",
     description: "Espresso Romano je espresso, postrežen z rezino ali zvitkom limonine lupine na robu skodelice. Njegov izvor ni povsem jasen, vendar najverjetneje ne izvira iz Rima, temveč iz italijansko-ameriške tradicije. Enako kot espresso gre za majhen koncentriran, sirupasti kavni napitek z bogato kremo. Razmerje med fino mleto kavo in vodo je 1:2. Običajna količina napitka znaša med 25 mL in 30 mL, količina samega kofeina pa 64 mg. Napitek se postreže vroč, pogosto v majhni skodelici. Eterična olja iz limonine lupine poudarijo aromo espressa in prvemu požirku dodajo svežo citrusno noto.",
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund.",
