@@ -99,7 +99,7 @@ const coffees = [
     detailImage: "images/crema_1.png",
     description: "Caffè Crema je alpski evropski kavni napitek, pripravljen kot podaljšani espresso z razmerjem med fino mleto kavo in vodo približno 1:6 do 1:7, kar znese od 120 mL do 180 mL napitka, prekritega z debelo plastjo kreme. Priljubljen je predvsem v Švici ter alpskih obmejnih območjih. Ime izvira iz izraza, ki ga je že leta 1948 za espresso uporabljalo podjetje Gaggia (proizvajalec kavnih aparatov). Caffè crema lahko razumemo kot različico polne skodelice kave, pripravljene z espresso aparatom. Je daljši celo od lunga, a še vedno ohrani značilno plast kreme na površini. Vsebnost kofeina v napitku je od 90 mg do 120 mg. Postreže se ga vročega v skodelici.",
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno bolj grobo mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund.",
-    caffeine: 3,
+    caffeine: 2,
     alternativeNames: "Kaffee Crème, Schümli (Območje Alp), cream coffee (angleško govoreče države).",
     origin: "Območje Alp (Švica, Italija). 90. desetletje 20. stoletja."
 },
