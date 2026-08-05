@@ -84,13 +84,26 @@ const coffees = [
     category: "espresso",
     cardImage: "images/red_eye.jpg",
     detailImage: "images/red_eye_1.webp",
-    description: "Red eye je ameriški kavni napitek, ki združuje filtrirano kavo in eno porcijo espressa. Ime je dobil po nočnih letih od zahodne do vzhodne obale Severne Amerike, ki so potnike tako izmučili, da so dobili rdeče oči (angl. red eyes). Ta napitek naj bi pomagal premagovati to utrujenost. Ena skodelica vsebuje 300 mL napitka s približno 160 mg kofeina. Obstajajo tudi različice red-eye-a, ki vsebujejo več espressa. Ti sta black eye (2 porciji espressa) in dead eye ali green eye (tri porcije espressa). Obstaja pa tudi različica z imenom lazy eye, ki vsebuje 1 porcijo espressa in dekofeinizirano filtrirano kavo.",
+    description: "Red eye je ameriški kavni napitek, ki združuje filtrirano kavo in eno porcijo espressa. Ime je dobil po nočnih letih od zahodne do vzhodne obale Severne Amerike, ki so potnike tako izmučili, da so dobili rdeče oči (angl. red eyes). Ta napitek naj bi pomagal premagovati to utrujenost. Ena skodelica vsebuje 300 mL napitka s približno 160 mg kofeina. Obstajajo tudi različice red-eye-a, ki vsebujejo več espressa. Ti sta black eye (2 porciji espressa) in dead eye ali green eye (tri porcije espressa). Obstaja pa tudi različica z imenom lazy eye, ki vsebuje 1 porcijo espressa in dekofeinizirano filtrirano kavo. Napitek se postreže vroč v skodelici.",
     preparation: "Napitek red eye se pripravi tako, da se eno porcijo espressa, ki je narejen s pomočjo espresso aparata, prelije čez filtrirano kavo (drip coffe).",
     caffeine: 3,
     alternativeNames: "A shot in the dark, a depth charge, an eye opener, a sludge cup, a hammerhead, foglifter, a devil’s crowbar, an oil spill, turbo hot coffee (ZDA).",
     origin: "ZDA. Konec 20. stoletja."
 },
 
+{
+    id: "crema",
+    name: "Crema",
+    category: "espresso",
+    cardImage: "images/crema.jpg",
+    detailImage: "images/crema_1.png",
+    description: "Caffè Crema je alpski evropski kavni napitek, pripravljen kot podaljšani espresso z razmerjem med fino mleto kavo in vodo približno 1:6 do 1:7, kar znese od 120 mL do 180 mL napitka, prekritega z debelo plastjo kreme. Priljubljen je predvsem v Švici ter alpskih obmejnih območjih. Ime izvira iz izraza, ki ga je že leta 1948 za espresso uporabljalo podjetje Gaggia (proizvajalec kavnih aparatov). Caffè crema lahko razumemo kot različico polne skodelice kave, pripravljene z espresso aparatom. Je daljši celo od lunga, a še vedno ohrani značilno plast kreme na površini. Vsebnost kofeina v napitku je od 90 mg do 120 mg. Postreže se ga vročega v skodelici.",
+    preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno bolj grobo mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund.",
+    caffeine: 3,
+    alternativeNames: "Kaffee Crème, Schümli (Območje Alp), cream coffee (angleško govoreče države).",
+    origin: "Območje Alp (Švica, Italija). 90. desetletje 20. stoletja."
+},
+    
 {
     id: "cappuccino",
     name: "Cappuccino",
