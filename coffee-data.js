@@ -64,7 +64,20 @@ const coffees = [
     alternativeNames: "Americano (globalno).",
     origin: "Italija (vojaki ZDA). Med letoma 1939 in 1945."
 },
-  
+
+{
+    id: "long black",
+    name: "Long black",
+    category: "espresso",
+    cardImage: "images/long_black.jpg",
+    detailImage: "images/long-black_1.jpg",
+    description: "Long black je avstralski in novozelandski kavni napitek, ki sestoji iz dvojnega esspresa (doppia) in vroče vode v približnem razmerju 3:5. Z okoli 160 mL je manjši in močnejši od caffè americana, z značilno aromo ohranjene kreme na vrhu napitka. Napitek vsebuje 128 mg kofeina. Postreže pa se ga vročega v večji skodelici.",
+    preparation: "Napitek long black je pripravljen ravno obratno kot caffè americano. Dvojni espresso (doppio) se namreč prelije čez vročo vodo, kar ohrani plast kreme na površini.",
+    caffeine: 2.5,
+    alternativeNames: "-",
+    origin: "Avstralija in Nova Zelandija. 6. in 7. desetletje 20. stoletja."
+},
+
 {
     id: "cappuccino",
     name: "Cappuccino",
