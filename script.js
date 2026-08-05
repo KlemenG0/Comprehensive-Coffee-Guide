@@ -99,7 +99,7 @@ const hasHalfBean = coffee.caffeine % 1 >= 0.5;
 for (let i = 0; i < fullBeans; i++) {
     beans += `
         <img
-            src="icons/coffee-bean.png"
+            src="icons/coffee-bean.svg"
             class="bean-icon"
             alt="Kavno zrno">
     `;
@@ -109,7 +109,7 @@ for (let i = 0; i < fullBeans; i++) {
 if (hasHalfBean) {
     beans += `
         <img
-            src="icons/coffee-bean-half.png"
+            src="icons/coffee-bean-half.svg"
             class="bean-icon"
             alt="Polovično kavno zrno">
     `;
