@@ -131,6 +131,19 @@ const coffees = [
 },
 
 {
+    id: "latte",
+    name: "Caffè latte",
+    category: "milk",
+    cardImage: "images/latte.png",
+    detailImage: "images/latte_1.jpg",
+    description: "",
+    preparation: "",
+    caffeine: ,
+    alternativeNames: "",
+    origin: ""
+},
+
+{
     id: "cappuccino",
     name: "Cappuccino",
     category: "milk",
