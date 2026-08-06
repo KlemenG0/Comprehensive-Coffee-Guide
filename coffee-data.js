@@ -118,8 +118,8 @@ const coffees = [
 },
 
 {
-    id: "guillermo",
-    name: "Guillermo coffee",
+    id: "con guillermo",
+    name: "Café con Guillermo",
     category: "espresso",
     cardImage: "images/con_guillermo.png",
     detailImage: "images/con_guillermo_1.jpg",
