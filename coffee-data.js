@@ -12,19 +12,6 @@ const coffees = [
     alternativeNames: "Un caffè (Italija), Café solo (Španija), Bica (Lizbona, Portugalska), Cimbalino (Porto, Portugalska), Café express (Francija).",
     origin: "Turin in Milan, Italija. Konec 19. in začetek 20. stoletja."
 },
-
-{
-    id: "romano",
-    name: "Espresso romano",
-    category: "espresso",
-    cardImage: "images/espresso_romano.png",
-    detailImage: "images/espresso_romano_1.jpg",
-    description: "Espresso Romano je espresso, postrežen z rezino limone ali zvitkom njenega olupka na robu skodelice. Njegov izvor ni povsem jasen, vendar najverjetneje ne izvira iz Rima, temveč iz italijansko-ameriške tradicije. Enako kot espresso gre za majhen koncentriran, sirupasti kavni napitek z bogato kremo. Razmerje med fino mleto kavo in vodo je 1:2. Običajna količina napitka znaša med 25 mL in 30 mL, količina samega kofeina pa 64 mg. Napitek se postreže vroč, pogosto v majhni skodelici. Eterična olja iz limonine lupine poudarijo aromo espressa in prvemu požirku dodajo svežo citrusno noto.",
-    preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund. Na koncu se na rob skodelice napitka doda še rezina limone ali zvitek njenega olupka.",
-    caffeine: 1.5,
-    alternativeNames: "Caffè al limone, caffè romano, caffè canarino (Italija).",
-    origin: "Ni znan (trilema med Rimom, drugim italijanskim mestom in italijansko-ameriškim izvorom). 5. in 6. desetletje 20. stoletja."
-},
     
 {
     id: "ristretto",
@@ -117,6 +104,19 @@ const coffees = [
     origin: "Območje Alp (Švica, Italija). 90. desetletje 20. stoletja."
 },
 
+{
+    id: "romano",
+    name: "Espresso romano",
+    category: "espresso",
+    cardImage: "images/espresso_romano.png",
+    detailImage: "images/espresso_romano_1.jpg",
+    description: "Espresso Romano je espresso, postrežen z rezino limone ali zvitkom njenega olupka na robu skodelice. Njegov izvor ni povsem jasen, vendar najverjetneje ne izvira iz Rima, temveč iz italijansko-ameriške tradicije. Enako kot espresso gre za majhen koncentriran, sirupasti kavni napitek z bogato kremo. Razmerje med fino mleto kavo in vodo je 1:2. Običajna količina napitka znaša med 25 mL in 30 mL, količina samega kofeina pa 64 mg. Napitek se postreže vroč, pogosto v majhni skodelici. Eterična olja iz limonine lupine poudarijo aromo espressa in prvemu požirku dodajo svežo citrusno noto.",
+    preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund. Na koncu se na rob skodelice napitka doda še rezina limone ali zvitek njenega olupka.",
+    caffeine: 1.5,
+    alternativeNames: "Caffè al limone, caffè romano, caffè canarino (Italija).",
+    origin: "Ni znan (trilema med Rimom, drugim italijanskim mestom in italijansko-ameriškim izvorom). 5. in 6. desetletje 20. stoletja."
+},
+    
 {
     id: "con guillermo",
     name: "Café con Guillermo",
