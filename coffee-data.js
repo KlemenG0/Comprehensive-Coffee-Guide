@@ -72,7 +72,7 @@ const coffees = [
     cardImage: "images/americano.jpg",
     detailImage: "images/americano_1.webp",
     description: "Caffè americano je kavni napitek, pripravljen iz ene ali dveh porcij espressa, ki se mu/jima dolije vroča voda v približnem razmerju od 1:2 do 1:4. Po priljubljeni zgodbi njegov izvor sega v čas druge svetovne vojne, ko so ameriški vojaki v Italiji espresso redčili z vročo vodo, da bi bil bolj podoben filtrirani kavi, ki so je bili vajeni. Rezultat je napitek s čistejšim in bolj aromatičnim okusom, podoben filtrirani kavi. Odvisno od količine dodanega espressa ima napitek lahko od 64 mg do 128 mg kofeina. Postreže se ga vročega v večji skodelici, saj ga običajno znese od 150 mL do 240 mL. Po predlogih ameriškega predsednika Donalda Trumpa za priključitev Kanade leta 2025 so nekatere kavarne v Kanadi na svojih menijih caffè americano preimenovale v canadiano. Gre za simbolično preimenovanje, ki izraža kanadsko identiteto in predstavlja odziv na politične razprave.",
-    preparation: "Pri pripravi americana se najprej s pomočjo espresso aparata pripravi espresso, nato pa se dolije vroča voda, kar je glavna razlika v primerjavi z napitkom long black.",
+    preparation: "Pri pripravi americana se najprej s pomočjo espresso aparata pripravi espresso (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), nato pa se dolije vroča voda, kar je glavna razlika v primerjavi z napitkom long black.",
     caffeine: {min: 1.5, max: 2.5},
     alternativeNames: "Americano (globalno).",
     origin: "Italija (vojaki ZDA). Med letoma 1939 in 1945."
@@ -85,7 +85,7 @@ const coffees = [
     cardImage: "images/long_black.jpg",
     detailImage: "images/long_black_1.jpg",
     description: "Long black je avstralski in novozelandski kavni napitek, ki sestoji iz dvojnega esspresa (doppia) in vroče vode v približnem razmerju 3:5. Z okoli 160 mL je manjši in močnejši od caffè americana, z značilno aromo ohranjene kreme na vrhu napitka. Napitek vsebuje 128 mg kofeina. Postreže pa se ga vročega v večji skodelici.",
-    preparation: "Napitek long black je pripravljen ravno obratno kot caffè americano. Dvojni espresso (doppio) se namreč prelije čez vročo vodo, kar ohrani plast kreme na površini.",
+    preparation: "Napitek long black je pripravljen ravno obratno kot caffè americano. Dvojni espresso (doppio), ki se pripravi s pomočjo espresso aparata (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), se namreč prelije čez vročo vodo, kar ohrani plast kreme na površini.",
     caffeine: 2.5,
     alternativeNames: "-",
     origin: "Avstralija in Nova Zelandija. 6. in 7. desetletje 20. stoletja."
@@ -98,7 +98,7 @@ const coffees = [
     cardImage: "images/red_eye.jpg",
     detailImage: "images/red_eye_1.webp",
     description: "Red eye je ameriški kavni napitek, ki združuje filtrirano kavo in eno porcijo espressa. Ime je dobil po nočnih letih od zahodne do vzhodne obale Severne Amerike, ki so potnike tako izmučili, da so dobili rdeče oči (angl. red eyes). Ta napitek naj bi pomagal premagovati to utrujenost. Ena skodelica vsebuje 300 mL napitka s približno 160 mg kofeina. Obstajajo tudi različice red-eye-a, ki vsebujejo več espressa. Ti sta black eye (2 porciji espressa) in dead eye ali green eye (tri porcije espressa). Obstaja pa tudi različica z imenom lazy eye, ki vsebuje 1 porcijo espressa in dekofeinizirano filtrirano kavo. Napitek se postreže vroč v skodelici.",
-    preparation: "Napitek red eye se pripravi tako, da se eno porcijo espressa, ki je narejen s pomočjo espresso aparata, prelije čez filtrirano kavo (drip coffe).",
+    preparation: "Napitek red eye se pripravi tako, da se eno porcijo espressa, ki je narejen s pomočjo espresso aparata (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), prelije čez filtrirano kavo (drip coffe).",
     caffeine: 3,
     alternativeNames: "A shot in the dark, a depth charge, an eye opener, a sludge cup, a hammerhead, foglifter, a devil’s crowbar, an oil spill, turbo hot coffee (ZDA).",
     origin: "ZDA. Konec 20. stoletja."
@@ -124,7 +124,7 @@ const coffees = [
     cardImage: "images/con_guillermo.png",
     detailImage: "images/con_guillermo_1.jpg",
     description: "Café con Guillermo je kavni napitek, ki je običajno pripravljen iz dveh porcij espressa (doppio), postreženih v kozarcu z dvema rezinama limete. Limeta napitku doda osvežilno citrusno aromo in prijetno kislost, ki dopolnjuje bogat okus espressa. Volumen napitka znaša cca. 60 mL, vsebnost kofeina pa okoli 128 mg. Postrežemo ga lahko vročega ali z ledom.",
-    preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund. Najprej se v kozarec da dve rezini limete in se ju prelije z dvojnim espresom (doppiom). Po želji lahko dodamo tudi kocke ledu.",
+    preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund. Najprej se v kozarec da dve rezini limete in se ju prelije z dvojnim espressom (doppiom). Po želji lahko dodamo tudi kocke ledu.",
     caffeine: 2.5,
     alternativeNames: "Café Guillermo (Italija), Guillermo coffee (angleško govoreče države).",
     origin: "Ni znan. 1. in 2. desetletje 21. stoletja."
@@ -136,11 +136,11 @@ const coffees = [
     category: "milk",
     cardImage: "images/latte.png",
     detailImage: "images/latte_1.jpg",
-    description: "",
-    preparation: "",
-    caffeine: ,
-    alternativeNames: "",
-    origin: ""
+    description: "Caffè latte je kavni napitek, pripravljen iz ene ali dveh porcij espressa in parjenega mleka v približnem razmerju 1:3 do 1:5, na vrhu pa ga prekriva tanka plast mlečne pene. V 9. desetletju 20. stoletja je po zaslugi kavarn v Seattlu postal eden najbolj priljubljenih kavnih napitkov v ZDA. Značilen je po blagem, mlečnem okusu in številnih možnostih prilagoditve. Od cappuccina se razlikuje predvsem po tanjši plasti mlečne pene, ki je običajno debela približno en centimeter. Količina napitka po navadi znaša 300 mL, vsebnost kofeina pa od 64 mg do 128 mg.",
+    preparation: "Za pripravo osnove napitka, ene (espresso) ali dveh porcij espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še z mlečno peno, ki se pripravi s penilnikom mleka.",
+    caffeine: {min: 1.5, max: 2.5},
+    alternativeNames: "Caffellatte, caffè e latte (Italija), Latte (drugod, v Italiji bi ob tem naročilu dobili le kozarec mleka), café crème (Paris, Francija), Milchkaffee (Nemčija).",
+    origin: "Italija (koncept), ZDA (moderni recept). Začetek 20. stoletja."
 },
 
 {
