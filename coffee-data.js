@@ -134,7 +134,7 @@ const coffees = [
     id: "latte",
     name: "Caffè latte",
     category: "milk",
-    cardImage: "images/latte.png",
+    cardImage: "images/latte.jpg",
     detailImage: "images/latte_1.jpg",
     description: "Caffè latte je kavni napitek, pripravljen iz ene ali dveh porcij espressa in parjenega mleka v približnem razmerju od 1:3 do 1:5, na vrhu pa ga prekriva tanka plast mlečne pene. V 9. desetletju 20. stoletja je po zaslugi kavarn v Seattlu postal eden najbolj priljubljenih kavnih napitkov v ZDA. Značilen je po blagem, mlečnem okusu in številnih možnostih prilagoditve. Od cappuccina se razlikuje predvsem po tanjši plasti mlečne pene, ki je običajno debela približno en centimeter. Količina napitka po navadi znaša 300 mL, vsebnost kofeina pa od 64 mg do 128 mg. Postreže se ga vročega v večji skodelici.",
     preparation: "Za pripravo osnove napitka, ene (espresso) ali dveh porcij espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še z mlečno peno, ki se pripravi s penilnikom mleka.",
