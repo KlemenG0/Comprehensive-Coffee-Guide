@@ -168,5 +168,18 @@ const coffees = [
     alternativeNames: "Gibraltar (San Francisco, ZDA), leche y leche (Kanarski otoki).",
     origin: "Baskija, Španija. Začetek 20. stoletja."
 },
+
+{
+    id: "espresso macchiato",
+    name: "Espresso Macchiato",
+    category: "milk",
+    cardImage: "images/espresso_macchiato.jpg",
+    detailImage: "images/espresso_macchiato_1.jpg",
+    description: "Espresso macchiato je italijanski espresso, ki je »obarvan« z majhno količino mlečne pene, postrežen vroč običajno v količini približno 35 mL. Beseda macchiato dobesedno pomeni »obarvan« oziroma »označen«. Gre za najmanjši odmik od čistega espressa, s čimer se ohrani vsa njegova intenzivnost, majhna količina mlečne pene pa okus le nekoliko zmehča. Vsebnost kofeina v napitku znaša okoli 64 mg. Verjetno gre za enega najbolj zavajajočih imen v svetu kave: na primer pri Starbucks macchiato pomeni velik, inverzen latte s sirupom, kar sploh ni podobno originalu. V Avstraliji imajo tudi svojo različico z imenom long macchiato, ki je običajno pripravljen iz dvojnega espressa z dodatkom majhne količine teksturiranega mleka (teksturirano mleko je mleko, ki se speni pred segrevanjem, medtem ko se parjeno mleko peni in segreva hkrati). Kozarec pri tem večinoma ostane prazen.",
+    preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Preko tekočine nato prelijemo kanček (5 mL) mlečne pene, ki jo pripravi s pomočjo penilnika mleka.",
+    caffeine: 1.5,
+    alternativeNames: "Caffè macchiato, macchiato (Italija).",
+    origin: "Italija. 9. desetletje, 20. stoletja."
+},
     
 ];
