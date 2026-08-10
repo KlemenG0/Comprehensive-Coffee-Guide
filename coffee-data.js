@@ -171,7 +171,7 @@ const coffees = [
 
 {
     id: "espresso macchiato",
-    name: "Espresso Macchiato",
+    name: "Espresso macchiato",
     category: "milk",
     cardImage: "images/espresso_macchiato.jpg",
     detailImage: "images/espresso_macchiato_1.jpg",
@@ -181,5 +181,18 @@ const coffees = [
     alternativeNames: "Caffè macchiato, macchiato (Italija).",
     origin: "Italija. 9. desetletje, 20. stoletja."
 },
-    
+
+{
+    id: "latte macchiato",
+    name: "Latte macchiato",
+    category: "milk",
+    cardImage: "images/latte_macchiato.jpg",
+    detailImage: "images/latte_macchiato_1.jpg",
+    description: "Latte macchiato je italijanski večplastni kavni napitek, pri katerem je parjeno mleko »obarvano« s porcijo espressa. Postreže se vročega v visokem kozarcu, po navadi okoli 300 mL. Vsebnost kofeina v napitku znaša okoli 64 mg. Gre za nekakšen inverz od caffè latte – najprej se doda mleko, nato espresso – kar ustvari izrazite plasti mleka, kave in mlečne pene. Čeprav je videti izrazit, je okus precej blag, saj je ena porcija espressa razporejena v polnem kozarcu mleka.",
+    preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). V visok kozarec najprej dodamo parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga po navadi pripravimo s pomočjo espresso aparata. Nato pa dodamo porcijo espressa in pazimo, da se sloji ohranijo.",
+    caffeine: 1.5,
+    alternativeNames: "-",
+    origin: "Italija. 9. desetletje 20. stoletja."
+},
+
 ];
