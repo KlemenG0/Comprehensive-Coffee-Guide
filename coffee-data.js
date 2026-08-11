@@ -32,7 +32,7 @@ const coffees = [
     category: "espresso",
     cardImage: "images/lungo.png",
     detailImage: "images/lungo_1.png",
-    description: "Lungo je italijanski »dolgi« espresso, pripravljen z enako količino mlete kave kot espresso, vendar s približno dvakrat do trikrat več vode (razmerje kava:voda približno 1:3 do 1:4). Izraz lungo izvira iz italijanščine in pomeni »dolg«. Po navadi je količina napitka od 50 mL do 60 mL. Zaradi daljše ekstrakcije se razvije izrazitejša grenkoba in višja vsebnost kofeina kot pri espressu (med 75 mg in 90 mg).",
+    description: "Lungo je italijanski »dolgi« espresso, pripravljen z enako količino mlete kave kot espresso, vendar s približno dvakrat do trikrat več vode (razmerje kava:voda približno 1:3 do 1:4). Izraz lungo izvira iz italijanščine in pomeni »dolg«. Ponavadi je količina napitka od 50 mL do 60 mL. Zaradi daljše ekstrakcije se razvije izrazitejša grenkoba in višja vsebnost kofeina kot pri espressu (med 75 mg in 90 mg).",
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli eno minuto.",
     caffeine: 1.5,
     alternativeNames: "Café allongé (Francija, Kanada), long shot (angleško govoreče države).",
@@ -136,7 +136,7 @@ const coffees = [
     category: "milk",
     cardImage: "images/latte.jpg",
     detailImage: "images/latte_1.jpg",
-    description: "Caffè latte je kavni napitek, pripravljen iz ene ali dveh porcij espressa in parjenega mleka v približnem razmerju od 1:3 do 1:5, na vrhu pa ga prekriva tanka plast mlečne pene. V 9. desetletju 20. stoletja je po zaslugi kavarn v Seattlu postal eden najbolj priljubljenih kavnih napitkov v ZDA. Značilen je po blagem, mlečnem okusu in številnih možnostih prilagoditve. Od cappuccina se razlikuje predvsem po tanjši plasti mlečne pene, ki je običajno debela približno en centimeter. Količina napitka po navadi znaša 300 mL, vsebnost kofeina pa od 64 mg do 128 mg. Postreže se ga vročega v večji skodelici.",
+    description: "Caffè latte je kavni napitek, pripravljen iz ene ali dveh porcij espressa in parjenega mleka v približnem razmerju od 1:3 do 1:5, na vrhu pa ga prekriva tanka plast mlečne pene. V 9. desetletju 20. stoletja je po zaslugi kavarn v Seattlu postal eden najbolj priljubljenih kavnih napitkov v ZDA. Značilen je po blagem, mlečnem okusu in številnih možnostih prilagoditve. Od cappuccina se razlikuje predvsem po tanjši plasti mlečne pene, ki je običajno debela približno en centimeter. Količina napitka ponavadi znaša 300 mL, vsebnost kofeina pa od 64 mg do 128 mg. Postreže se ga vročega v večji skodelici.",
     preparation: "Za pripravo osnove napitka, ene (espresso) ali dveh porcij espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še z mlečno peno, ki se pripravi s penilnikom mleka.",
     caffeine: {min: 1.5, max: 2.5},
     alternativeNames: "Caffellatte, caffè e latte (Italija), Latte (drugod, v Italiji bi ob tem naročilu dobili le kozarec mleka), café crème (Paris, Francija), Milchkaffee (Nemčija).",
@@ -188,11 +188,24 @@ const coffees = [
     category: "milk",
     cardImage: "images/latte_macchiato.jpg",
     detailImage: "images/latte_macchiato_1.jpg",
-    description: "Latte macchiato je italijanski večplastni kavni napitek, pri katerem je parjeno mleko »obarvano« s porcijo espressa. Postreže se vročega v visokem kozarcu, po navadi okoli 300 mL. Vsebnost kofeina v napitku znaša okoli 64 mg. Gre za nekakšen inverz od caffè latte – najprej se doda mleko, nato espresso – kar ustvari izrazite plasti mleka, kave in mlečne pene. Čeprav je videti izrazit, je okus precej blag, saj je ena porcija espressa razporejena v polnem kozarcu mleka.",
-    preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). V visok kozarec najprej dodamo parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga po navadi pripravimo s pomočjo espresso aparata. Nato pa dodamo porcijo espressa in pazimo, da se sloji ohranijo.",
+    description: "Latte macchiato je italijanski večplastni kavni napitek, pri katerem je parjeno mleko »obarvano« s porcijo espressa. Postreže se vročega v visokem kozarcu, ponavadi okoli 300 mL. Vsebnost kofeina v napitku znaša okoli 64 mg. Gre za nekakšen inverz od caffè latte – najprej se doda mleko, nato espresso – kar ustvari izrazite plasti mleka, kave in mlečne pene. Čeprav je videti izrazit, je okus precej blag, saj je ena porcija espressa razporejena v polnem kozarcu mleka.",
+    preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). V visok kozarec najprej dodamo parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga ponavadi pripravimo s pomočjo espresso aparata. Nato pa dodamo porcijo espressa in pazimo, da se sloji ohranijo.",
     caffeine: 1.5,
     alternativeNames: "-",
     origin: "Italija. 9. desetletje 20. stoletja."
 },
 
+{
+    id: "caffè mocha",
+    name: "Caffè mocha",
+    category: "milk",
+    cardImage: "images/mocha.jpg",
+    detailImage: "images/mocha_1.jpg",
+    description: "Caffè mocha je ameriški kavni napitek na osnovi dvojnega espressa (doppia), ki združuje espresso, čokolado in parjeno mleko v razmerju 1:2:7 ter je včasih prelit s stepeno smetano. Ime izhaja iz mesta Mokha v Jemnu, zgodovinskega pristanišča, povezanega s trgovino s kavo. Po okusu je podoben kombinaciji latteja in vroče čokolade. Čokolada poleg okusa prispeva tudi nekaj kofeina in teobromina, zato ima napitek nekoliko več stimulativnih snovi kot običajni latte. Vsebnost kofeina napitka je tako od 90 mg do 130 mg. Napitek se pogosto postreže vroč v večjem kozarcu, saj ga običajno znese 300 mL. Različica napitka je white caffè mocha, pri kateri se namesto mlečne ali temne čokolade uporablja bela čokolada. Obstajajo tudi različice, pri katerih se kombinirata obe vrsti čokoladnega sirupa. Ta mešanica je poznana pod različnimi imeni, med drugim kot black-and-white mocha, marble mocha, tan mocha, tuxedo mocha in zebra mocha. Druga različica je mochaccino, ki je pripravljena iz dvojnega espressa (doppia) ter kombinacije parjenega mleka in kakava v prahu ali čokoladnega mleka. Tako mochaccino kot tudi caffè mocha sta lahko obogatena s čokoladnim sirupom, stepeno smetano ter dodatki, kot so cimet, muškatni orešček ali čokoladni posipi. French White Mocha je drugo ime za mochaccino, vendar brez cimeta v prahu. Tretja različica caffè mocha uporablja kavo namesto espressa. Pripravljena je iz kave, parjenega mleka in dodane čokolade. V bistvu gre za kombinacijo skodelice kave in vroče čokolade.",
+    preparation: "Najprej v visok kozarec nalijemo čokoladni sirup ali staljeno čokolado (30 mL). Nato dodamo dve porciji espressa (60 mL) in premešamo. Na koncu dodamo še parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga ponavadi pripravimo s pomočjo espresso aparata.",
+    caffeine: 3,
+    alternativeNames: "Mocha, mocaccino, mochachino, mochaccino (ZDA).",
+    origin: "Turin, Italija (koncept), ZDA (moderni recept). 18. stoletje."
+},
+    
 ];
