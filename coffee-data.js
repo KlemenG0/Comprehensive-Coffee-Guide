@@ -165,7 +165,7 @@ const coffees = [
     description: "Cortado je španski kavni napitek, pripravljen iz enakih deležev espressa in parjenega mleka (1:1) ter postrežen vroč pogosto v majhnem kozarcu s prostornino približno 120 mL. Ime izhaja iz španskega glagola cortar, ki pomeni »prerezati« oziroma »razredčiti«. Mleko ublaži intenzivnost espressa, ne da bi prekrilo njegov značilen okus. Vsebnost kofeina v napitku znaša od 64 mg do 128 mg. Kubanci so z dodatkom sladkorja prišli do svoje različice cortada z imenom cortadito, na Kanarskim otokih pa z dodatkom kondenziranega mleka do napitka poimenovanega leche y leche.",
     preparation: "Za pripravo osnove napitka, ena (espresso) ali dve porciji espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 30mL ali 60 mL, s katerim prekrijemo osnovo.",
     caffeine: {min: 1.5, max: 2.5},
-    alternativeNames: "Gibraltar (San Francisco, ZDA), leche y leche (Kanarski otoki).",
+    alternativeNames: "Gibraltar (San Francisco, ZDA), leche y leche (Kanarski otoki), cortado coffee (angleško govoreče države).",
     origin: "Baskija, Španija. Začetek 20. stoletja."
 },
 
