@@ -205,7 +205,20 @@ const coffees = [
     preparation: "Najprej v visok kozarec nalijemo čokoladni sirup ali staljeno čokolado (30 mL). Nato dodamo dve porciji espressa (60 mL) in premešamo. Na koncu dodamo še parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga ponavadi pripravimo s pomočjo espresso aparata.",
     caffeine: 3,
     alternativeNames: "Mocha, mocaccino, mochachino, mochaccino (ZDA).",
-    origin: "Turin, Italija (koncept), ZDA (moderni recept). 18. stoletje."
+    origin: "Turin, Italija (koncept), 18. stoletje. ZDA (moderni recept), 20. stoletje."
+},
+
+{
+    id: "caffè breve",
+    name: "Caffè breve",
+    category: "milk",
+    cardImage: "images/breve.jpg",
+    detailImage: "images/breve_1.webp",
+    description: "",
+    preparation: "",
+    caffeine: ,
+    alternativeNames: "",
+    origin: ""
 },
     
 ];
