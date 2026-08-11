@@ -214,11 +214,11 @@ const coffees = [
     category: "milk",
     cardImage: "images/breve.jpg",
     detailImage: "images/breve_1.webp",
-    description: "",
-    preparation: "",
-    caffeine: ,
-    alternativeNames: "",
-    origin: ""
+    description: ".",
+    preparation: ".",
+    caffeine: 1,
+    alternativeNames: ".",
+    origin: "."
 },
     
 ];
