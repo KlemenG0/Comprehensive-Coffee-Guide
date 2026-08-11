@@ -22,7 +22,7 @@ const coffees = [
     description: "Ristretto je majhen (manjši kot espresso), koncentriran, sirupasti kavni napitek z bogato kremo. Izraz ristretto izvira iz italijanščine in pomeni »skrajšan« oz. »omejen«. Ristretto je torej »omejena« italijanska različica espressa, pripravljena z enako količino mlete kave, vendar s približno dvakrat manj vode (razmerje kava:voda je od 1:1 do 1:1,5), kar znese približno 20 mL napitka. Zaradi krajše ekstrakcije je okus slajši, bolj sirupast in intenzivnejši. Kljub slovesu in mišljenju, da je »močnejši« od espressa (višja koncentracija kot neposredna posledica manjše količine vode in enake količine kave), prav zaradi manjše količine vode vsebuje nekoliko manj kofeina kot običajen espresso (zaradi zgodnejšega padca koncentracijskega gradienta med kavo in vodo, hitrost difuzije med ekstrakcijo hitreje pade. Svoj prispevek k temu doda tudi krajši ekstrakcijski čas). Njegova »moč« torej izvira iz večje intenzivnosti okusa (večje koncentracije kofeina), ki zamaskira nekoliko nižjo količino kofeina. Količina samega kofeina znaša od 55 mg do 60 mg. Napitek se postreže vroč, pogosto v majhni skodelici.",
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli 20 sekund.",
     caffeine: 1,
-    alternativeNames: "Café serré (Francija), Short shot/restricted shot (angleško govoreče države), Caffè corto (Italija).",
+    alternativeNames: "Café serré (Francija), Short shot, restricted shot (angleško govoreče države), Caffè corto (Italija).",
     origin: "Italija. Začetek 20. stoletja."
 },
 
@@ -101,7 +101,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno bolj grobo mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund.",
     caffeine: 2,
     alternativeNames: "Kaffee Crème, Schümli (Območje Alp), cream coffee (angleško govoreče države).",
-    origin: "Območje Alp (Švica, Italija). 90. desetletje 20. stoletja."
+    origin: "Italija (koncept), 1948. Območje Alp, Švica, Italija (moderni recept), 9. desetletje 20. stoletja."
 },
 
 {
@@ -139,8 +139,8 @@ const coffees = [
     description: "Caffè latte je kavni napitek, pripravljen iz ene ali dveh porcij espressa in parjenega mleka v približnem razmerju od 1:3 do 1:5, na vrhu pa ga prekriva tanka plast mlečne pene. V 9. desetletju 20. stoletja je po zaslugi kavarn v Seattlu postal eden najbolj priljubljenih kavnih napitkov v ZDA. Značilen je po blagem, mlečnem okusu in številnih možnostih prilagoditve. Od cappuccina se razlikuje predvsem po tanjši plasti mlečne pene, ki je običajno debela približno en centimeter. Količina napitka ponavadi znaša 300 mL, vsebnost kofeina pa od 64 mg do 128 mg. Postreže se ga vročega v večji skodelici.",
     preparation: "Za pripravo osnove napitka, ene (espresso) ali dveh porcij espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še z mlečno peno, ki se pripravi s penilnikom mleka.",
     caffeine: {min: 1.5, max: 2.5},
-    alternativeNames: "Caffellatte, caffè e latte (Italija), Latte (drugod, v Italiji bi ob tem naročilu dobili le kozarec mleka), café crème (Paris, Francija), Milchkaffee (Nemčija).",
-    origin: "Italija (koncept), ZDA (moderni recept). Začetek 20. stoletja."
+    alternativeNames: "Caffellatte, caffelatte, caffè e latte (Italija), Latte (drugod, v Italiji bi ob tem naročilu dobili le kozarec mleka), café crème (Paris, Francija), Milchkaffee (Nemčija).",
+    origin: "Italija (koncept), 17. stoletje. ZDA (moderni recept), začetek 20. stoletja."
 },
 
 {
@@ -153,7 +153,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, ene porcije espressa, se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), okoli 90 mL, s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še s 60 mL goste mlečne pene, ki se pripravi s penilnikom mleka.",
     caffeine: 1.5,
     alternativeNames: "-",
-    origin: "Avstrija, Habsburška monarhija (koncept), Italija (moderni recept). 18. stoletje."
+    origin: "Avstrija, Habsburška monarhija (koncept), 18. stoletje. Italija (moderni recept), začetek 20. stoletja."
 },
 
 {
