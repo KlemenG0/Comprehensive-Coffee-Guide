@@ -243,8 +243,21 @@ const coffees = [
     description: "Piccolo latte je avstralski kavni napitek na osnovi porcije ristretta s parjenim mlekom v razmerju od 1:3 do 1:4. Postreže se ga vročega pogosto v zelo majhni skodelici, saj napitka znese zgolj približno 90 mL. Ime piccolo izhaja iz italijanščine in pomeni “majhen”. Lahko ga razumemo kot nekakšen »baristov degustacijski latte« - ponuja teksturo in kremastost mleka, vendar v manjši količini. Vsebnost kofeina napitka znaša cca. 55 mg.",
     preparation: "Za pripravo osnove napitka, ena porcija ristretta, se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 20 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 70 mL, s katerim prekrijemo osnovo.",
     caffeine: 1,
-    alternativeNames: "piccolo (globalno), piccolo coffee, mini latte (angleško govoreče države), macchiato largo (Španija, Portugalska).",
+    alternativeNames: "Piccolo (globalno), piccolo coffee, mini latte (angleško govoreče države), macchiato largo (Španija, Portugalska).",
     origin: "Sydney, Avstralija, začetek 21. stoletja."
 },
 
+{
+    id: "magic",
+    name: "Magic",
+    category: "milk",
+    cardImage: "images/magic.jpg",
+    detailImage: "images/magic_1.jpg",
+    description: "Magic je kavni napitek iz Melbourna, pripravljen iz dvojnega ristretta in flat white mleka v razmerju okoli 1:2, pri čemer je količina napitka od 120 mL do 150 mL. Vsebnost kofeina v napitku znaša cca. 110 mg. Dve porciji ristretta in manjša količina mleka ustvarita intenzivnejši okus kot pri flat white-u. Tekstura ostaja enako svilnata in kremasta zaradi fine mikro-pene, vendar je razmerje nekoliko bolj usmerjeno v okus kave. Napitek se postreže vroč v veliki skodelici. Do začetka 3. desetletja 21. stoletja je bil magic v melbournskih kavarnah večinoma napitek, ki ni bil naveden na meniju. Poznavanje napitka med prebivalci mesta je bilo različno, nekateri zanj sploh niso vedeli, drugi pa so ga dojemali kot že dolgo uveljavljeno pijačo. V drugih avstralskih mestih je bil precej manj poznan.",
+    preparation: "Za pripravo osnove napitka, dve porciji ristretta (40 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 20 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi flat white mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro, tako da nastnane pena), 80 mL, s katerim prekrijemo osnovo.",
+    caffeine: 2,
+    alternativeNames: "Magic coffee (angleško govoreče države).",
+    origin: "Melbourne, Avstralija, začetek 21. stoletja."
+},
+    
 ];
