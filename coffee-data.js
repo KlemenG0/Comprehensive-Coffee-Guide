@@ -240,7 +240,7 @@ const coffees = [
     category: "milk",
     cardImage: "images/piccolo_latte.jpg",
     detailImage: "images/piccolo_latte_1.jpg",
-    description: "Piccolo latte je avstralski kavni napitek na osnovi porcije ristretta s parjenim mlekom v razmerju od 1:3 do 1:4. Postreže se ga vročega pogosto v zelo majhni skodelici, saj napitka znese zgolj približno 90 mL. Ime piccolo izhaja iz italijanščine in pomeni “majhen”. Lahko ga razumemo kot nekakšen »baristov degustacijski latte« - ponuja teksturo in kremastost mleka, vendar v manjši količini. Vsebnost kofeina napitka znaša cca. 55 mg.",
+    description: "Piccolo latte je avstralski kavni napitek na osnovi porcije ristretta s parjenim mlekom v razmerju od 1:3 do 1:4. Postreže se ga vročega pogosto v zelo majhni skodelici, saj napitka znese zgolj približno 90 mL. Ime piccolo izhaja iz italijanščine in pomeni “majhen”. Lahko ga razumemo kot nekakšen »baristov degustacijski latte« – ponuja teksturo in kremastost mleka, vendar v manjši količini. Vsebnost kofeina napitka znaša cca. 55 mg.",
     preparation: "Za pripravo osnove napitka, ena porcija ristretta, se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 20 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 70 mL, s katerim prekrijemo osnovo.",
     caffeine: 1,
     alternativeNames: "Piccolo (globalno), piccolo coffee, mini latte (angleško govoreče države), macchiato largo (Španija, Portugalska).",
@@ -266,11 +266,11 @@ const coffees = [
     category: "milk",
     cardImage: "images/con_leche.jpg",
     detailImage: "images/con_leche_1.jpg",
-    description: "",
-    preparation: "",
-    caffeine: ,
-    alternativeNames: "",
-    origin: ""
+    description: "Café con leche (šp. kava z mlekom) je klasičen španski in latinskoameriški napitek, pripravljen iz močne filtrirane kave (angl. drip coffee) ali espressa in poparjenega mleka v razmerju 1:1. Pogosto je tudi sladkan. Poparjeno mleko napitku zagotavlja gladko in toplo teksturo brez mlečne pene, enako razmerje kave in mleka pa ustvari uravnotežen okus. Gre za preprost in nasiten zajtrkovalni napitek, popularen v Španiji, Latinski Ameriki in drugih diasporičnih latinskoameriških skupnostih. Običajno ga znese 200 mL, postreže pa se ga vročega v veliki skodelici. Vsebnost kofeina se giblje med 64 mg (v primeru, da uporabimo espresso) in 95 mg (v primeru, da uporabimo filtrirano kavo). Obstajata tudi dve različici napitka café con leche z imeni café con leche en vaso (šp. kava z mleko v kozarcu) in café con leche de desayuno (kava z mlekom za zajtrk –  večja količina napitka).",
+    preparation: "Za pripravo osnove napitka, dobre tri porcije espressa (100 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi poparjeno mleko (mleko, segreto do 83 °C), 100 mL, s katerim prekrijemo osnovo in premešamo.",
+    caffeine: {min: 1.5, max: 2},
+    alternativeNames: "-",
+    origin: "Španija, 17. stoletje (koncept). Španija, 20. stoletje (moderni recept)."
 },
 
 ];
