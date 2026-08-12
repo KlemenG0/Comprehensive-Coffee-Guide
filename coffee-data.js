@@ -286,4 +286,17 @@ const coffees = [
     origin: "Francija, 17. stoletje."
 },
 
+{
+    id: "galão",
+    name: "Galão",
+    category: "milk",
+    cardImage: "images/galao.jpg",
+    detailImage: "images/galao_1.webp",
+    description: "Galão je portugalska kava z veliko mleka – vsebuje eno porcijo espressa in spenjeno mleko v razmerju približno 1:3. Postreže se vroč ponavadi v velikem kozarcu s prostornino približno 250 mL. Vsebnost kofeina napitka znaša cca. 128 mg. Gre za standardno naročilo v portugalskih kavarnah in slaščičarnah. Lahko ga razumemo kot portugalskega sorodnika latte-ja, vendar je priprava preprostejša. Manjša različica se imenuje garoto (šp. majhen fant), ki se postreže v majhni skodelici. Če pa je razmerje espressa in spenjenega mleka 1:1, se napitek imenuje meia de leite (šp. pol mleka) in se običajno postreže v skodelici. Ob naročilu napitka galão escuro, dobimo različico z nekoliko večjim delež espressa, ob naročilu napitka galão claro, pa različico z nekoliko večjim deležem spenjenega mleka.",
+    preparation: "Za pripravo osnove napitka, dobrih dveh porcij espressa (doppio), 60 mL, se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi spenjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro, vsebuje več zraka in večje zračne mehurčke kot parjeno mleko), slabih 190 mL, s katerim prekrijemo osnovo.",
+    caffeine: 2.5,
+    alternativeNames: "Portuguese latte (globalno).",
+    origin: "Lizbona, Portugalska, 3. desetletje 20. stoletja."
+},
+    
 ];
