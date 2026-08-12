@@ -157,6 +157,19 @@ const coffees = [
 },
 
 {
+    id: "flat white",
+    name: "Flat white",
+    category: "milk",
+    cardImage: "images/flat_white.jpg",
+    detailImage: "images/flat_white_1.jpg",
+    description: "Flat white je avstralsko-novozelandski kavni napitek na osnovi espressa, običajno vsebuje dvojni espresso (doppio), ki ga dopolnjuje žametno gladka mikro pena v približnem razmerju 1:2 (espresso : parjeno mleko). Na vrhu nima debele plasti mlečne pene kot cappuccino, postreže pa se v količini od 150 mL do 165 mL. Je manjši in močnejšega okusa kot caffè latte, saj espresso pride bolj do izraza (manjši delež mleka), hkrati pa napitek ohranja svilnato gladko teksturo. Vsebnost kofeina v napitku znaša okoli 128 mg. Napitek se postreže vroč pogosto v veliki skodelici in z narisanim vzorcem na površini (angl. latte art). Ta način priprave kavnega napitka se je iz Avstralije in Nove Zelandije v začetku 21. stoletja razširil v Združeno kraljestvo. Do leta 2010 so flat white prodajali tudi v tamkajšnjih poslovalnicah ameriške verige Starbucks. Do leta 2013 je bil flat white na voljo tudi v kavarnah New Yorka, eno od njih pa je imel v solastništvu igralec Hugh Jackman, ki je napitek tudi promoviral. Zanimivo je tudi, da se v Združenem kraljestvu izraz »flat white economy« uporablja za opis londonske mreže internetnih, medijskih in kreativnih podjetij. Izraz izhaja iz knjige Douglasa McWilliamsa The Flat White Economy: How the Digital Economy Is Transforming London and Other Cities of the Future, ki je izšla leta 2015. Poimenovanje se navezuje na priljubljenost napitka flat white med zaposlenimi v teh panogah.",
+    preparation: "Za pripravo osnove napitka, dve porciji espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 100 mL, s katerim prekrijemo osnovo.",
+    caffeine: 2.5,
+    alternativeNames: "Flattie, flat white coffee (angleško govoreče države).",
+    origin: "Ni znan (dilema med Avstralijo in Novo Zelandijo), 9. desetletje 20. stoletja."
+},
+
+{
     id: "cortado",
     name: "Cortado",
     category: "milk",
