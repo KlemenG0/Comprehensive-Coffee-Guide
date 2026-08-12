@@ -273,4 +273,17 @@ const coffees = [
     origin: "Španija, 17. stoletje (koncept). Španija, 20. stoletje (moderni recept)."
 },
 
+{
+    id: "café au lait",
+    name: "Café au lait",
+    category: "milk",
+    cardImage: "images/au_lait.jpg",
+    detailImage: "images/au_lait_1.jpg",
+    description: "Café au lait (fr. kava z mlekom) je francoska klasika, pripravljena iz filtrirane kave (angl. drip coffee) in vročega mleka v razmerju 1:1. Napitek se postreže vroč v veliki in široki skodelici oziroma skledi brez ročaja, imenovani bol, tradicionalno ob zajtrku. Filtrirana kava daje napitku blažji in bolj zaokrožen okus kot napitki na osnovi espressa. Napitka ponavadi znese okoli 240 mL, ki vsebuje med 60 mg in 95 mg kofeina. V številnih ameriških kavarnah je café au lait napitek iz močne filtrirane kave, pripravljene s kapljičnim načinom (drip coffee), ali pripravljene s francosko stiskalnico (french press), ki ji je dodano parjeno mleko. V New Orleans-u namesto vročega mleka uporabijo poparjeno mleko in kavi primešajo cikorijo, kar izvira iz pomanjkanja kave v času ameriške državljanske vojne. V kavarnah Starbucks je napitek znan pod imenom caffè misto in namesto vročega mleko vključuje spenjeno mleko. V nemško govorečih državah pa bomo ob naročilo napitka milchkaffee dobili napitek iz filtrirane kave in poparjenega mleka. Bela kava kot jo poznamo v Sloveniji ni enačica Café au lait-u, saj se pri beli kavi kavni osnovi doda hladno (nesegreto) mleko.",
+    preparation: "Café au lait pripravo tako, da najprej pripravimo filtrirano kavo (angl. drip coffee) s pomočjo kavnega aparata (120 mL). Nato zagrejemo mleko in ga cca. 120 mL pelijemo čez kavno osnovo.",
+    caffeine: {min: 1.5, max: 2},
+    alternativeNames: "Koffie verkeerd (Nizozemska).",
+    origin: "Francija, 17. stoletje."
+},
+
 ];
