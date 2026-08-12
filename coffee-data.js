@@ -139,7 +139,7 @@ const coffees = [
     description: "Caffè latte je kavni napitek, pripravljen iz ene ali dveh porcij espressa in parjenega mleka v približnem razmerju od 1:3 do 1:5, na vrhu pa ga prekriva tanka plast mlečne pene. V 9. desetletju 20. stoletja je po zaslugi kavarn v Seattlu postal eden najbolj priljubljenih kavnih napitkov v ZDA. Značilen je po blagem, mlečnem okusu in številnih možnostih prilagoditve. Od cappuccina se razlikuje predvsem po tanjši plasti mlečne pene, ki je običajno debela približno en centimeter. Količina napitka ponavadi znaša 300 mL, vsebnost kofeina pa od 64 mg do 128 mg. Postreže se ga vročega v veliki skodelici.",
     preparation: "Za pripravo osnove napitka, ene (espresso) ali dveh porcij espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še z mlečno peno, ki se pripravi s penilnikom mleka.",
     caffeine: {min: 1.5, max: 2.5},
-    alternativeNames: "Caffellatte, caffelatte, caffè e latte (Italija), Latte (drugod, v Italiji bi ob tem naročilu dobili le kozarec mleka), café crème (Paris, Francija), Milchkaffee (Nemčija).",
+    alternativeNames: "Caffellatte, caffelatte, caffè e latte (Italija), latte (drugod, v Italiji bi ob tem naročilu dobili le kozarec mleka), café crème (Paris, Francija), Milchkaffee (Nemčija).",
     origin: "Italija (koncept), 17. stoletje. ZDA (moderni recept), začetek 20. stoletja."
 },
 
@@ -259,5 +259,18 @@ const coffees = [
     alternativeNames: "Magic coffee (angleško govoreče države).",
     origin: "Melbourne, Avstralija, začetek 21. stoletja."
 },
-    
+
+{
+    id: "café con leche",
+    name: "Café con leche",
+    category: "milk",
+    cardImage: "images/con_leche.jpg",
+    detailImage: "images/con_leche_1.jpg",
+    description: "",
+    preparation: "",
+    caffeine: ,
+    alternativeNames: "",
+    origin: ""
+},
+
 ];
