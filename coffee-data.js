@@ -10,7 +10,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund.",
     caffeine: 1.5,
     alternativeNames: "Un caffè (Italija), Café solo (Španija), Bica (Lizbona, Portugalska), Cimbalino (Porto, Portugalska), Café express (Francija).",
-    origin: "Turin in Milan, Italija. Konec 19. in začetek 20. stoletja."
+    origin: "Turin in Milan, Italija, konec 19. in začetek 20. stoletja."
 },
     
 {
@@ -23,7 +23,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli 20 sekund.",
     caffeine: 1,
     alternativeNames: "Café serré (Francija), Short shot, restricted shot (angleško govoreče države), Caffè corto (Italija).",
-    origin: "Italija. Začetek 20. stoletja."
+    origin: "Italija, začetek 20. stoletja."
 },
 
 {
@@ -36,7 +36,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli eno minuto.",
     caffeine: 1.5,
     alternativeNames: "Café allongé (Francija, Kanada), long shot (angleško govoreče države).",
-    origin: "Italija. Začetek 20. stoletja."
+    origin: "Italija, začetek 20. stoletja."
 },
 
 {
@@ -49,7 +49,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija traja okoli 30 sekund.",
     caffeine: 2.5,
     alternativeNames: "Double espresso (angleško govoreče države), espresso (pogosto v ZDA).",
-    origin: "Italija. Začetek 20. stoletja."
+    origin: "Italija, začetek 20. stoletja."
 },
 
 {
@@ -62,7 +62,7 @@ const coffees = [
     preparation: "Pri pripravi americana se najprej s pomočjo espresso aparata pripravi espresso (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), nato pa se dolije vroča voda, kar je glavna razlika v primerjavi z napitkom long black.",
     caffeine: {min: 1.5, max: 2.5},
     alternativeNames: "Americano (globalno).",
-    origin: "Italija (vojaki ZDA). Med letoma 1939 in 1945."
+    origin: "Italija (vojaki ZDA), med letoma 1939 in 1945."
 },
 
 {
@@ -75,7 +75,7 @@ const coffees = [
     preparation: "Napitek long black je pripravljen ravno obratno kot caffè americano. Dvojni espresso (doppio), ki se pripravi s pomočjo espresso aparata (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), se namreč prelije čez vročo vodo, kar ohrani plast kreme na površini.",
     caffeine: 2.5,
     alternativeNames: "-",
-    origin: "Avstralija in Nova Zelandija. 6. in 7. desetletje 20. stoletja."
+    origin: "Avstralija in Nova Zelandija, 6. in 7. desetletje 20. stoletja."
 },
 
 {
@@ -88,7 +88,7 @@ const coffees = [
     preparation: "Napitek red eye se pripravi tako, da se eno porcijo espressa, ki je narejen s pomočjo espresso aparata (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), prelije čez filtrirano kavo (drip coffe).",
     caffeine: 3,
     alternativeNames: "A shot in the dark, a depth charge, an eye opener, a sludge cup, a hammerhead, foglifter, a devil’s crowbar, an oil spill, turbo hot coffee (ZDA).",
-    origin: "ZDA. Konec 20. stoletja."
+    origin: "ZDA, konec 20. stoletja."
 },
 
 {
@@ -114,7 +114,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund. Na koncu se na rob skodelice napitka doda še rezina limone ali zvitek njenega olupka.",
     caffeine: 1.5,
     alternativeNames: "Caffè al limone, caffè romano, caffè canarino (Italija).",
-    origin: "Ni znan (trilema med Rimom, drugim italijanskim mestom in italijansko-ameriškim izvorom). 5. in 6. desetletje 20. stoletja."
+    origin: "Ni znan (trilema med Rimom, drugim italijanskim mestom in italijansko-ameriškim izvorom), 5. in 6. desetletje 20. stoletja."
 },
     
 {
@@ -127,7 +127,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund. Najprej se v kozarec da dve rezini limete in se ju prelije z dvojnim espressom (doppiom). Po želji lahko dodamo tudi kocke ledu.",
     caffeine: 2.5,
     alternativeNames: "Café Guillermo (Italija), Guillermo coffee (angleško govoreče države).",
-    origin: "Ni znan. 1. in 2. desetletje 21. stoletja."
+    origin: "Ni znan, 1. in 2. desetletje 21. stoletja."
 },
 
 {
@@ -179,7 +179,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, ena (espresso) ali dve porciji espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 30mL ali 60 mL, s katerim prekrijemo osnovo.",
     caffeine: {min: 1.5, max: 2.5},
     alternativeNames: "Gibraltar (San Francisco, ZDA), leche y leche (Kanarski otoki), cortado coffee (angleško govoreče države).",
-    origin: "Baskija, Španija. Začetek 20. stoletja."
+    origin: "Baskija, Španija, začetek 20. stoletja."
 },
 
 {
@@ -192,7 +192,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Preko tekočine nato prelijemo kanček (5 mL) mlečne pene, ki jo pripravi s pomočjo penilnika mleka.",
     caffeine: 1.5,
     alternativeNames: "Caffè macchiato, macchiato (Italija).",
-    origin: "Italija. 9. desetletje, 20. stoletja."
+    origin: "Italija, 9. desetletje, 20. stoletja."
 },
 
 {
@@ -205,7 +205,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). V visok kozarec najprej dodamo parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga ponavadi pripravimo s pomočjo espresso aparata. Nato pa dodamo porcijo espressa in pazimo, da se sloji ohranijo.",
     caffeine: 1.5,
     alternativeNames: "-",
-    origin: "Italija. 9. desetletje 20. stoletja."
+    origin: "Italija, 9. desetletje 20. stoletja."
 },
 
 {
