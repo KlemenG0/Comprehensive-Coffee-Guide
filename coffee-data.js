@@ -217,7 +217,7 @@ const coffees = [
     description: "Caffè mocha je ameriški kavni napitek na osnovi dvojnega espressa (doppia), ki združuje espresso, čokolado in parjeno mleko v razmerju 1:2:7 ter je včasih prelit s stepeno smetano. Ime izhaja iz mesta Mokha v Jemnu, zgodovinskega pristanišča, povezanega s trgovino s kavo. Po okusu je podoben kombinaciji latteja in vroče čokolade. Čokolada poleg okusa prispeva tudi nekaj kofeina in teobromina, zato ima napitek nekoliko več stimulativnih snovi kot običajni latte. Vsebnost kofeina napitka je tako od 90 mg do 130 mg. Napitek se postreže vroč v velikem kozarcu, saj ga običajno znese 300 mL. Različica napitka je white caffè mocha, pri kateri se namesto mlečne ali temne čokolade uporablja bela čokolada. Obstajajo tudi različice, pri katerih se kombinirata obe vrsti čokoladnega sirupa. Ta mešanica je poznana pod različnimi imeni, med drugim kot black-and-white mocha, marble mocha, tan mocha, tuxedo mocha in zebra mocha. Druga različica je mochaccino, ki je pripravljena iz dvojnega espressa (doppia) ter kombinacije parjenega mleka in kakava v prahu ali čokoladnega mleka. Tako mochaccino kot tudi caffè mocha sta lahko obogatena s čokoladnim sirupom, stepeno smetano ter dodatki, kot so cimet, muškatni orešček ali čokoladni posipi. French White Mocha je drugo ime za mochaccino, vendar brez cimeta v prahu. Tretja različica caffè mocha uporablja kavo namesto espressa. Pripravljena je iz kave, parjenega mleka in dodane čokolade. V bistvu gre za kombinacijo skodelice kave in vroče čokolade.",
     preparation: "Najprej v visok kozarec nalijemo čokoladni sirup ali staljeno čokolado (30 mL). Nato dodamo dve porciji espressa (60 mL) in premešamo. Na koncu dodamo še parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga ponavadi pripravimo s pomočjo espresso aparata.",
     caffeine: {min: 2, max: 2.5},
-    alternativeNames: "Mocha, mocaccino, mochachino, mochaccino (angleško govoreče države).",
+    alternativeNames: "Mocha, mocaccino, mochachino, mochaccino (globalno).",
     origin: "Turin, Italija (koncept), 18. stoletje. ZDA (moderni recept), 20. stoletje."
 },
 
@@ -230,8 +230,21 @@ const coffees = [
     description: "Caffè breve je ameriški kavni napitek na osnovi dvojnega espressa (doppia), podoben caffè latte-ju, vendar je pripravljen s parjeno mešanico polnomastnega mleka in smetane (angl. half-and-half) v razmerju 1:1 namesto običajnega mleka. Zaradi tega velja za enega najbogatejših napitkov na osnovi espressa in mleka. Večja vsebnost mlečne maščobe ustvari gostejšo in bolj sladko skodelico kavnega napitka ter ublaži morebitno grenkobo dodanega espressa. Izraz breve izvira iz italijanščine in pomeni “kratek”. Količina napitka običajno znaša 300 mL, vsebnost kofeina pa okoli 128 mg. Postreže se ga vročega v veliki skodelici.",
     preparation: "Za pripravo caffè breve najprej segrejemo in spenimo mešanico polnomastnega mleka in smetane (angl. half-and-half). Nato pripravimo dvojno porcijo espressa (doppio, približno 60 mL) in jo nalijemo v veliko skodelico. Dodamo vroč half-and-half, pri tem pa zadržimo mlečno peno. Na koncu peno z žlico zajamemo in jo razporedimo po vrhu napitka.",
     caffeine: 2.5,
-    alternativeNames: "Breve, breve coffee, breve latte or half-and-half latte (angleško govoreče države).",
+    alternativeNames: "Breve, breve latte (globalno), breve coffee, half-and-half latte (angleško govoreče države).",
     origin: "ZDA, 7. desetletje 20. stoletja."
 },
-    
+
+{
+    id: "piccolo latte",
+    name: "Piccolo latte",
+    category: "milk",
+    cardImage: "images/piccolo_latte.jpg",
+    detailImage: "images/piccolo_latte_1.jpg",
+    description: "Piccolo latte je avstralski kavni napitek na osnovi porcije ristretta s parjenim mlekom v razmerju od 1:3 do 1:4. Postreže se ga vročega pogosto v zelo majhni skodelici, saj napitka znese zgolj približno 90 mL. Ime piccolo izhaja iz italijanščine in pomeni “majhen”. Lahko ga razumemo kot nekakšen »baristov degustacijski latte« - ponuja teksturo in kremastost mleka, vendar v manjši količini. Vsebnost kofeina napitka znaša cca. 55 mg.",
+    preparation: "Za pripravo osnove napitka, ena porcija ristretta, se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 20 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 70 mL, s katerim prekrijemo osnovo.",
+    caffeine: 1,
+    alternativeNames: "piccolo (globalno), piccolo coffee, mini latte (angleško govoreče države), macchiato largo (Španija, Portugalska).",
+    origin: "Sydney, Avstralija, začetek 21. stoletja."
+},
+
 ];
