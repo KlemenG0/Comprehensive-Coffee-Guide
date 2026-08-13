@@ -300,8 +300,8 @@ const coffees = [
 },
 
 {
-    id: "Café bombón",
-    name: "café bombón",
+    id: "café bombón",
+    name: "Café bombón",
     category: "milk",
     cardImage: "images/bombon.jpg",
     detailImage: "images/bombon_1.jpg",
