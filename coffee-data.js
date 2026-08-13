@@ -338,4 +338,17 @@ const coffees = [
     origin: "ZAE, 2. desetletje 21. stoletja."
 },
 
+{
+    id: "dirty chai",
+    name: "Dirty chai",
+    category: "milk",
+    cardImage: "images/dirty_chai.jpg",
+    detailImage: "images/dirty_chai_1.webp",
+    description: "Dirty chai je chai latte (začinjen črni čaj, pogosto masala chai, s parjenim mlekom), ki je “umazana” z od eno do dvema porcijama espressa (doppio). Napitek se postreže vroč ali z ledom pogosto v veliki skodelici, saj ga znese okoli 300 mL. Začinjeni čaj in espresso skupaj povečata vsebnost kofeina, ki znaša med 100 mg in 160 mg na skodelico. Napitek združuje tople in sladke začimbe, kot so cimet, kardamom, klinčki, ingver in črni poper, z bogatim in izrazitim okusom kave. Obstaja anekdota, da je napitek nastal po nesreči, ko je barista v londonski kavarni pomotoma v chai latte gostu dodal espresso.",
+    preparation: "Za pripravo napitka dirty chai, najprej pripravimo sam čajni napitek iz ustreznega čaja in začimb, tako za čaj in začimbe namakamo v vrečki ali proste v vroči vodi (ekstrakcija trdno-tekoče). 85 mL čajnega napitka natočimo v veliko skodelico in dodamo 170 mL parjenega mleka (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga pripravimo s pomočjo espresso aparata. Z isto napravo pripravimo še cca. 45 mL espressa, ki ga na koncu dodamo na vrh napitka.",
+    caffeine: {min: 2, max: 3},
+    alternativeNames: "Java chai (Evropa), red-eye chai, or turbo-charger chai, tough-guy chai, (ZDA, Združeno kraljestvo), dirty chai latte, espresso chai (globalno).",
+    origin: "Združeno kraljestvo in ZDA, 10. desetletje 20. stoletja."
+},
+
 ];
