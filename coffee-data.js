@@ -189,7 +189,7 @@ const coffees = [
     cardImage: "images/espresso_macchiato.png",
     detailImage: "images/espresso_macchiato_1.jpg",
     description: "Espresso macchiato je italijanski espresso, ki je »obarvan« z majhno količino mlečne pene, postrežen vroč običajno v zelo majhni skodelici v količini približno 35 mL. Beseda macchiato dobesedno pomeni »obarvan« oziroma »označen«. Gre za najmanjši odmik od čistega espressa, s čimer se ohrani vsa njegova intenzivnost, majhna količina mlečne pene pa okus le nekoliko zmehča. Vsebnost kofeina v napitku znaša okoli 64 mg. Verjetno gre za enega najbolj zavajajočih imen v svetu kave: na primer pri Starbucks macchiato pomeni velik, inverzen latte s sirupom, kar sploh ni podobno originalu. V Avstraliji imajo tudi svojo različico z imenom long macchiato, ki je običajno pripravljen iz dvojnega espressa z dodatkom majhne količine teksturiranega mleka (teksturirano mleko je mleko, ki se speni pred segrevanjem, medtem ko se parjeno mleko peni in segreva hkrati). Kozarec pri tem večinoma ostane prazen.",
-    preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Preko tekočine nato prelijemo kanček (5 mL) mlečne pene, ki jo pripravi s pomočjo penilnika mleka.",
+    preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Preko tekočine nato prelijemo kanček (5 mL) mlečne pene, ki jo pripravimo s pomočjo penilnika mleka.",
     caffeine: 1.5,
     alternativeNames: "Caffè macchiato, macchiato (Italija).",
     origin: "Italija, 9. desetletje, 20. stoletja."
@@ -254,7 +254,7 @@ const coffees = [
     cardImage: "images/magic.jpg",
     detailImage: "images/magic_1.jpg",
     description: "Magic je kavni napitek iz Melbourna, pripravljen iz dvojnega ristretta in flat white mleka v razmerju okoli 1:2, pri čemer je količina napitka od 120 mL do 150 mL. Vsebnost kofeina v napitku znaša cca. 110 mg. Dve porciji ristretta in manjša količina mleka ustvarita intenzivnejši okus kot pri flat white-u. Tekstura ostaja enako svilnata in kremasta zaradi fine mikro-pene, vendar je razmerje nekoliko bolj usmerjeno v okus kave. Napitek se postreže vroč v veliki skodelici. Do začetka 3. desetletja 21. stoletja je bil magic v melbournskih kavarnah večinoma napitek, ki ni bil naveden na meniju. Poznavanje napitka med prebivalci mesta je bilo različno, nekateri zanj sploh niso vedeli, drugi pa so ga dojemali kot že dolgo uveljavljeno pijačo. V drugih avstralskih mestih je bil precej manj poznan.",
-    preparation: "Za pripravo osnove napitka, dve porciji ristretta (40 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 20 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi flat white mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro, tako da nastnane pena), 80 mL, s katerim prekrijemo osnovo.",
+    preparation: "Za pripravo osnove napitka, dve porciji ristretta (40 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 20 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi flat white mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro, tako da nastane pena), 80 mL, s katerim prekrijemo osnovo.",
     caffeine: 2,
     alternativeNames: "Magic coffee (angleško govoreče države).",
     origin: "Melbourne, Avstralija, začetek 21. stoletja."
@@ -310,6 +310,19 @@ const coffees = [
     caffeine: 1.5,
     alternativeNames: "Café con Leche Condensada (Španija in Latinska Amerika).",
     origin: "Španija, valencia, 6. desetletje 20. stoletja."
+},
+
+{
+    id: "wiener melange",
+    name: "Wiener melange",
+    category: "milk",
+    cardImage: "images/wiener_melange.jpg",
+    detailImage: "images/wiener_melange_1.jpg",
+    description: "",
+    preparation: "",
+    caffeine: ,
+    alternativeNames: "",
+    origin: ""
 },
 
 ];
