@@ -325,4 +325,17 @@ const coffees = [
     origin: "Dunaj, Avstrija, 19. stoletje."
 },
 
+{
+    id: "spanish latte",
+    name: "Spanish latte",
+    category: "milk",
+    cardImage: "images/spanish_latte.jpg",
+    detailImage: "images/spanish_latte_1.jpg",
+    description: "Spanish latte je sodoben kavni napitek iz espressa, parjenega mleka in sladkanega kondenziranega mleka v približnem razmerju 2:5:1. Kljub imenu ga Španija ni izumila – napitek se je kot sodoben kavni trend pojavil predvsem v kavnih verigah v Združenih arabskih emiratih, Savdski Arabiji in na Filipinih. Postreže se lahko vroč ali z ledom v veliki skodelici ali kozarcu. Znese ga okoli 240 mL in vsebuje do 128 mg kofeina. Za sladkost poskrbi kondenzirano mleko, ki napitku daje bolj zaokrožen in izrazito sladek okus kot pri latte-ju. Navdih črpa iz španskega café con leche in napitka leche y leche iz Kanarskih otokov.",
+    preparation: "Za pripravo napitka, najprej pripravimo sladkano kondenzirano mleko. Polnomastnemu mleku dodamo sladkor v razmerju od 1:2 do 1:3. Mešamo in počasi segrevamo, dokler ne izhlapi cca. 60 % vode. 30 mL sladkanega kondenziranega mleka nato prelijemo velik kozarec ali skodelico. Nato s pomočjo espresso aparata pripravimo dve porciji espressa oz. doppio (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), kar znese 60 mL. Tega prilijemo sladkanemu kondenziranemu mleku. Na koncu s pomočjo istega aparata pripravimo tudi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 150 mL in ga dodamo v kozarec oz. skodelico.",
+    caffeine: 2.5,
+    alternativeNames: "-",
+    origin: "ZAE, 2. desetletje 21. stoletja."
+},
+
 ];
