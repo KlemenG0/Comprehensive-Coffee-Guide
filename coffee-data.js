@@ -318,11 +318,11 @@ const coffees = [
     category: "milk",
     cardImage: "images/wiener_melange.jpg",
     detailImage: "images/wiener_melange_1.jpg",
-    description: "",
-    preparation: "",
-    caffeine: ,
-    alternativeNames: "",
-    origin: ""
+    description: "Wiener Melange je avstrijski kavni napitek, značilen za dunajsko kavarniško kulturo, ki je od leta 2011 vpisana na avstrijski nacionalni seznam kulturne dediščine pri UNESCO. Pripravljen je iz blažjega espressa (espresso, ki se mu doda vroča voda), enake količine parjenega mleka in plasti mlečne pene na vrhu (1:1) – lahko ga razumemo kot nežnejšega dunajskega sorodnika cappuccina. V primerjavi s cappuccinom je vse pri njem nekoliko blažje – od manj intenzivnega espressa do nežnejše mlečne pene. Količinsko napitka običajno znese okoli 200 mL z vsebnostjo kofeina okoli 50 mg. Postreže se ga vročega v veliki skodelici. Čeprav se tudi na samem Dunaju lahko zgodi, da ko naročiš Wiener Melange, postrežejo espresso con panna.",
+    preparation: "Za pripravo napitka, najprej s pomočjo espresso aparata pripravimo eno porcijo espressa (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), ki jo nato razredčimo z vročo vodo do okoli 80 mL. S pomočjo istega aparata pripravimo tudi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 80 mL, s katerim prekrijemo osnovo. Na koncu napitek prekrijemo še s cca. 40 mL mlečne pene, ki jo pripravimo s penilnikom mleka.",
+    caffeine: {min: 1.5, max: 2},
+    alternativeNames: "Café Vienna, Vienna coffee, Melange (globalno).",
+    origin: "Dunaj, Avstrija, 19. stoletje."
 },
 
 ];
