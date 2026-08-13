@@ -298,5 +298,18 @@ const coffees = [
     alternativeNames: "Portuguese latte (globalno).",
     origin: "Lizbona, Portugalska, 3. desetletje 20. stoletja."
 },
-    
+
+{
+    id: "Café bombón",
+    name: "café bombón",
+    category: "milk",
+    cardImage: "images/bombon.jpg",
+    detailImage: "images/bombon_1.jpg",
+    description: "Café bombón je valencijski kavni napitek, pri katerem se espresso v razmerju 1:1 prelije čez sladkano kondenzirano mleko. Običajno ga znese okoli 60 mL z vsebnostjo kofeina cca. 64 mg. Postreže se vroč v majhnem kozarcu, tako da ostaneta obe plasti vidno ločeni. Za razporeditev plasti poskrbi razlika v gostoti – gostejše kondenzirano mleko ostane na dnu, espresso pa se zadrži nad njim. Pred pitjem napitek premešamo. Café bombón ima po svetu tudi razne različice, med drugim azijska različica (pripravljena je iz mlete kave namesto espressa), café bombón con hielo (napitek se postreže z ledom), čokoladni bombón (med kondenzirano mleko in espresso se doda plast čokoladnega sirupa ali kakava), café bombón crema (na vrhu se doda majhna plast mlečne pene ali stepene smetane), café bombón po valencijsko (občasno vključuje zvitek pomarančnega olupka ali aromatiziran sirup).",
+    preparation: "Za pripravo napitka, najprej pripravimo sladkano kondenzirano mleko. Polnomastnemu mleku dodamo sladkor v razmerju od 1:2 do 1:3. Mešamo in počasi segrevamo, dokler ne izhlapi cca. 60 % vode. 30 mL sladkanega kondenziranega mleka nato prelijemo v kozarec in previdno (pogosto preko žlice) dolijemo eno porcijo espressa (30 mL), za katerega pripravo se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Napitek mora ostati razslojen.",
+    caffeine: 1.5,
+    alternativeNames: "Café con Leche Condensada (Španija in Latinska Amerika).",
+    origin: "Španija, valencia, 6. desetletje 20. stoletja."
+},
+
 ];
