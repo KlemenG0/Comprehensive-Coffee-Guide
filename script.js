@@ -12,6 +12,22 @@ const categoryNames = {
     alcohol: "Z žganjem"
 };
 
+const categoryDescriptions = {
+    espresso: "Kavni napitki, pripravljeni na osnovi espressa, pri katerih je espresso glavna sestavina.",
+    
+    milk: "Kavni napitki, pri katerih se espresso kombinira z vročim mlekom, mlečno peno ali obojim.",
+    
+    methods: "Kavni napitki, pri katerih način priprave pomembno določa njihov značaj, okus in aromo.",
+    
+    regional: "Kavni napitki, značilni za določene države ali regije, kjer so se razvili kot del lokalne kavne kulture.",
+    
+    cold: "Hladni in ledeni kavni napitki, pripravljeni z ohlajeno kavo, ledom ali drugimi hladnimi sestavinami.",
+    
+    dessert: "Sladki kavni napitki in sladice, pri katerih ima kava pomembno vlogo.",
+    
+    alcohol: "Kavni napitki, ki jim je dodana alkoholna pijača, kot so liker, žganje ali druge alkoholne sestavine."
+};
+
 const buttons = document.querySelectorAll(".category-buttons button");
 
 buttons.forEach(button => {
@@ -114,6 +130,8 @@ function createBeans(value) {
 function showCoffee(coffee) {
 
     title.textContent = categoryNames[coffee.category];
+    
+    const categoryDescription = categoryDescriptions[coffee.category];
 
    let beans = "";
 
@@ -133,6 +151,10 @@ if (typeof coffee.caffeine === "number") {
     container.innerHTML = `
 
         <div class="coffee-detail">
+
+        <p class="category-description">
+        ${categoryDescription}
+        </p>
 
                <h6>${coffee.name}</h6>
 
