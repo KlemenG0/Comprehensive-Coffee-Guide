@@ -136,10 +136,15 @@ h6 {
     font-size: 22px;
     font-weight: bold;
     margin: 0 10px;
+
 }
 
 .bean-icon{
     width:24px;
     height:24px;
+
+}
+.category-description {
+    text-align: center;
 
 }
