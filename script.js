@@ -167,7 +167,7 @@ if (typeof coffee.caffeine === "number") {
 
                 <h5>Opis</h5>
 
-                <p>${coffee.description}</p>
+                <p style="text-align: center;">${coffee.description}</p>
 
             </section>
 
@@ -175,7 +175,7 @@ if (typeof coffee.caffeine === "number") {
 
                 <h5>Priprava</h5>
 
-                <p>${coffee.preparation}</p>
+                <p style="text-align: center;">${coffee.preparation}</p>
 
             </section>
 
@@ -195,7 +195,7 @@ if (typeof coffee.caffeine === "number") {
 
                 <h5>Alternativna imena</h5>
 
-                <p>${coffee.alternativeNames}</p>
+                <p style="text-align: center;">${coffee.alternativeNames}</p>
 
             </section>
             
@@ -203,7 +203,7 @@ if (typeof coffee.caffeine === "number") {
 
                 <h5>Izvor</h5>
 
-                <p>${coffee.origin}</p>
+                <p style="text-align: center;">${coffee.origin}</p>
 
             </section>
 
