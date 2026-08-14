@@ -134,12 +134,12 @@ if (typeof coffee.caffeine === "number") {
 
         <div class="coffee-detail">
 
+               <h6>${coffee.name}</h6>
+
             <img
             src="${coffee.detailImage}"
             alt="${coffee.name}"
             class="detail-image">
-
-            <h6>${coffee.name}</h6>
 
             <section>
 
