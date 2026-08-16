@@ -228,7 +228,7 @@ const coffees = [
     cardImage: "images/breve.jpg",
     detailImage: "images/breve_1.webp",
     description: "Caffè breve je ameriški kavni napitek na osnovi dvojnega espressa (doppia), podoben caffè latte-ju, vendar je pripravljen s parjeno mešanico polnomastnega mleka in smetane (angl. half-and-half) v razmerju 1:1 namesto običajnega mleka. Zaradi tega velja za enega najbogatejših napitkov na osnovi espressa in mleka. Večja vsebnost mlečne maščobe ustvari gostejšo in bolj sladko skodelico kavnega napitka ter ublaži morebitno grenkobo dodanega espressa. Izraz breve izvira iz italijanščine in pomeni “kratek”. Količina napitka običajno znaša 300 mL, vsebnost kofeina pa okoli 128 mg. Postreže se ga vročega v veliki skodelici.",
-    preparation: "Za pripravo caffè breve najprej segrejemo in spenimo mešanico polnomastnega mleka in smetane (angl. half-and-half). Nato pripravimo dvojno porcijo espressa (doppio, približno 60 mL) in jo nalijemo v veliko skodelico. Dodamo vroč half-and-half, pri tem pa zadržimo mlečno peno. Na koncu peno z žlico zajamemo in jo razporedimo po vrhu napitka.",
+    preparation: "Za pripravo caffè breve najprej segrejemo in spenimo mešanico polnomastnega mleka in smetane (angl. half-and-half). Nato pripravimo dvojno porcijo espressa (doppio, približno 60 mL) in jo nalijemo v veliko skodelico. Dodamo cca. 240 mL vročega half-and-half-a, pri tem pa zadržimo mlečno peno. Na koncu peno z žlico zajamemo in jo razporedimo po vrhu napitka.",
     caffeine: 2.5,
     alternativeNames: "Breve, breve latte (globalno), breve coffee, half-and-half latte (angleško govoreče države).",
     origin: "ZDA, 7. desetletje 20. stoletja."
