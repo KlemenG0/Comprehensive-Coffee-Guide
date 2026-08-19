@@ -351,4 +351,16 @@ const coffees = [
     origin: "Združeno kraljestvo in ZDA, 10. desetletje 20. stoletja."
 },
 
+{
+    id: "drip coffee",
+    name: "Drip coffee",
+    category: "",
+    cardImage: "images/drip.jpg",
+    detailImage: "images/drip_1.webp",
+    description: "",
+    preparation: "",
+    alternativeNames: "",
+    origin: ""
+},
+
 ];
