@@ -354,13 +354,12 @@ const coffees = [
 {
     id: "drip coffee",
     name: "Drip coffee",
-    category: "",
+    category: "methods",
     cardImage: "images/drip.jpg",
     detailImage: "images/drip_1.webp",
-    description: "",
-    preparation: "",
-    alternativeNames: "",
-    origin: ""
+    description: "Drip coffee (slo. filtrirana kava) je kava, pripravljena s pomočjo gravitacije, pri čemer vroča voda prehaja skozi mleto kavo, ki je v papirnatem ali kovinskem filtru. Ta način priprave sega do Nemke Melitte Bentz, ki je patentirala papirnati filter za kavo. Rezultat je čista in uravnotežena kava, ki jo je mogoče pripraviti v večjih količinah. Ima pa drip coffee problem, da je kava, ki priteče skozi filter na začetku močnejša (višja koncentracija) kot ta, ki priteče kasneje. Razlog je v tem, da je z napredovanjem ekstrakcije iz kavne usedline na voljo vedno manj snovi. Tako se pojavi problem, kako narediti dve enako močni skodelici kave iz ene šarže. Matematično je bilo pokazano, da je mogoče primerljivo moč oziroma koncentracijo kave v dveh skodelicah doseči z uporabo Thue–Morseovega zaporedja prelivanja močnejše in šibkejše kave med seboj. Gre za najpogostejši način priprave kave v Severni Ameriki. Če je v Severni Ameriki in Skandinaviji na meniju navedena samo »kava«, bodo skoraj vedno postregli prav to. V kavarnah tretjega sveta se isti način priprave pogosto trži pod imenom »batch brew«.",
+    alternativeNames: "Regular coffee (Severna Amerika, Skandinavija), filter coffee, drip-brew, brewed coffee (globalno).",
+    origin: "Francija, 19. stoletje (koncept). ZDA, 1908 (moderni način)."
 },
 
 ];
