@@ -133,13 +133,13 @@ function showCoffee(coffee) {
     
     const categoryDescription = categoryDescriptions[coffee.category];
 
-   let beans = "";
+  let beans = "";
 
 if (typeof coffee.caffeine === "number") {
 
     beans = createBeans(coffee.caffeine);
 
-} else {
+} else if (coffee.caffeine) {
 
     beans =
         createBeans(coffee.caffeine.min) +
@@ -163,13 +163,15 @@ if (typeof coffee.caffeine === "number") {
             alt="${coffee.name}"
             class="detail-image">
 
+            ${coffee.preparation ? `
             <section>
 
-                <h5>Opis</h5>
+            <h5>Priprava</h5>
 
-                <p style="text-align: center;">${coffee.description}</p>
+            <p style="text-align: center;">${coffee.preparation}</p>
 
             </section>
+            ` : ""}
 
             <section>
 
@@ -179,17 +181,19 @@ if (typeof coffee.caffeine === "number") {
 
             </section>
 
+            ${coffee.caffeine !== undefined ? `
             <section>
 
-                <h5>Kofeinska moč</h5>
+            <h5>Kofeinska moč</h5>
 
-                <div class="beans">
+            <div class="beans">
 
-                ${beans}
+            ${beans}
 
-                </div>
+            </div>
 
             </section>
+            ` : ""}
             
             <section>
 
