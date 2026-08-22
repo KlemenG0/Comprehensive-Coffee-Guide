@@ -17,7 +17,7 @@ const categoryDescriptions = {
     
     milk: "Ta skupina kavnih napitkov bolj ali manj izvira iz espressa, ki se mu doda mleko najrazličnejših vrst. Mleko – parjeno, spenjeno, segreto, poparjeno ipd. – spremeni 30 ml espressa v celoten kavni repertoar, od klasičnih tretjin pri cappuccinu, svilnate mikro-pene pri flat white-u do latte-ja, ki je temelj ponudbe skoraj vsake ameriške kavarne. Spremenljivke so preproste: kako pripravljeno mleko, koliko mleka, koliko pene in v kakšnem vrstnem redu se komponente dodajo v skodelico.",
     
-    methods: "Vsaka kava se ne začne z aparatom za espresso. Ta skupina zajema načine priprave kavne osnove/napitkov, ki jih večina sveta dejansko uporablja doma: filtrirano kavo iz običajnega kavnega aparata, ročno pripravljeno pour-over kavo in kultni aeroPress. Ključna razlika tukaj ni v mleku ali sirupu, temveč v načinu priprave – kako voda pride v stik z mleto kavo, kako dolgo ta stik traja in skozi kakšen filter se kava precedi. Če te tri stvari pravilno uskladimo, lahko ista kavna zrna ustvarijo vrsto povsem različnih okusov.",
+    methods: "Vsaka kava se ne začne z aparatom za espresso. Ta skupina zajema načine priprave kavne osnove/napitkov, ki jih večina sveta dejansko uporablja doma: filtrirano kavo iz običajnega kavnega aparata, ročno pripravljeno pour-over kavo in kultni aeropress. Ključna razlika tukaj ni v mleku ali sirupu, temveč v načinu priprave – kako voda pride v stik z mleto kavo, kako dolgo ta stik traja in skozi kakšen filter se kava precedi. Če te tri stvari pravilno uskladimo, lahko ista kavna zrna ustvarijo vrsto povsem različnih okusov.",
     
     regional: "Kavni napitki, značilni za določene države ali regije, kjer so se razvili kot del lokalne kavne kulture.",
     
