@@ -372,5 +372,16 @@ const coffees = [
     alternativeNames: "Hand-drip coffee, manual drip (angleško govoreče države), filter coffee (globalno).",
     origin: "ZDA, Japonska, začetek 20. stoletja."
 },
-
+    
+{
+    id: "french press",
+    name: "French press",
+    category: "methods",
+    cardImage: "images/french_press.jpg",
+    detailImage: "images/french_press_1.webp",
+    description: "French press (slo. francoska stiskalnica) je način priprave kavnega napitka, pri katerem je mleta kava približno štiri minute popolnoma potopljena v vročo vodo, nato pa se ročno stisne skozi kovinsko mrežico. Sodobna oblika naprave je bila prvič patentirana v Italiji leta 1929, leta 1958 pa jo je izpopolnil Faliero Bondanini. Ker kovinska mrežica ne zadrži kavnih olj tako kot papirnati filter, je kava polnejša, težja in bogatejša kot pri načinih priprave, ki vključujejo papirnati filter. Gre za enega najbolj polnih kavnih napitkov v tem vodniku. Kavni napitek se pripravi tako, da v aparat damo grobo mleto kavo in vročo vodo pri temperaturi do 96 °C. Običajno se uporabi približno 30 g kave na 500 ml vode. Po okoli 4 minutah namakanja bat počasi potisnemo navzdol, s čimer ločimo usedlino od tekočine. Tekočino nato postrežemo. Za french press je najprimernejša groba pomletje (kot kuhinjska sol). Drobneje mleta kava ima manjšo prepustnost, zato je za potisk bata potrebne več sile, drobni delci pa lahko tudi preidejo skozi filter v napitek. Poleg tega se drobneje mleta kava hitreje ekstrahira, kar lahko povzroči neželen grenak okus. Ena od različic french press-a, imenovana tudi french pull ali reverse french press, kot filter uporablja mrežasto košarico, ki se povleče proti pokrovu in tako loči kavno usedlino od napitka. Druga različica, pri kateri se za kavno usedlino uporablja košarica, se imenuje american press. Pri tem se najprej v posodo doda vroča voda, nato pa se košarica z mleto kavo počasi potisne skozi vodo navzdol.",
+    alternativeNames: "Coffee press (angleško govoreče države), cafetière (Velika Britanija, Irska, Francija, Nizozemska), coffee plunger (Nova Zelandija, Avstralija, Južna Afrika), cafetière à piston (Francija), caffettiera a stantuffo (Italija), pressstempelkanne, stempelkanne, stabfilterkanne, kaffeepresse, bistrokanne (nemško govoreče države).",
+    origin: "Francija, 1852 (koncept). Francija, 1958 (moderni način)."
+},
+    
 ];
