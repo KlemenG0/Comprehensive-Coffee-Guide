@@ -163,6 +163,14 @@ if (typeof coffee.caffeine === "number") {
             alt="${coffee.name}"
             class="detail-image">
 
+            <section>
+
+                <h5>Opis</h5>
+
+                <p style="text-align: center;">${coffee.description}</p>
+
+            </section>
+
             ${coffee.preparation ? `
             <section>
 
@@ -172,14 +180,6 @@ if (typeof coffee.caffeine === "number") {
 
             </section>
             ` : ""}
-
-            <section>
-
-                <h5>Priprava</h5>
-
-                <p style="text-align: center;">${coffee.preparation}</p>
-
-            </section>
 
             ${coffee.caffeine !== undefined ? `
             <section>
