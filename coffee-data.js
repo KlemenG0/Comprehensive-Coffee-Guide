@@ -394,5 +394,17 @@ const coffees = [
     alternativeNames: "-",
     origin: "ZDA, 2005."
 },
+
+{
+    id: "moka pot coffee",
+    name: "Moka pot coffee",
+    category: "methods",
+    cardImage: "images/moka_pot.jpg",
+    detailImage: "images/moka_pot_1.webp",
+    description: "Moka pot coffee (slo. kavni napitek iz Moka kavnika) je močan kavni napitek, pripravljen na štedilniku s pomočjo tlaka vodne pare, ki znaša približno 1,5 barg. Voda se na dnu kavnika segreje, kar povzroči, da se tlak v prekatu dvigne (višji parni tlak vode in ekspanzija ujetega zraka) in potisne vodo navzgor skozi sloj mlete kave. Ekstrakt gre nato skozi filter in v zgornji prekat, kjer se zbira končni napitek. Napitka običajno znese okoli 60 mL (tradicionalna velikost Moka kavnika) in vsebuje cca. 100 mg kofeina. Rezultat naprave je temna in intenzivna tekočina, podobna espressu, vendar je tlak precej nižji od cca. 9 barg, ki se uporablja pri pripravi espressa, zato jo poznavalci praviloma označujejo kot močan kavni napitek in ne kot pravi espresso. Kavnik je znan po značilni osmerokotni obliki, ki ga je Alfonso Bialetti v sodelovanjju z inženirjem Luigijem Di Pontijem leta 1933 začel izdelovati v Italiji. Ime izhaja iz mesta Mokha v Jemnu, ki je bilo zgodovinsko pomembno središče svetovne trgovine s kavo. Izvirnik in številni sodobni modeli so izdelani iz aluminija z ročajem iz bakelita, obstajajo pa tudi izvedbe iz nerjavnega jekla in drugih zlitin. Nekateri modeli imajo zgornji del iz toplotno odpornega stekla. Med različicami Moka kavnika, ki so se pojavile od 4. desetletja 20. stoletja, so tudi modeli, ki imajo v spodnjem delu vgrajen električni grelni element, omogočajo hitrejšo pripravo kave (vgrajen regulacijski ventil, ki omogoča hitrejši porast tlaka, višji tlak in temperaturo v kavniku, kar pomeni hitrejšo ekstrakcijo), pripravo mlečne pene in pripravo kave tudi z mikrovalovi.",
+    caffeine: 2,
+    alternativeNames: "Moka, macchinetta, la macchinetta, caffettiera (Italija), stovetop espresso (angleško govoreče države).",
+    origin: "Prusija, 1818. Italija, 1933 (moderni način)."
+},
     
 ];
