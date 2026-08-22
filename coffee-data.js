@@ -383,5 +383,16 @@ const coffees = [
     alternativeNames: "Coffee press (angleško govoreče države), cafetière (Velika Britanija, Irska, Francija, Nizozemska), coffee plunger (Nova Zelandija, Avstralija, Južna Afrika), cafetière à piston (Francija), caffettiera a stantuffo (Italija), pressstempelkanne, stempelkanne, stabfilterkanne, kaffeepresse, bistrokanne (nemško govoreče države).",
     origin: "Francija, 1852 (koncept). Francija, 1958 (moderni način)."
 },
+
+{
+    id: "aeropress",
+    name: "Aeropress",
+    category: "methods",
+    cardImage: "images/aeropress.jpg",
+    detailImage: "images/aeropress_1.webp",
+    description: "French press (slo. francoska stiskalnica) je način priprave kavnega napitka, pri katerem je mleta kava približno štiri minute popolnoma potopljena v vročo vodo, nato pa se ročno stisne skozi kovinsko mrežico. Sodobna oblika naprave je bila prvič patentirana v Italiji leta 1929, leta 1958 pa jo je izpopolnil Faliero Bondanini. Ker kovinska mrežica ne zadrži kavnih olj tako kot papirnati filter, je kava polnejša, težja in bogatejša kot pri načinih priprave, ki vključujejo papirnati filter. Gre za enega najbolj polnih kavnih napitkov v tem vodniku. Kavni napitek se pripravi tako, da v aparat damoAeropress je naprava za pripravo kavnega napitka, ki podobno kot french press združuje namakanje in uporabo pritiska. Leta 2005 ga je v ZDA izumil inženir Alan Adler. Kava se običajno namaka v vroči vodi eno do dve minuti, nato pa se s pritiskom bata (kot pri brizgi) potisne skozi papirnati ali kovinski filter. Nastali kavni napitek je po intenzivnosti okusa nekje med drip coffee in espressom – je bolj koncentriran, gladek in manj grenak. Alan Adler, inženir s Stanforda, je sicer izumil tudi leteči obroč Aerobie, zato ni naključje, da je pri zasnovi Aeropressa posebno pozornost namenil fiziki bata in pritiska. Leta 2019 je podjetje AeroPress Inc. predstavilo AeroPress Go, potovalno različico z manjšo prostornino in manjšimi dodatki, ki se zložijo v plastično skodelico s pokrovom. Avgusta 2021 je kanadska družba Tiny Capital pridobila večinski delež v podjetju AeroPress Inc. V naslednjih letih je podjetje predstavilo še več različic in dodatkov, med drugim: AeroPress XL (različica z dvojno prostornino, ki vključuje plastično karafo), AeroPress Premium in AeroPress Steel (naprednejša modela z dvojno steno iz stekla oziroma kovine), AeroPress Go Plus (prenovljena različica modela Go z izolirano potovalno skodelico) ter različne prozorne in barvne različice obstoječih modelov.",
+    alternativeNames: "-",
+    origin: "ZDA, 2005."
+},
     
 ];
