@@ -408,7 +408,19 @@ const coffees = [
     description: "Moka pot coffee (slo. kavni napitek iz Moka kavnika) je močan kavni napitek, pripravljen na štedilniku s pomočjo tlaka vodne pare, ki znaša približno 1,5 barg. Voda se na dnu kavnika segreje, kar povzroči, da se tlak v prekatu dvigne (višji parni tlak vode in ekspanzija ujetega zraka) in potisne vodo navzgor skozi sloj mlete kave. Ekstrakt gre nato skozi filter in v zgornji prekat, kjer se zbira končni napitek. Napitka običajno znese okoli 60 mL (tradicionalna velikost Moka kavnika) in vsebuje cca. 100 mg kofeina. Rezultat naprave je temna in intenzivna tekočina, podobna espressu, vendar je tlak precej nižji od cca. 9 barg, ki se uporablja pri pripravi espressa, zato jo poznavalci praviloma označujejo kot močan kavni napitek in ne kot pravi espresso. Kavnik je znan po značilni osmerokotni obliki, ki ga je Alfonso Bialetti v sodelovanjju z inženirjem Luigijem Di Pontijem leta 1933 začel izdelovati v Italiji. Ime izhaja iz mesta Mokha v Jemnu, ki je bilo zgodovinsko pomembno središče svetovne trgovine s kavo. Izvirnik in številni sodobni modeli so izdelani iz aluminija z ročajem iz bakelita, obstajajo pa tudi izvedbe iz nerjavnega jekla in drugih zlitin. Nekateri modeli imajo zgornji del iz toplotno odpornega stekla. Med različicami Moka kavnika, ki so se pojavile od 4. desetletja 20. stoletja, so tudi modeli, ki imajo v spodnjem delu vgrajen električni grelni element, omogočajo hitrejšo pripravo kave (vgrajen regulacijski ventil, ki omogoča hitrejši porast tlaka, višji tlak in temperaturo v kavniku, kar pomeni hitrejšo ekstrakcijo), pripravo mlečne pene in pripravo kave tudi z mikrovalovi.",
     caffeine: 2,
     alternativeNames: "Moka, macchinetta, la macchinetta, caffettiera (Italija), stovetop espresso (angleško govoreče države).",
-    origin: "Prusija, 1818. Italija, 1933 (moderni način)."
+    origin: "Prusija, 1818 (koncept). Italija, 1933 (moderni način)."
 },
-    
+
+{
+    id: "percolator coffee",
+    name: "Percolator coffee",
+    category: "methods",
+    cardImage: "images/percolator.jpg",
+    detailImage: "images/precolator_1.jpg",
+    description: "Percolator coffee (slo. kavni napitek iz perkolatorja) je kavni napitek, ki se pripravi v posebni posodi imenovani perkolator. Princip priprave sledeč. Voda se na dnu prekolatorja segreje neposredno z električno energijo ali preko štedilnika. Voda se privede do vretja, kar povzroči porast tlaka v prekatu z vodo (nastajanje vodne pare in širjenje zraka nad gladino). Ta tlak potisne vodo po vertikalni cevi na vrh perkolatorja, da zadane spodnji del pokrova. Voda nato teče nazaj navzdol v spodnji prekat in spotoma preide sloj grobo mlete kave (čemur pravimo perkolacija), ki je imobilizirana  na filtru in držalu med spodnjim in zgornjim prekatom. Ta proces se večkrat ponovi. Obratovanje je podobno kot pri Moka kavniku (Moka pot), le da pri njem voda le enkrat preide skozi sloj mlete kave. Večkratno pretakanje vrele vode ustvari močno, izrazito tradicionalno kavo, vendar brez nežnosti in prefinjenosti, značilne za sodobnejše načine priprave. To lahko privede tudi do prekomerne ekstrakcije (preveč grenak napitek), a strokovnjaki vedo na kateri točki proces ustaviti, da dobijo želeni rezultat. Za standardno količino 240 mL znese vsebnost kofeina med 95 mg do 140 mg. Ta način priprave izvira iz Pariza leta 1819, pozneje pa so ga izpopolnili v ZDA, kjer je Hanson Goodrich leta 1889 patentiral različico za pripravo na štedilniku. Kasneje pa so se razvile različice na električno energijo. Veliki perkolatorji, imenovani kavne žare, se pogosto uporabljajo v pisarnah, menzah, na skupnostnih in cerkvenih srečanjih ter drugih dogodkih, kjer je treba naenkrat pripraviti večje količine kave.",
+    caffeine: {min: 2, max: 2.5},
+    alternativeNames: "-",
+    origin: "München, kraljevina Bavarska, med 1810 in 1814 (koncept). ZDA , sredina 20. stoletja (moderni način)."
+},
+
 ];
