@@ -435,4 +435,16 @@ const coffees = [
     origin: "Nemčija, 1827 (koncept). ZDA, začetek 20. stoletja (moderni način)."
 },
 
+{
+    id: "cowboy coffee",
+    name: "Cowboy coffee",
+    category: "methods",
+    cardImage: "images/cowboy.jpg",
+    detailImage: "images/cowboy_1.jpeg",
+    description: "Cowboy coffee je kavni napitek, pri čigar pripravi ne potrebujemo filtra, značilna za ameriški zahod. Pripravi se tako, da se najprej v loncu zavre vodo (na plamenu ali štedilniku). Voda se nato odstavi od vira toplote in doda se grobo mleta kava. Nato se vse skupaj dobro premeša in pusti stati 5 minut. Za lažje usedanje kave se pogosto uporabi dodatek (prš) hladne vode ali jajčna lupina. Jajčna lupina ni zgolj mit – njena alkalnost lahko dejansko zmanjša kislost napitka. Na koncu se napitek dekantira v skodelico. Rezultat je močan, poln in precej robusten kavni napitek z leseno-dimnim priokusom (v primeru tredicionalne uporabe tabornega ognja) in brez kavne kreme. Za standardno količino 240 mL znese vsebnost kofeina med 95 mg do 120 mg. Cowboy coffee ima tudi skandinavskega sorodnika, imenovanega kokekaffe. Gre za skoraj enak način priprave – mleta kava se zavre neposredno v vodi, nato pa se kavna usedlino pusti, da se usede.",
+    caffeine: 2,
+    alternativeNames: "Campfire coffee, boiled coffee, camping coffee (ZDA)."
+    origin: "ZDA, 19. stoletje."
+},
+
 ];
