@@ -339,6 +339,19 @@ const coffees = [
 },
 
 {
+    id: "butter coffee",
+    name: "Butter coffee",
+    category: "milk",
+    cardImage: "images/butter.jpg",
+    detailImage: "images/butter_1.jpg",
+    description: "Butter coffee je pripravljen kavni napitek (način priprave ni pomemben), zmešan z neslanim maslom in MCT (angl. medium-chain triglyceride, slo. srednjeverižni trigliceridi) ali kokosovim oljem. Pri mešanju komponent se maščobe emulgirajo, zato nastane penast in kremast napitek. Količina napitka je običajno do 300 mL, vsebnost kofeina pa do 95 mg. Gre za ameriški trend 21. stoletja, povezan z blagovno znamko Bulletproof, ki jo je populariziral podjetnik Dave Asprey. Navdih za znamko je predstavljal tradicionalni tibetanski čaj z maslom iz jakovega mleka, imenovan po cha. Butter coffee se pogosto uživajo ljudje pri zajtrku, ki sledijo keto dieti, za katero je značilen visok vnos maščob in nizek vnos ogljikovih hidratov. Domnevne zdravstvene trditve, povezane z napitkom, so predmet razprav. Mnogi zagovorniki butter coffee-ja trdijo, da zagotavlja dolgotrajnejšo energijo, izboljšuje mentalno jasnost in pomaga pri izgubi telesne mase, predvsem z zmanjševanjem občutka lakote. Ker neposrednih raziskav o zdravstvenih koristih in tveganjih napitka ni veliko, lahko njegove učinke ocenjujemo predvsem na podlagi raziskav posameznih sestavin. V eni od raziskav so moški, ki so štiri tedne uživali zajtrk z 22 g MCT-olja, pri kosilu zaužili približno 220 kcal manj in izgubili več telesne maščobe kot skupina, ki je pri zajtrku uživala predvsem dolgoverižne maščobe. Ni pa dokazov, da bi samo dodajanje MCT olja brez drugih sprememb prehrane povzročilo izgubo telesne mase. MCT se lahko neposredno uporabijo kot vir energije ali pa jih telo pretvori v ketone, ki nastajajo v jetrih iz maščobnih kislin in lahko služijo kot energijski vir. To nakazuje na morebitni energijski učinek napitka. Butter coffee se na račun energijskega učinka pogosto oglašuje tudi kot napitek, ki izboljšuje mentalno jasnost in kognitivne sposobnosti (več energije za možgane). Čeprav je uporaba ketonov kot vira energije za možgane raziskana pri nekaterih nevrodegenerativnih boleznih, ni dokazov, da MCT oziroma ketoni pri zdravih ljudeh izboljšujejo mentalno jasnost. Bolj verjetno je, da občutek večje zbranosti in budnosti po uživanju napitka izvira predvsem iz kofeina v kavi, za katerega obstajajo precej boljši dokazi o izboljšanju budnosti in pozornosti.",
+    preparation: "Za napitek najprej pripravimo cca. 270 mL kavne osnove, ki je lahko na katerikoli način pripravljen kavni napitek, bodisi drip coffee, french press coffee, itd. Priprava vsake posamezne osnove je opisana v rubriki “Načini priprave” tega vodnika. Kavni osnovi nato dodamo par žlic neslanega masla in 15 mL MCT ali kokosovega olja ter premešamo.",
+    caffeine: 2,
+    alternativeNames: "Bulletproof coffee, fat coffee, oily coffee (angleško govoreče države), keto coffee (globalno).",
+    origin: "ZDA, 1. desetletje 21. stoletja."
+},
+    
+{
     id: "dirty chai",
     name: "Dirty chai",
     category: "milk",
