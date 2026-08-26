@@ -21,7 +21,7 @@ const categoryDescriptions = {
     
     regional: "Kavni napitki, značilni za določene države ali regije, kjer so se razvili kot del lokalne kavne kulture.",
     
-    cold: "Hladni in ledeni kavni napitki, pripravljeni z ohlajeno kavo, ledom ali drugimi hladnimi sestavinami.",
+    cold: "Ta skupina kavnih napitkov zajema te, ki se postrežejo izključno hladni ali mrzli. Nekateri se najprej pripravijo vroče in nato ohladijo, drugi pa sploh ne pridejo v “stik z vročino”, kot na primer cold brew. Nekatere različice svojo teksturo dobijo z uvajanjem inertne snovi ali z intenzivnim stresanjem. Razpon sega od običajne ameriške poletne ledene kave do grškega, po naključju izumljenega frappéja in južnokorejskega iced americana, ki ga tam uživajo skozi vse leto. Za enega prvih zabeleženih ledenih kavnih napitkov velja mazagran iz 5. desetletja 19. stoletja. Pri tej skupini je način priprave ključnega pomena: namakanje, stresanje, počasno kapljično precejanje ali preprosto prelivanje čez led ustvarijo štiri povsem različne napitke.",
     
     dessert: "Sladki kavni napitki in sladice, pri katerih ima kava pomembno vlogo.",
     
