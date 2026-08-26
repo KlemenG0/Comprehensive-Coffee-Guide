@@ -471,5 +471,17 @@ const coffees = [
     alternativeNames: "Soluble coffee, coffee crystals, coffee granules, coffee powder, powdered coffee, coffee extract, coffee concentrate, freeze-dried coffee (angleško govoreče države).",
     origin: "Nova Zelandija, 1890 (koncept). ZDA, 1938 (moderni način)."
 },
-    
+
+{
+    id: "iced",
+    name: "Iced",
+    category: "cold",
+    cardImage: "images/iced.jpg",
+    detailImage: "images/iced_1.jpg",
+    description: ".",
+    caffeine: {min: 2, max: 3},
+    alternativeNames: ".",
+    origin: "."
+},
+
 ];
