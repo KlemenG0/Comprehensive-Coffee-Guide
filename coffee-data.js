@@ -447,4 +447,16 @@ const coffees = [
     origin: "ZDA, 19. stoletje."
 },
 
+{
+    id: "instant coffee",
+    name: "Instant coffee",
+    category: "methods",
+    cardImage: "images/instant.jpg",
+    detailImage: "images/instant_1.jpg",
+    description: "Instant coffee (slo. dobesedno takojšnji kavni napitek oz. instant kavni napitek) je napitek, pripravljen iz pripravka z istim imenom (instant coffee, slo. instant kava) in mrzlo ali vročo vodo. Pripravek je izdelan tako, da se surova kavna zrna najprej pražijo, da se razvijeta njihov okus in aroma. Praženje poteka v vrtljivih bobnastih pečeh, ki dosežejo do 165 °C od 8 minut do 15 minut. Nato se zrna ohladijo in zmeljejo na delce velikosti med 0,5 mm in 1,1 mm. Nato sledi ekstrakcija trdno-tekoče, ki se lahko izvede na različne načine (kot drip coffee, siphon coffee, percolator coffee itd.) s pomočjo industrijskih naprav. Tako se pridobi tekoči ekstrakt in glavni stranski produkt – osiromašena kavna usedlina. Slednjo je mogoče uporabiti kot biomaso, na primer za proizvodnjo toplote, potrebne v samem proizvodnem procesu. Ekstraktu se nato s pomočjo vakuumskega izparevanja odstrani večina vode, da nastane viskozni ekstrakt. V končni produkt (pripravek za instant kavni napitek) pa dobljen viskozni ekstrakt posušijo z razprševanjem ali z zamrzovanjem (liofilizacija). Glede na način priprave je lahko pripravek za napitek instant coffee v različnih oblikah, kot so granule, prah ali viskozna kapljevina. Za standardno količino 240 mL znese vsebnost kofeina okoli 62 mg. Prednosti pripravka vključujejo hitro pripravo, manjšo maso in prostornino pri transportu v primerjavi s celimi ali mletimi kavnimi zrni in dolgi rok uporabe. Kljub temu se lahko pripravek instant coffee pokvari oziroma poslabša, če ni shranjen na suhem. Prvi patent zanjo je bil podeljen na Novi Zelandiji leta 1890, razvoj pa so med letoma 1901 in 1910 nadaljevali z ameriškimi patenti. Leta 1938 pa je podjetje Nestlé z znamko Nescafé instant coffee razširilo po svetu. Instant coffee predstavlja približno četrtino trenutne svetovne porabe kave.",
+    caffeine: 1.5,
+    alternativeNames: "Soluble coffee, coffee crystals, coffee granules, coffee powder, powdered coffee, coffee extract, coffee concentrate, freeze-dried coffee (angleško govoreče države).",
+    origin: "Nova Zelandija, 1890 (koncept). ZDA, 1938 (moderni način)."
+},
+    
 ];
