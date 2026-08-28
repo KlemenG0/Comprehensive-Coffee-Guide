@@ -478,11 +478,11 @@ const coffees = [
     category: "cold",
     cardImage: "images/iced.jpg",
     detailImage: "images/iced_1.jpg",
-    description: ".",
-     preparation: ".",
+    description: "Iced coffee (slo. ledeni kavni napitek) je z ledom ohlajen kavni napitek, pripravljen na katerikoli način. Ponavadi se pripravi nekoliko močneje, da ga voda ob taljenju ledenih kock razredči na običajno jakost. Gre za značilen ameriški poletni kavni napitek. Ponavadi se ga streže v večjih količinah, cca. 480 mL, v velikem kozarcu. Vsebnost kofeina v napitku je med 95 mg in 165 mg. Priprava je ena najpreprostejših, vendar je prav zato tehnika pomembna – šibek napitek, razredčen s staljenim ledom, hitro postane vodenega okusa. Mleko ali sladilo sta neobvezna dodatka, ki se lahko dodata pred ohlajanjem, saj se pri višji temperaturi sladilo hitreje raztopi. Ledena kava v današnjem pomenu se je na jedilnikih in v receptih pojavila proti koncu 19. stoletja. V ZDA jo je leta 1920 popularizirala marketinška kampanja Joint Coffee Trade Publicity Committee. V Španiji café con hielo postrežejo kot vroč espresso z dodatnim kozarcem ledu, tako da si je treba napitek pripraviti sam. Japonski flash brew pa je različica, značilna za specialty kavarne – gre za vročo pour-over kavni napitek, pripravljen z prelivanjem neposredno na led. Tako ohrani značilen okus sveže pripravljene kave.",
+    preparation: "Priprava napitka se začne s pripravo osnove kavnega napitka, ki je lahko na katerikoli način pripravljen kavni napitek, bodisi drip coffee, french press coffee, itd. Tega ponavadi prelijemo neposredno na led, ki je v velikem kozarcu.",
     caffeine: {min: 2, max: 3},
-    alternativeNames: ".",
-    origin: "."
+    alternativeNames: "-",
+    origin: "ZDA in Evropa, konec 19. stoletja (koncept). ZDA, 1920."
 },
 
 {
