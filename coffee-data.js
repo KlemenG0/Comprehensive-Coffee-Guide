@@ -491,7 +491,7 @@ const coffees = [
     category: "cold",
     cardImage: "images/cold_brew.jpg",
     detailImage: "images/cold_brew_1.webp",
-    description: "Cold brew je kavni napitek, pripravljen z namakanjem mletih kavnih zrn v hladni vodi. Pri cold brew-ju čas nadomesti toploto, zato je napitek običajno bolj gladek, manj kisel in opazno močnejši. Napitka se običajno pripravi okoli 480 mL, postreže pa se ga hladnega v velikem kozarcu. Porcija vsebuje približno 200 mg kofeina. Ker mleta kava pri cold brew-ju ni v stiku z vročo vodo, se iz nje izločijo drugačne spojine kot pri običajnih načinih priprave. Nekatere spojine v kavnih zrnih, med njimi kofein, olja in maščobne kisline, so namreč pri višjih temperaturah bolj topne. Zanimivo je, da lahko 24-urno hladno namakanje pri enaki prostornini napitka povzroči večjo vsebnost kofeina kot šestminutna priprava pri 98 °C. Čeprav imata hladno in vroče pripravljena kavna napitka lahko podobno pH vrednost, ima cold brew običajno nižjo titrabilno kislost, kar pomembno vpliva na zaznavo okusa. Ta način priprave je bil prvič dokumentiran na Japonskem, in sicer stoletja pred razmahom cold brew-a v ZDA v 2. desetletju 21. stoletja. Pogosto pripovedovana zgodba, da izvira iz nizozemskih trgovcev, je bolj zgodovinska legenda kot zanesljivo potrjeno dejstvo. Posebna različica je slow-drip cold brew, pri katerem voda pri sobni temperaturi počasi kaplja na mleto kavo več ur. Ta način je znan kot Kyoto-style, v vzhodni Aziji pa tudi kot dutch coffee.",
+    description: "Cold brew je kavni napitek, pripravljen z namakanjem mletih kavnih zrn v hladni vodi. Pri cold brew-ju čas nadomesti toploto, zato je napitek običajno bolj gladek, manj kisel in opazno močnejši. Napitka se običajno pripravi okoli 480 mL, postreže pa se ga hladnega v velikem kozarcu. Porcija vsebuje približno 200 mg kofeina. Ker mleta kava pri cold brew-ju ni v stiku z vročo vodo, se iz nje izločijo drugačne spojine kot pri običajnih načinih priprave. Nekatere spojine v kavnih zrnih, med njimi kofein, olja in maščobne kisline, so namreč pri višjih temperaturah bolj topne. Zanimivo je, da lahko 24-urno hladno namakanje pri enaki prostornini napitka povzroči večjo vsebnost kofeina kot šestminutna priprava pri 98 °C. Čeprav imata hladno in vroče pripravljena kavna napitka lahko podobno pH vrednost, ima cold brew običajno nižjo titrabilno kislost, kar pomembno vpliva na zaznavo okusa. Ta način priprave je bil prvič dokumentiran na Japonskem, in sicer stoletja pred razmahom cold brew-a v ZDA v 2. desetletju 21. stoletja. Pogosto pripovedovana zgodba, da izvira iz nizozemskih trgovcev, je bolj zgodovinska legenda kot zanesljivo potrjeno dejstvo.",
     preparation: "Napitek se pripravi tako, da se mleta kava dlje časa namaka v vodi. Običajno priprava traja med 12 ur in 24 ur, pri čemer namakanje (in s tem ekstrakcija trdno-tekoče) poteka pri sobni ali nižji temperaturi. Usedlino se pred postrežbo loči od tekočine z dekantiranjem, s papirnim filtrom, finim kovinskim sitom ali na primer s pomočjo french press-a. Na koncu ga po potrebi razredčimo z vodo in preljemo čez led.",
     caffeine: 3.5,
     alternativeNames: "Cold water extraction, cold pressing (angleško govoreče države), cold brew coffee (globalno).",
@@ -510,5 +510,18 @@ const coffees = [
     alternativeNames: "Nitrogen-infused cold brew (angleško govoreče države), nitro brew, nitro coffee (globalno).",
     origin: "Dilema med Austin in Portland, ZDA, 2. desetletje 21. stoletja."
 },
-    
+
+{
+    id: "kyoto-style slow drip",
+    name: "Kyoto-style slow drip",
+    category: "cold",
+    cardImage: "images/kyoto-style_slow_drip.jpg",
+    detailImage: "images/kyoto-style_slow_drip_1.webp",
+    description: "Kyoto-style slow drip je hladen kavni napitek, pripravljen tako, da ledena voda od 8 ur do12 ur počasi kaplja skozi mleto kavo v visokih steklenih stolpih. Ta način priprave so izpopolnili v Kyotu na Japonskem. Gre za najpočasneje pripravljen napitek v tem vodniku – in prav v tem je njegov čar. Napitka običajno znese 240 mL, z vsebnostjo kofeina med 120 mg in 150 mg. Postreže se ga hladnega v velikem kozarcu. Visoki stekleni stolpi niso le oprema za pripravo napitka, temveč so tudi del doživetja in vizualna atrakcija. Drugo ime zanj, dutch coffee oz. nizozemski kavni napitek, ki se še danes uporablja na Japonskem in v Južni Koreji, se nanaša na trgovce nizozemske vzhodnoindijske družbe (VOC oz. Vereenigde Oostindische Compagnie), ki so prvi prinesli kavna zrna na trgovsko postojanko Dejima.",
+    preparation: "Priprava napitka poteka enako kot filtriran kavni napitek (drip coffee), le da mnogo počasneje, od 8 ur do 12 ur in z uporabo mrzle vode (perkolacija, ekstrakcija trdno-tekoče). Tradicionalno se pripravlja v posebni stekleni napravi, imenovani stolp Yama.",
+    caffeine: {min: 2, max: 2.5},
+    alternativeNames: "Dutch coffee (Japonska), cold drip, slow drip, slow drip coffee, Kyoto-style coffee, Kyoto coffee, Kyoto drip (globalno).",
+    origin: "Japonska, 17. stoletje."
+},
+
 ];
