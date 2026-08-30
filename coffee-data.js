@@ -515,7 +515,7 @@ const coffees = [
     id: "kyoto-style slow drip",
     name: "Kyoto-style slow drip",
     category: "cold",
-    cardImage: "images/kyoto-style_slow_drip.jpg",
+    cardImage: "images/kyoto-style_slow_drip.png",
     detailImage: "images/kyoto-style_slow_drip_1.webp",
     description: "Kyoto-style slow drip je hladen kavni napitek, pripravljen tako, da ledena voda od 8 ur do12 ur počasi kaplja skozi mleto kavo v visokih steklenih stolpih. Ta način priprave so izpopolnili v Kyotu na Japonskem. Gre za najpočasneje pripravljen napitek v tem vodniku – in prav v tem je njegov čar. Napitka običajno znese 240 mL, z vsebnostjo kofeina med 120 mg in 150 mg. Postreže se ga hladnega v velikem kozarcu. Visoki stekleni stolpi niso le oprema za pripravo napitka, temveč so tudi del doživetja in vizualna atrakcija. Drugo ime zanj, dutch coffee oz. nizozemski kavni napitek, ki se še danes uporablja na Japonskem in v Južni Koreji, se nanaša na trgovce nizozemske vzhodnoindijske družbe (VOC oz. Vereenigde Oostindische Compagnie), ki so prvi prinesli kavna zrna na trgovsko postojanko Dejima.",
     preparation: "Priprava napitka poteka enako kot filtriran kavni napitek (drip coffee), le da mnogo počasneje, od 8 ur do 12 ur in z uporabo mrzle vode (perkolacija, ekstrakcija trdno-tekoče). Tradicionalno se pripravlja v posebni stekleni napravi, imenovani stolp Yama.",
