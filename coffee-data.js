@@ -114,7 +114,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije je nekoliko krajši od 30 sekund. Na koncu se na rob skodelice napitka doda še rezina limone ali zvitek njenega olupka.",
     caffeine: 1.5,
     alternativeNames: "Caffè al limone, caffè romano, caffè canarino (Italija).",
-    origin: "Ni znan (trilema med Rimom, drugim italijanskim mestom in italijansko-ameriškim izvorom), 5. in 6. desetletje 20. stoletja."
+    origin: "Trilema med Rimom, Italija, drugim italijanskim mestom in italijansko-ameriškim izvorom, 5. in 6. desetletje 20. stoletja."
 },
     
 {
@@ -166,7 +166,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, dve porciji espressa (doppio), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 100 mL, s katerim prekrijemo osnovo.",
     caffeine: 2.5,
     alternativeNames: "Flattie, flat white coffee (angleško govoreče države).",
-    origin: "Ni znan (dilema med Avstralijo in Novo Zelandijo), 9. desetletje 20. stoletja."
+    origin: "Dilema med Avstralijo in Novo Zelandijo, 9. desetletje 20. stoletja."
 },
 
 {
