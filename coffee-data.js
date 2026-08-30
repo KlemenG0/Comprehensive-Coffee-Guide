@@ -524,4 +524,17 @@ const coffees = [
     origin: "Japonska, 17. stoletje."
 },
 
+{
+    id: "iced latte",
+    name: "Iced latte",
+    category: "cold",
+    cardImage: "images/iced_latte.png",
+    detailImage: "images/iced_latte_1.jpg",
+    description: "Iced latte je kavni napitek iz espressa, hladnega mleka in ledu. Espresso se prelije neposredno čez hladno mleko in led, mleko se torej ne segreva in ne speni. Zato je napitek brez izrazite mlečne pene. Iced Latte je zelo prilagodljiv napitek, pri katerem lahko okus enostavno prilagodimo svojim željam. Namesto običajnega mleka lahko uporabimo mandljevo, sojino ali ovseno mleko oziroma dodamo malo aromatiziranega sirupa, na primer vaniljevega ali karamelnega. Za nekoliko drugačen okus lahko dodamo tudi začimbe, kot sta cimet ali muškatni orešček. Napitka običajno znese 480 mL, njegova vsebnost kofeina pa se giblje med 64 mg in 128 mg. Ponavadi se ga postreže v velikem kozarcu. Je eden najbolj razširjenih poletnih kavnih napitkov in standardna izbira v kavarnah po vsem svetu. V Španiji in na Portugalskem ob naročilu café con leche con hielo postrežejo različico iced latte-ja.",
+    preparation: "Za pripravo napitka se v veliki kozarec najprej nalije hladno mleko, cca. 450 mL. Nato se s pomočjo espresso aparata pripravi eno porcijo espressa, ki znaša 30 mL (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Za na konec espresso prelijemo čez mleko in dodamo led.",
+    caffeine: {min: 1.5, max: 2.5},
+    alternativeNames: "Chilled latte (Azija, Evropa), frosty latte (ZDA, Azija), cafè latte iced, latte on the rocks (ZDA).",
+    origin: "ZDA, 9. desetletje 20. stoletja."
+},
+    
 ];
