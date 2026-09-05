@@ -536,5 +536,18 @@ const coffees = [
     alternativeNames: "Chilled latte (Azija, Evropa), frosty latte (ZDA, Azija), cafè latte iced, latte on the rocks (ZDA).",
     origin: "ZDA, 9. desetletje 20. stoletja."
 },
-    
+
+{
+    id: "iced americano",
+    name: "Iced americano",
+    category: "cold",
+    cardImage: "images/iced_americano.png",
+    detailImage: "images/iced_americano_1.jpg",
+    description: "Iced Americano je kavni napitek iz espressa, hladne vode in ledu – preprost način priprave, ki ga je Južna Koreja tako množično sprejela, da je danes postal skoraj njen kulturni simbol. Tradicionalno je črn, čist in brez sladkorja. Napitka ponavadi znese 480 mL, postreže pa se ga v velikem kozarcu. Vsebnost kofeina na porcijo se giblje okoli 128 mg. V Koreji ga naročajo skozi vse leto pod kratkim imenom ah-ah, tudi pri temperaturah okoli −10 °C. Korejski sleng dobro ponazarja to predanost z naslednjim izrazom: »얼죽아 (eoljuk-a). Kar lahko približno prevedemo kot: »raje zmrznem do smrti, kot da se odpovem svojemu iced americanu«.",
+    preparation: "Za napitek najprej s pomočjo espresso aparata pripravimo osnovo tj. dve porciji espressa (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), kar znese 60 mL (doppio). Nato pa se dolije cca. 420 mL mrzle vode ter doda led.",
+    caffeine: 2.5,
+    alternativeNames: "Ah-ah (Južna Koreja).",
+    origin: "Italija, med 1939 in 1945."
+},
+
 ];
