@@ -519,7 +519,7 @@ const coffees = [
     detailImage: "images/kyoto-style_slow_drip_1.webp",
     description: "Kyoto-style slow drip je hladen kavni napitek, pripravljen tako, da ledena voda od 8 ur do 12 ur počasi kaplja skozi mleto kavo v visokih steklenih stolpih. Ta način priprave so izpopolnili v Kyotu na Japonskem. Gre za najpočasneje pripravljen napitek v tem vodniku – in prav v tem je njegov čar. Napitka običajno znese 240 mL, z vsebnostjo kofeina med 120 mg in 150 mg. Postreže se ga hladnega v velikem kozarcu. Visoki stekleni stolpi niso le oprema za pripravo napitka, temveč so tudi del doživetja in vizualna atrakcija. Drugo ime zanj, dutch coffee oz. nizozemski kavni napitek, ki se še danes uporablja na Japonskem in v Južni Koreji, se nanaša na trgovce nizozemske vzhodnoindijske družbe (VOC oz. Vereenigde Oostindische Compagnie), ki so prvi prinesli kavna zrna na trgovsko postojanko Dejima.",
     preparation: "Priprava napitka poteka enako kot filtriran kavni napitek (drip coffee), le da mnogo počasneje, od 8 ur do 12 ur in z uporabo mrzle vode (perkolacija, ekstrakcija trdno-tekoče). Napitka se tradicionalno pripravi 240 mL v posebni stekleni napravi, imenovani stolp Yama.",
-    caffeine: {min: 2, max: 2.5},
+    caffeine: 2.5,
     alternativeNames: "Dutch coffee (Japonska), cold drip, slow drip, slow drip coffee, Kyoto-style coffee, Kyoto coffee, Kyoto drip (globalno).",
     origin: "Japonska, 17. stoletje."
 },
@@ -542,7 +542,7 @@ const coffees = [
     name: "Iced americano",
     category: "cold",
     cardImage: "images/iced_americano.png",
-    detailImage: "images/iced_americano_1.png",
+    detailImage: "images/iced_americano_1.jpg",
     description: "Iced Americano je kavni napitek iz espressa, hladne vode in ledu – preprost način priprave, ki ga je Južna Koreja tako množično sprejela, da je danes postal skoraj njen kulturni simbol. Tradicionalno je črn, čist in brez sladkorja. Napitka ponavadi znese 480 mL, postreže pa se ga v velikem kozarcu. Vsebnost kofeina na porcijo se giblje okoli 128 mg. V Koreji ga naročajo skozi vse leto pod kratkim imenom ah-ah, tudi pri temperaturah okoli −10 °C. Korejski sleng dobro ponazarja to predanost z naslednjim izrazom: »얼죽아 (eoljuk-a). Kar lahko približno prevedemo kot: »raje zmrznem do smrti, kot da se odpovem svojemu iced americanu«.",
     preparation: "Za napitek najprej s pomočjo espresso aparata pripravimo osnovo tj. dve porciji espressa (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), kar znese 60 mL (doppio). Nato pa se dolije cca. 420 mL mrzle vode ter doda led.",
     caffeine: 2.5,
@@ -550,4 +550,17 @@ const coffees = [
     origin: "Italija, med 1939 in 1945."
 },
 
+{
+    id: "greek frappé",
+    name: "Greek frappé",
+    category: "cold",
+    cardImage: "images/greek_frappe.png",
+    detailImage: "images/greek_frappe_1.png",
+    description: "Greek frappé je hladen kavni napitek, pripravljena iz instant kavnega pripravka, sladkorja in vode, ki ga z močnim stresanjem spenimo v gosto peno ter postrežemo z ledom. Dodatek mleka je neobvezen, glavna je gosta pena. Napitka običajno znese okoli 300 mL z vsebnostjo kofeina med 60 mg in 120 mg. Postreže se hladno v velikem kozarcu. Ime frappé izvira iz francoščine (slo. udarjen, v prenesenem pomenu pretresen), kjer se izraz uporablja za opis pijač, ohlajenih z ledom. Napitek se je domnevno iznašel po naključju na sejmu v Solunu. Predstavnik podjetja Nestlé, Giannis Dritsas, je tam predstavljal nov izdelek za otroke – čokoladni napitek, ki se je pripravil tako, da se ga je zmešalo z mlekom in pretreslo v stresalniku. Njegov sodelavec Dimitris Vakondios je med odmorom želel pripraviti svoj običajni instant coffee, vendar ni našel vroče vode. Zato je kavo zmešal s hladno vodo in ledenimi kockami v stresalniku in tako Grčiji podaril njeno nacionalno poletno pijačo. Sicer pa obstajajo dokazi o oglaševanju frappe-ja že prej s strani podjetja Nestlé kot Nescafé frappe (bodisi kot kavo z ledenimi kockami bodisi kot hladno pretreseno ali mešano pijačo). Poleg tega se v filmu Pro pantós psykhaimía iz leta 1951 pojavi neposredna omemba frappe-ja. V Grčiji naročanje napitka temelji na lestvici sladkosti: sketos (brez sladkorja), metrios (srednje sladek, 2 žlički) in glykos (sladek, 4 žličke). Ob dodatku mleka (ponavadi uparjenega mleka) poznajo tudi različico z imenom frapógalo. V nekaterih lokalih, zlasti v priobalnih barih, greek frappéjem dodajajo alkoholne likerje, kot sta Kahlúa ali Baileys irish cream. Druge restavracije namesto mleka dodajo vanilijev sladoled.",
+    preparation: "Napitek se lahko pripravi s koktajlskim stresalnikom, danes pa pogosteje s penilnikom mleka ali napravo za pripravo mlečnih napitkov. Najprej se okoli 2 žlički instant kavnega pripravka (tradicionalno Nescafé), sladkor (po želji) in malo vode (cca. 30 mL) stresa oz. zmeša, dokler ne nastane gosta pena (kar traja okoli 30 sekund). Nato se penasto mešanico prelije v veliki kozarec, napolnjen z ledenimi kockami in doda približno 270 mL hladne vode. dodatek mleka (tradicionalno uparjenega mleka) na koncu je opcionalen. Pijačo skoraj vedno postrežejo s slamico, saj mnogi menijo, da ima gosta pena na vrhu neprijetno grenak okus.",
+    caffeine: {min: 1.5, max:2},
+    alternativeNames: "Frappé coffee, frappe coffee, cold coffee (angleško govoreče države), frappé, frappe (globalno).",
+    origin: "Švica, 6. desetletje 20. stoletja."
+},
+    
 ];
