@@ -562,5 +562,18 @@ const coffees = [
     alternativeNames: "Frappé coffee, frappe coffee, cold coffee (angleško govoreče države), frappé, frappe (globalno).",
     origin: "Švica, 6. desetletje 20. stoletja."
 },
-    
+
+{
+    id: "freddo espresso",
+    name: "Freddo espresso",
+    category: "cold",
+    cardImage: "images/freddo_espresso.png",
+    detailImage: "images/freddo_espresso_1.jpg",
+    description: "Freddo espresso je grški hladni espresso napitek, ki se je pojavil v 10. desetletju 20. stoletja. Priprava je podobna kot pri greek frappé-ju, le da instantno kavo nadomesti dvojni espresso. Pripravi se torej z dvojnim espressom (doppio, 60 mL), ki se ga strese z ledom, nato pa postreže okoli 300 mL v velikem kozarcu. Vsebnost kofeina napitka običajno znese cca. 128 mg. V začetku 21. stoletja se je napitek začel širiti zunaj Grčije. Njegov vpliv so začele prepoznavati tudi velike mednarodne kavne verige. Freddo se pojavlja tudi v sodobnih barističnih tekmovanjih in drugih oblikah eksperimentalne priprave hladnih kavnih napitkov. Zaradi svoje značilne teksture in načina priprave ponuja baristom veliko možnosti za ustvarjanje novih različic.",
+    preparation: "Za napitek najprej s pomočjo espresso aparata pripravimo osnovo tj. dve porciji espressa (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), kar znese 60 mL (doppio). Osnova se nato s koktajlskim stresalnikom pretrese skupaj z ledom, da se le ta ohladi in ustvari se pena. S tem procesom se volumen napitka znatno poveča.",
+    caffeine: 2.5,
+    alternativeNames: "Freddo (Grčija).",
+    origin: "Atene, Grčija, 10. desetletje 20. stoletja."
+},
+
 ];
