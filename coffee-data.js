@@ -581,7 +581,7 @@ const coffees = [
     name: "Freddo cappuccino",
     category: "cold",
     cardImage: "images/freddo_cappuccino.png",
-    detailImage: "images/freddo_cappuccino_1.jpg",
+    detailImage: "images/freddo_cappuccino_1.webp",
     description: "Freddo cappuccino je grški hladni espresso napitek, ki se je pojavil v 10. desetletju 20. stoletja. Pripravi se z dvojnim espressom (doppio, 60 mL), ki se ga strese z ledom in doda hladno spenjeno mleko z imenom afrógala. Pogosto se uporabi posneto mleko namesto polnomastnega. Pri počasnem pitju freddo cappuccina hladno spenjeno mleko postopoma izgublja svojo čvrstost in se začne povezovati z espressom. Tako se med pitjem spreminjata tekstura in občutek napitka. Postreže se ga okoli 300 mL v velikem kozarcu. Vsebnost kofeina napitka običajno znese cca. 128 mg. Leta 2018 je Starbucks na izbranih evropskih trgih predstavil svojo različico freddo cappuccina, imenovano Cold foam blonde iced cappuccino, pri čemer je navedel, da je navdih zanjo prišel iz Grčije.",
     preparation: "Za napitek najprej s pomočjo espresso aparata pripravimo osnovo tj. dve porciji espressa (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), kar znese 60 mL (doppio). Osnova se nato s koktajlskim stresalnikom pretrese skupaj z ledom, da se le ta ohladi in ustvari se pena. S tem procesom se volumen napitka znatno poveča. Na koncu dodamo še hladno spenjeno mleko (mleko, ohlajeno na približno 3 °C – 5 °C, stepamo, dokler ne nastane gladka, sijoča in stabilna pena). Ko je pripravljeno, jo previdno prelijemo čez spenjeno plast espressa, tako da na vrhu nastane ločena plast. Napitka ne mešamo, saj mora mlečna pena ostati na vrhu napitka.",
     caffeine: 2.5,
