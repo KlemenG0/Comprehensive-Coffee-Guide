@@ -601,5 +601,18 @@ const coffees = [
     alternativeNames: "Kaffe & tonic, kaffetonic (Švedska), espresso and tonic, coffee & tonic (globalno).",
     origin: "Oslo, Švedska, 2007."
 },
+
+{
+    id: "coffee soda",
+    name: "Coffee soda",
+    category: "cold",
+    cardImage: "images/coffee_soda.png",
+    detailImage: "images/coffee_soda_1.jpg",
+    description: "Coffee soda je splošen izraz za gazirane kavne napitke, torej espresso ali cold brew, kombiniran z gazirano pijačo, hišno kavno limonado ali ustekleničenim gaziranim kavnim napitkom. Pogosti opcionalni dodatki vključujejo osnovni sirup, vanilijin sirup in pomarančni ali limonin olupek. Odvisno od izbire kavne komponente ima napitek običajno med 50 mg in 120 mg kofeina. Postreže se ga hladnega običajno 350 mL v velikem kozarcu. Brooklyn je bil med prvimi, kjer se je ta vrsta napitka uveljavila – podjetje Manhattan Special v Williamsburgu že od leta 1895 proizvaja ustekleničen espresso soda. Napitek ima osvežujoč, izrazito svež okus, ki nekoliko spominja na kolo, vendar z opazno vsebnostjo kofeina. Različice tega napitka se lepo razlikujejo po osnovni sestavini. Kot primer, cold brew tonic namesto espressa uporablja koncentrat cold brewa, medtem ko coffee lemonade tonik nadomesti s citrusi. V Južni Koreji in na Japonskem je koncept gaziranih kavnih napitkov tako priljubljen, da na njem temeljijo celotni poletni meniji kavarn. Italijanski coffee soda je priljubljen že desetletja in je vplival na številne sodobne gazirane kavne napitke na osnovi espressa. Tradicionalni italijanski coffee soda običajno združuje espresso z mineralno gazirano vodo, občasno pa tudi z okusi citrusov.",
+    preparation: "Za pripravo napitka najprej pripravimo kavno osnovo. Če gre za espresso (30 mL), jo pripravimo s pomočjo espresso aprata (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Potem, ga moramo najprej ohladiti do cca. sobne temperature preden ga uporabimo. V primeru, da je osnova cold brew (Priprava – namakanje kave v hladni vodi in s tem ekstrakcija trdno-tekoče od 12 ur do 24 ur), je ta že ohlajena in jo lahko kar uporabimo. V veliki kozarec nato nasujemo led in izbrano gazirano pijačo. Na koncu dodamo še pripravljeno kavno osnovo.",
+    caffeine: {min:1, max:2},
+    alternativeNames: "Sparkling coffee, carbonated coffee, fizzy coffee (angleško govoreče države), gazzosa al caffè, gassosa al caffè, espresso soda (globalno).",
+    origin: "New York City, ZDA, 1895."
+},
     
 ];
