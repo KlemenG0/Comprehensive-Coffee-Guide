@@ -628,4 +628,17 @@ const coffees = [
     origin: "Mostaganem, Alžirija, dilema med 1837 in 1840."
 },
 
+{
+    id: "eiskaffee",
+    name: "Eiskaffee",
+    category: "cold",
+    cardImage: "images/eiskaffee.png",
+    detailImage: "images/eiskaffee_1.webp",
+    description: "Eiskaffee je nemško-avstrijska klasika, pripravljena iz ohlajene kuhane kave, ki jo prelijemo čez vaniljev sladoled in obložimo s stepeno smetano. Je stalnica ponudbe sladolednih kavarn (nem. eiscafé) v obeh državah. Napitek namerno zabriše mejo med pijačo in sladico. Običajno se ga postreže cca. 300 mL v velikem kozarcu. Vsebnost kofeina napitka se giblje 90 mg. V Avstriji napitku včasih dodajo tudi kanček ruma. V supermarketih je Eiskaffee najpogosteje v pločevinki na voljo v različicah z okusi, kot sta cappuccino in espresso. Ta vrsta Eiskaffee-ja je zelo podobna inačici, ki jo prodajajo v Združenem kraljestvu, pri nekaterih blagovnih znamkah, zlasti Nestlé, pa gre dejansko za isti izdelek.",
+    preparation: "Priprava napitka Eiskaffe se začne s pripravo kavne osnove, ki je lahko na katerikoli način pripravljen kavni napitek, bodisi drip coffee, french press coffee, itd. (le da ni usedline). Razlaga priprave vsake posamezne osnove je opisana v rubriki “Načini priprave” tega vodnika. Kavno osnovo je potrebno pred uporabo ohladiti v hladilniku. V veliki kozarec nato odmerimo par kepic vanilijevega sladoleda in ga prelijemo s cca. 240 mL kavne osnove. Na koncu še vse skupaj prekrijemo s stepeno smetano. Poljubno lahko vrh posujemo s čokoladnim sirupom ali mrvicami.",
+    caffeine: {min:1.5, max:2},
+    alternativeNames: "-",
+    origin: "Nemčija, sredina 20. stoletja."
+},
+    
 ];
