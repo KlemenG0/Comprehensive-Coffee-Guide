@@ -640,5 +640,18 @@ const coffees = [
     alternativeNames: "-",
     origin: "Nemčija, sredina 20. stoletja."
 },
+
+{
+    id: "turkish coffee",
+    name: "Turkish coffee",
+    category: "regional",
+    cardImage: "images/turkish.png",
+    detailImage: "images/turkish_1.jpg",
+    description: "",
+    preparation: "Za pripravo napitka najprej z majhno skodelico odmerimo hladno vodo in jo prelijemo v džezvo. Za vsako skodelico dodane vode dodamo eno zvrhano čajno žličko (cca. 6,5 g) fino mlete kave. Po želji lahko dodamo sladkor. Mešanico na kratko in nežno premešamo. Džezvo nato postavimo na štedilnik in segrevamo na nizki do srednje nizki temperaturi. Počasno segrevanje je namreč ključno za pravilno nastanek kreme (tur. köpük). V času segrevanja med kavo in vodo poteče ekstrakcija trdno-tekoče. Tik preden mešanica zavre in se začne dvigovati, džezvo odstavimo ter nekaj pene enakomerno porazdelimo v vsako servirno majhno skodelico. Džezvo za na konec za nekaj sekund ponovno postavimo na štedilnik, da se kava še enkrat speni. Nato pa jo počasi nalijemo v skodelice skupaj s preostalo peno. Napitek pustimo stati par minut, da se drobna kavna usedlina usede na dno.",
+    caffeine: {min: 1, max: 1.5},
+    alternativeNames: "Cezve coffee, ibrik coffee (globalno).",
+    origin: "Osmansko cesarstvo, 16. stoletje."
+},
     
 ];
