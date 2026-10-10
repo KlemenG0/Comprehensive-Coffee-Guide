@@ -32,7 +32,7 @@ const coffees = [
     category: "espresso",
     cardImage: "images/lungo.png",
     detailImage: "images/lungo_1.png",
-    description: "Lungo je italijanski »dolgi« espresso, pripravljen z enako količino mlete kave kot espresso, vendar s približno dvakrat do trikrat več vode (razmerje kava:voda približno 1:3 do 1:4). Izraz lungo izvira iz italijanščine in pomeni »dolg«. Ponavadi je količina napitka od 50 mL do 60 mL. Zaradi daljše ekstrakcije se razvije izrazitejša grenkoba in višja vsebnost kofeina kot pri espressu (med 75 mg in 90 mg). Napitek se postreže vroč, pogosto v zelo majhni skodelici.",
+    description: "Lungo je italijanski dolgi espresso, pripravljen z enako količino mlete kave kot espresso, vendar s približno dvakrat do trikrat več vode (razmerje kava:voda približno 1:3 do 1:4). Izraz lungo izvira iz italijanščine in pomeni »dolg«. Ponavadi je količina napitka od 50 mL do 60 mL. Zaradi daljše ekstrakcije se razvije izrazitejša grenkoba in višja vsebnost kofeina kot pri espressu (med 75 mg in 90 mg). Napitek se postreže vroč, pogosto v zelo majhni skodelici.",
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija za 60 mL napitka traja okoli eno minuto.",
     caffeine: 1.5,
     alternativeNames: "Café allongé (Francija, Kanada), long shot (angleško govoreče države).",
@@ -162,7 +162,7 @@ const coffees = [
     category: "milk",
     cardImage: "images/flat_white.jpg",
     detailImage: "images/flat_white_1.jpg",
-    description: "Flat white je avstralsko-novozelandski kavni napitek na osnovi espressa, običajno vsebuje dvojni espresso (doppio), ki ga dopolnjuje žametno gladka mikro pena v približnem razmerju 1:2 (espresso : parjeno mleko). Na vrhu nima debele plasti mlečne pene kot cappuccino, postreže pa se v količini od 150 mL do 165 mL. Je manjši in močnejšega okusa kot caffè latte, saj espresso pride bolj do izraza (manjši delež mleka), hkrati pa napitek ohranja svilnato gladko teksturo. Vsebnost kofeina v napitku znaša okoli 128 mg. Napitek se postreže vroč pogosto v majhni skodelici in z narisanim vzorcem na površini (angl. latte art). Ta način priprave kavnega napitka se je iz Avstralije in Nove Zelandije v začetku 21. stoletja razširil v Združeno kraljestvo. Do leta 2010 so flat white prodajali tudi v tamkajšnjih poslovalnicah ameriške verige Starbucks. Do leta 2013 je bil flat white na voljo tudi v kavarnah New Yorka, eno od njih pa je imel v solastništvu igralec Hugh Jackman, ki je napitek tudi promoviral. Zanimivo je tudi, da se v Združenem kraljestvu izraz »flat white economy« uporablja za opis londonske mreže internetnih, medijskih in kreativnih podjetij. Izraz izhaja iz knjige Douglasa McWilliamsa The Flat White Economy: How the Digital Economy Is Transforming London and Other Cities of the Future, ki je izšla leta 2015. Poimenovanje se navezuje na priljubljenost napitka flat white med zaposlenimi v teh panogah.",
+    description: "Flat white je avstralsko-novozelandski kavni napitek na osnovi espressa, običajno vsebuje dvojni espresso (doppio), ki ga dopolnjuje žametno gladka mikro pena v približnem razmerju 1:2 (espresso : parjeno mleko). Na vrhu nima debele plasti mlečne pene kot cappuccino, postreže pa se v količini od 150 mL do 165 mL. Je manjši in močnejšega okusa kot caffè latte, saj espresso pride bolj do izraza (manjši delež mleka), hkrati pa napitek ohranja svilnato gladko teksturo. Vsebnost kofeina v napitku znaša okoli 128 mg. Napitek se postreže vroč pogosto v majhni skodelici in z narisanim vzorcem na površini (angl. latte art). Ta način priprave kavnega napitka se je iz Avstralije in Nove Zelandije v začetku 21. stoletja razširil v Združeno kraljestvo. Do leta 2010 so flat white prodajali tudi v tamkajšnjih poslovalnicah ameriške verige Starbucks. Do leta 2013 je bil flat white na voljo tudi v kavarnah New Yorka, eno od njih pa je imel v solastništvu igralec Hugh Jackman, ki je napitek tudi promoviral. Zanimivo je tudi, da se v Združenem kraljestvu izraz flat white economy uporablja za opis londonske mreže internetnih, medijskih in kreativnih podjetij. Izraz izhaja iz knjige Douglasa McWilliamsa The Flat White Economy: How the Digital Economy Is Transforming London and Other Cities of the Future, ki je izšla leta 2015. Poimenovanje se navezuje na priljubljenost napitka flat white med zaposlenimi v teh panogah.",
     preparation: "Za pripravo osnove napitka, dve porciji espressa (doppio, 60 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 100 mL, s katerim prekrijemo osnovo.",
     caffeine: 2.5,
     alternativeNames: "Flattie, flat white coffee (angleško govoreče države).",
@@ -240,7 +240,7 @@ const coffees = [
     category: "milk",
     cardImage: "images/piccolo_latte.jpg",
     detailImage: "images/piccolo_latte_1.jpg",
-    description: "Piccolo latte je avstralski kavni napitek na osnovi porcije ristretta s parjenim mlekom v razmerju od 1:3 do 1:4. Postreže se ga vročega pogosto v zelo majhni skodelici, saj napitka znese zgolj približno 90 mL. Ime piccolo izhaja iz italijanščine in pomeni “majhen”. Lahko ga razumemo kot nekakšen »baristov degustacijski latte« – ponuja teksturo in kremastost mleka, vendar v manjši količini. Vsebnost kofeina napitka znaša cca. 55 mg.",
+    description: "Piccolo latte je avstralski kavni napitek na osnovi porcije ristretta s parjenim mlekom v razmerju od 1:3 do 1:4. Postreže se ga vročega pogosto v zelo majhni skodelici, saj napitka znese zgolj približno 90 mL. Ime piccolo izhaja iz italijanščine in pomeni “majhen”. Lahko ga razumemo kot nekakšen baristov degustacijski latte – ponuja teksturo in kremastost mleka, vendar v manjši količini. Vsebnost kofeina napitka znaša cca. 55 mg.",
     preparation: "Za pripravo osnove napitka, ena porcija ristretta (20 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 20 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 70 mL, s katerim prekrijemo osnovo.",
     caffeine: 1,
     alternativeNames: "Piccolo (globalno), piccolo coffee, mini latte (angleško govoreče države), macchiato largo (Španija, Portugalska).",
@@ -543,7 +543,7 @@ const coffees = [
     category: "cold",
     cardImage: "images/iced_americano.png",
     detailImage: "images/iced_americano_1.webp",
-    description: "Iced Americano je kavni napitek iz espressa, hladne vode in ledu – preprost način priprave, ki ga je Južna Koreja tako množično sprejela, da je danes postal skoraj njen kulturni simbol. Tradicionalno je črn, čist in brez sladkorja. Napitka ponavadi znese 480 mL, postreže pa se ga v velikem kozarcu. Vsebnost kofeina na porcijo se giblje okoli 128 mg. V Koreji ga naročajo skozi vse leto pod kratkim imenom ah-ah, tudi pri temperaturah okoli −10 °C. Korejski sleng dobro ponazarja to predanost z naslednjim izrazom: »얼죽아 (eoljuk-a)«. Kar lahko približno prevedemo kot: »raje zmrznem do smrti, kot da se odpovem svojemu iced americanu.«",
+    description: "Iced Americano je kavni napitek iz espressa, hladne vode in ledu – preprost način priprave, ki ga je Južna Koreja tako množično sprejela, da je danes postal skoraj njen kulturni simbol. Tradicionalno je črn, čist in brez sladkorja. Napitka ponavadi znese 480 mL, postreže pa se ga v velikem kozarcu. Vsebnost kofeina na porcijo se giblje okoli 128 mg. V Koreji ga naročajo skozi vse leto pod kratkim imenom ah-ah, tudi pri temperaturah okoli −10 °C. Korejski sleng dobro ponazarja to predanost z naslednjim izrazom: 얼죽아 (eoljuk-a). Kar lahko približno prevedemo kot: »raje zmrznem do smrti, kot da se odpovem svojemu iced americanu.«",
     preparation: "Za napitek najprej s pomočjo espresso aparata pripravimo osnovo tj. dve porciji espressa (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), kar znese 60 mL (doppio). Nato pa se dolije cca. 420 mL mrzle vode ter doda led.",
     caffeine: 2.5,
     alternativeNames: "Ah-ah (Južna Koreja).",
@@ -653,5 +653,18 @@ const coffees = [
     alternativeNames: "Cezve coffee, ibrik coffee (globalno).",
     origin: "Osmansko cesarstvo, 16. stoletje."
 },
-    
+
+{
+    id: "arabic coffee (Qahwa)",
+    name: "Arabic coffee (qahwa)",
+    category: "regional",
+    cardImage: "images/arabic.jpg",
+    detailImage: "images/arabic_1.avif",
+    description: "",
+    preparation: "",
+    caffeine: 1,
+    alternativeNames: "",
+    origin: ""
+},
+
 ];
