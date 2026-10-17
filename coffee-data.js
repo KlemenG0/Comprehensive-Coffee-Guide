@@ -669,7 +669,7 @@ const coffees = [
 
 {
     id: "vietnamese coffee (cà phê sữa đá)",
-    name: "Vietnamese coffee (Cà phê sữa đá)",
+    name: "Vietnamese coffee (cà phê sữa đá)",
     category: "regional",
     cardImage: "images/vietnamese.jpg",
     detailImage: "images/vietnamese_1.jpg",
