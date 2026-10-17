@@ -679,5 +679,18 @@ const coffees = [
     alternativeNames: "Phin coffee (angleško govoreče države), cà phê sữa nóng (Vietnam), cà phê nâu đá (severni Vietnam).",
     origin: "Vietnam, 19. stol."
 },
+
+{
+    id: "egg coffee (cà phê trứng)",
+    name: "Egg coffee (cà phê trứng)",
+    category: "regional",
+    cardImage: "images/egg.jpg",
+    detailImage: "images/egg_1.webp",
+    description: "Egg coffee (viet. cà phê trứng, slo. dob. jajči kavni napitek) je specialiteta iz Hanoja, Vietnam, pri kateri vročo kavo Coffea canephora var. robusta prekrijejo s stepenimi jajčnimi rumenjaki in kondenziranim mlekom. Po okusu spominja na tekoči tiramisu – grenka robusta pod toplo, kremasto plastjo. Volumen napitka ponavadi znaša 120 mL, postreže pa se vročega v majhni skodelici (napitek se lahko postreže tudi z ledom). Skodelico včasih postrežejo v posodi s toplo vodo ali jo postavijo nad majhno svečo, da napitek ohrani temperaturo. Kofeina običajno nanese od 60 mg do 100 mg. Nastal je leta 1946 kot rešitev ob pomanjkanju mleka. Izumil ga je Nguyễn Văn Giảng, ko je delal kot barman v hanojski hotelski restavraciji Metropole. Kmalu zatem je odprl kavarno Café Giảng, kjer še danes po izvirnem receptu pripravljajo to specialiteto (opcionalno dodajo tudi sir), vodenje lokala pa ostaja v rokah njegove družine. Lipidi v rumenjaku pomagajo stabilizirati emulzijo s kavo in ublažijo zaznavo grenkobe robuste, s čimer nastane gosta, aromatična pena. Z leti so se pojavile mnoge različice z dodatkom kakava, belega fižola in matche (zelenega čaja v prahu).",
+    preparation: "Napitek se pripravi s pomočjo posebnega kovinskega filtra z imenom phin. V slednjega nato nasujemo mleto kavo in čez prelijemo vročo vodo. Ob počasnem prehajanju vode skozi kavo (čemur pravimo perkolacija) poteka ekstrakcija trdno-tekoče. Nato pripravimo sladkano kondenzirano mleko. Polnomastnemu mleku dodamo sladkor v razmerju od 1:2 do 1:3. Mešamo in počasi segrevamo, dokler ne izhlapi cca. 60 % vode. Kot zadnjo sestavino pripravimo še jajčno kremo. Le-to pripravimo tako, da stepemo sladkano kondenzirano mleko in jajčne rumenjake in mešanico nato nežno segrejemo. Jajčno kremo na koncu prenesemo na kavno komponento.",
+    caffeine: {min: 1.5, max: 2},
+    alternativeNames: "Café Giảng (Vietnam), liquid tiramisu, egg cappuccino (globalno).",
+    origin: "Hanoi, Vietnam, 1946."
+},
     
 ];
