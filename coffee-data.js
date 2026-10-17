@@ -667,4 +667,17 @@ const coffees = [
     origin: "Mokha, Jemen, 15. stoletje."
 },
 
+{
+    id: "vietnamese coffee (cà phê sữa đá)",
+    name: "Vietnamese coffee (Cà phê sữa đá)",
+    category: "regional",
+    cardImage: "images/vietnamese.jpg",
+    detailImage: "images/vietnamese_1.jpg",
+    description: "Vietnamese coffee (viet. cà phê sữa đá, slo. dob. ledeni mlečni kavni napitek) je napitek, pripravljen s počasnim kapljičnim precejanjem kave (Coffea canephora var. robusta) skozi tradicionalni kovinski filter phin neposredno na sladkano kondenzirano mleko. Razmerje med filtratom in mlekom je med 2:1 in 4:1. Po navadi se postreže ohlajen z ledom v količini 180 mL v veliki skodelici. Kofeina znese med 100 mg in 130 mg na skodelico. V hladnejših dneh se ga lahko naroči tudi vročega – cà phê sữa nóng. Vietnamese coffee je nastal v Vietnamu v času francoske kolonialne oblasti, kot priredba francoskega napitka café au lait, ko so zaradi omejene dostopnosti svežega mleka začeli uporabljati kondenzirano mleko. Ugotovili so, da se s kondenziranim mlekom najbolje ujema temno pražena kava vrste Coffea canephora var. robusta. Počasno kapljanje zahteva potrpežljivost, vendar ustvari intenziven, grenko-sladek napitek z gosto, skoraj sirupasto teksturo. Na območju severnega Vietnama mu pravijo cà phê nâu đá (slo. dob. ledeni rjavi kavni napitek). Obstaja tudi bolj mlečna različica z imenom bạc xỉu.",
+    preparation: "Napitek se pripravi s pomočjo posebnega kovinskega filtra z imenom phin. Najprej pripravimo sladkano kondenzirano mleko. Polnomastnemu mleku dodamo sladkor v razmerju od 1:2 do 1:3. Mešamo in počasi segrevamo, dokler ne izhlapi cca. 60 % vode. Sladkano kondenzirano mleko prelijemo v novo skodelico in nanj postavimo phin. V slednjega nato nasujemo mleto kavo in čez prelijemo vročo vodo. Ob počasnem prehajanju vode skozi kavo (čemur pravimo perkolacija) poteka ekstrakcija trdno-tekoče. Močan kavni napitek tako kaplja neposredno na sladkano kondenzirano mleko. Na koncu ga dobro zmešamo in prelijemo čez led.",
+    caffeine: {min: 2, max: 2.5},
+    alternativeNames: "Phin coffee (angleško govoreče države), cà phê sữa nóng (Vietnam), cà phê nâu đá (severni Vietnam).",
+    origin: "Vietnam, 19. stol."
+},
+    
 ];
