@@ -702,7 +702,7 @@ const coffees = [
     description: "Café de olla (slo. kavni napitek iz lonca) je tradicionalni mehiški kavni napitek, ki ga v glinenem loncu (olla oz. olla de barro, slo. lonec oz. glineni lonec) počasi kuhajo s cimetom in nerafiniranim trsnim sladkorjem piloncillo (slo. panela). Glinen lonec je ključnega pomenu, saj napitku nudi edinstven okus. Med neobvezne dodatke sodijo tudi pomarančni olupek, janež in klinčki. Volumen napitka je običajno cca. 240 mL, postreže pa se ga vročega v veliki skodelici. Vsebnost kofeina se giblje med 80 mg in 95 mg. Po izročilu njeni začetki segajo v čas mehiške revolucije, ko naj bi jo pripravljale ženske, ki so spremljale revolucionarne čete.",
     preparation: "Za pripravo napitka najprej v glinenem loncu (olla de barro) v vodi raztopimo panelo in cimet. Zmes nato počasi segrevamo na srednjem ognju dokler ne začne rahlo vreti in se vse popolnoma ne raztopi. Raztopino naj zavre, nato pa jo odstavite z ognja in vmešajte mleto kavo. Lonec pokrijte s pokrovko in pustite kavo namakati približno od 4 minute do 5 minut. Napitek precedite skozi fino cedilo ali kavni filter in postrezite cca. 240 mL.",
     caffeine: {min: 1.5, max: 2},
-    alternativeNames: "Café de la Olla (Mehika), mexican spiced coffee, clay-pot coffee (angleško govoreče države).",
+    alternativeNames: "Café de la olla (Mehika), mexican spiced coffee, clay-pot coffee (angleško govoreče države).",
     origin: "Mehika, Med letoma 1910 in 1920."
 },
     
