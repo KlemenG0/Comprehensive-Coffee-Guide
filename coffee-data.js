@@ -705,5 +705,18 @@ const coffees = [
     alternativeNames: "Café de la olla (Mehika), mexican spiced coffee, clay-pot coffee (angleško govoreče države).",
     origin: "Mehika, Med letoma 1910 in 1920."
 },
+
+{
+    id: "cafezinho",
+    name: "Cafezinho",
+    category: "regional",
+    cardImage: "images/cafezinho.jpg",
+    detailImage: "images/cafezinho_1.jpg",
+    description: "Cafezinho (slo. majhen kavni napitek) je majhen, močan brazilski kavni napitek, ki ga že med pripravo sladkajo s sladkorjem ali rapaduro (nerafinirani trsni sladkor, značilen za Brazilijo) in precedijo skozi tkaninski filter. Gostom jo praviloma ponudijo kot nekaj samoumevnega. Pričakovati je sladek napitek, ki ga popijemo v treh požirkih, saj ga znese le okoli 50 mL. Zanj je značilno gostoljubje, ki je tudi pomembnejše od samega napitka. Ponudbo je namreč skoraj nevljudno zavrniti. Postreže se ga vročega v zelo majhni skodelici. Vsebnost kofeina napitka pa znaša od 40 mg do 60 mg. Kot za največjo proizvajalko kave na svetu je za Brazilijo cafezinho nadvse pomemben del kulture. Po vsej Braziliji cafezinho včasih obogatijo tudi z dodatnimi aromami, na primer z vaniljevim ekstraktom, lešnikovim kavnim dodatkom ali celo z malo čokoladnega sirupa. Ponekod v Braziliji kavnemu napitku dodajo tudi začinjen liker, npr. cachaço – alkoholno pijačo iz fermentiranega soka sladkornega trsa.",
+    preparation: "Priprava Cafezinho-ta je enostavna. V lonec najprej dodamo vodo in sladkor. Tekočino nato zmešamo in jo postavimo na močan ogenj, da zavre. Ko se to zgodi, jo odstavimo z ognja in ji dodamo mleto kavo. Nato še cca. 20 sekund mešamo (v tem času med kavo in vodo poteče ekstrakcija trdno-tekoče) in jo precedimo čez tkaninski filter. Tako pripravljen napitek postrežemo v približni količini 50 mL.",
+    caffeine: 1,
+    alternativeNames: "-",
+    origin: "Brazilija, 18. stol."
+},
     
 ];
