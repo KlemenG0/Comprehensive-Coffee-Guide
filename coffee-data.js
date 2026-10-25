@@ -718,5 +718,18 @@ const coffees = [
     alternativeNames: "-",
     origin: "Brazilija, 18. stol."
 },
+
+{
+    id: "tinto",
+    name: "Tinto",
+    category: "regional",
+    cardImage: "images/tinto.jpg",
+    detailImage: "images/tinto_1.jpg",
+    description: "Tinto ali café tinto je majhen kavni napitek, ki ga ulični prodajalci (šp. tinteros) po vsej Kolumbiji točijo iz termovk. Pogosto ga sladkajo s panelo, lokalnim nerafiniranim trsnim sladkorjem. Gre za čisti kavni napitek, brez mleka ali smetane. Postreže se ga vročega v majhni skodelici. Običajni volumen napitka znaša cca. 90 mL, vsebnost kofeina pa med 40 mg in 60 mg. Pije se na ulicah, v pisarnah in ob najrazličnejših opravkih – kot del vsakdanjega življenja in nacionalne navade. Ponuditi tinto je v Kolumbiji izraz gostoljubnosti in naklonjenosti, tako v družinskem krogu kot v širši skupnosti. Z njim goste sprejmejo v dom ali na delovno mesto. Pozor pri prevodu: V Kolumbiji beseda »tinto« pomeni opisani kavni napitek, v španščini in portugalščini pa se nanaša na rdeče vino. V Kolumbiji se je razvila tudi različice napitka tinto z imenom tinto campesino. Gre za tinto, ki mu za okus dodamo še cimet ali klinčke.",
+    preparation: "Za pripravo napitka najprej v manjšo kozico ali tradicionalni kovinski lonec (olleta) nalijemo vodo in panelo. Nato segrevamo, dokler voda ne začne rahlo vreti in se panela popolnoma ne raztopi. Nato zmešamo mleto kavo neposredno v vročo raztopino. Zmes pustimo rahlo vreti še približno 4 minute. V tem času med kavo in vodo poteče ekstrakcija trdno-tekoče Kozico odstavimo z ognja in počakamo približno minuto, da se večina kavne usedline usede na dno. Okoli 90 mL tekočine previdno nalijemo v majhno skodelico ali pa jo za čistejši napitek precedimo skozi tradicionalni tkaninski filter (colador) oziroma fino cedilo.",
+    caffeine: 1,
+    alternativeNames: "Tintico (Medellín, Kolumbija), café tinto (Kolumbija).",
+    origin: "Kolumbija, sredina 19. stol."
+},
     
 ];
