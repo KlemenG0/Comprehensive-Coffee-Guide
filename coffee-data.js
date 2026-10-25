@@ -731,5 +731,18 @@ const coffees = [
     alternativeNames: "Tintico (Medellín, Kolumbija), café tinto (Kolumbija).",
     origin: "Kolumbija, sredina 19. stol."
 },
+
+{
+    id: "",
+    name: "",
+    category: "regional",
+    cardImage: "images/cubano.png",
+    detailImage: "images/cubano_1.jpg",
+    description: "",
+    preparation: "",
+    caffeine: ,
+    alternativeNames: "",
+    origin: ""
+},
     
 ];
