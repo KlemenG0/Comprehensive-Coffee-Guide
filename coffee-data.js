@@ -733,16 +733,16 @@ const coffees = [
 },
 
 {
-    id: "",
-    name: "",
+    id: "café cubano",
+    name: "Café cubano",
     category: "regional",
     cardImage: "images/cubano.png",
     detailImage: "images/cubano_1.jpg",
-    description: "",
+    description: "Café cubano je močan kavni napitek, podoben espressu, pripravljen v moka kavniku, ki ga z demerara sladkorjem (nerafiniran rjavi trsni sladkor) stepajo v svetlo peno, imenovano espumita ali espuma. Vsebnost kofeina skodelice napitka ponavadi znese med 60 mg in 75 mg. Napitek se postreže vroč v majhni skodelici. Kubanci pogosto pijejo café cubano zgodaj zjutraj, po obrokih in ob druženjih. Gre za kubansko tradicijo, ki je danes močno zasidrana tudi v Miamiju. V nekaterih krogih je sprejemljiv zaključek kubanskega kavnega obreda tudi ta, da konico kubanske cigare na kratko pomočijo v ostanek kave na dnu majhne skodelice, nato pa cigaro prižgejo. Za od štiri do šest oseb lahko naročimo tudi colado – napitek v skupni posodi, iz katere se toči v majhne skodelice. Za ublažitev sladkosti café cubano-ja pa lahko izberemo cortadito, različico z parjenim mlekom.",
     preparation: "",
-    caffeine: ,
-    alternativeNames: "",
-    origin: ""
+    caffeine: {min: 1, max: 1.5},
+    alternativeNames: "Cafecito (Kuba), cuban coffee, cuban espresso, cuban pull, cuban shot (angleško govoreče države).",
+    origin: "Kuba, 18. stol."
 },
     
 ];
