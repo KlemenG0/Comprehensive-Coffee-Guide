@@ -677,7 +677,7 @@ const coffees = [
     preparation: "Napitek se pripravi s pomočjo posebnega kovinskega filtra z imenom phin. Najprej pripravimo sladkano kondenzirano mleko. Polnomastnemu mleku dodamo sladkor v razmerju od 1:2 do 1:3. Mešamo in počasi segrevamo, dokler ne izhlapi cca. 60 % vode. Sladkano kondenzirano mleko prelijemo v novo skodelico in nanj postavimo phin. V slednjega nato nasujemo mleto kavo in čez prelijemo vročo vodo. Ob počasnem prehajanju vode skozi kavo (čemur pravimo perkolacija) poteka ekstrakcija trdno-tekoče. Močan kavni napitek tako kaplja neposredno na sladkano kondenzirano mleko. Kavnega filtrata natočimo okoli 135 mL, sladkanega kondenziranega mleka pa 45 mL. Na koncu ga dobro zmešamo in prelijemo čez led.",
     caffeine: {min: 2, max: 2.5},
     alternativeNames: "Phin coffee (angleško govoreče države), cà phê sữa nóng (Vietnam), cà phê nâu đá (severni Vietnam), vietnamese coffee (globalno).",
-    origin: "Vietnam, 19. stol."
+    origin: "Vietnam, 19. stoletje."
 },
 
 {
@@ -703,7 +703,7 @@ const coffees = [
     preparation: "Za pripravo napitka najprej v glinenem loncu (olla de barro) v vodi raztopimo panelo in cimet. Zmes nato počasi segrevamo na srednjem ognju dokler ne začne rahlo vreti in se vse popolnoma ne raztopi. Raztopino naj zavre, nato pa jo odstavite z ognja in vmešajte mleto kavo. Lonec pokrijte s pokrovko in pustite kavo namakati približno od 4 minute do 5 minut. Napitek precedite skozi fino cedilo ali kavni filter in postrezite cca. 240 mL.",
     caffeine: {min: 1.5, max: 2},
     alternativeNames: "Café de la olla (Mehika), mexican spiced coffee, clay-pot coffee (angleško govoreče države).",
-    origin: "Mehika, Med letoma 1910 in 1920."
+    origin: "Mehika, med letoma 1910 in 1920."
 },
 
 {
@@ -716,7 +716,7 @@ const coffees = [
     preparation: "Priprava Cafezinho-ta je enostavna. V lonec najprej dodamo vodo in sladkor. Tekočino nato zmešamo in jo postavimo na močan ogenj, da zavre. Ko se to zgodi, jo odstavimo z ognja in ji dodamo mleto kavo. Nato še cca. 20 sekund mešamo (v tem času med kavo in vodo poteče ekstrakcija trdno-tekoče) in jo precedimo čez tkaninski filter. Tako pripravljen napitek postrežemo v približni količini 50 mL.",
     caffeine: 1,
     alternativeNames: "-",
-    origin: "Brazilija, 18. stol."
+    origin: "Brazilija, 18. stoletje."
 },
 
 {
@@ -729,7 +729,7 @@ const coffees = [
     preparation: "Za pripravo napitka najprej v manjšo kozico ali tradicionalni kovinski lonec (olleta) nalijemo vodo in panelo. Nato segrevamo, dokler voda ne začne rahlo vreti in se panela popolnoma ne raztopi. Nato zmešamo mleto kavo neposredno v vročo raztopino. Zmes pustimo rahlo vreti še približno 4 minute. V tem času med kavo in vodo poteče ekstrakcija trdno-tekoče. Kozico odstavimo z ognja in počakamo približno minuto, da se večina kavne usedline usede na dno. Okoli 90 mL tekočine previdno nalijemo v majhno skodelico ali pa jo za čistejši napitek precedimo skozi tradicionalni tkaninski filter (colador) oziroma fino cedilo.",
     caffeine: 1,
     alternativeNames: "Tintico (Medellín, Kolumbija), café tinto (Kolumbija).",
-    origin: "Kolumbija, sredina 19. stol."
+    origin: "Kolumbija, sredina 19. stoletje."
 },
 
 {
@@ -742,7 +742,7 @@ const coffees = [
     preparation: "Za pripravo napitka Café cubano potrebujemo moka kavnik. Vanj najprej nalijemo vodo na filtrski del pa mleto kavo. Ko začne na vrhnjem delu kavnika pritekati napitek, ga za volumen žlice prestrežemo in ga zmešamo v zelo majhni skodelici, v katero smo odmerili do štiri žličke demerara sladkorja. Mešanico sladkorja in začetnega ekstrakta stepemo s pomočjo žlice med 60 sekund in 90 sekund. Tako dobimo kremasto pastozno mešanico – espuma oz. espumita. Ko se preostal kavni napitek v moka kavniku pripravi, ga cca. 60 mL prilijemo espumi in nežno premešamo. V primeru priprave več skodelic napitka, preostali kavni napitek prelijemo v ustrezno število skodelic in vsaki z žlico dodamo espumo ter premešamo.",
     caffeine: {min: 1, max: 1.5},
     alternativeNames: "Cafecito (Kuba), cuban coffee, cuban espresso, cuban pull, cuban shot (angleško govoreče države).",
-    origin: "Kuba, 18. stol."
+    origin: "Kuba, 18. stoletje."
 },
 
 {
@@ -755,7 +755,20 @@ const coffees = [
     preparation: "Za pripravo kaapi-ja se uporablja poseben valjast kovinski filter, običajno iz nerjavnega jekla, sestavljen iz dveh posodic, ki se namestita ena nad drugo. Zgornja posodica ima perforirano dno, spodnja pa zbira kavni filtrat. V zgornjo posodico stresemo mleto kavo s cikorijo in jo rahlo stisnemo s priloženim kovinskim batom. Nato čeznjo prelijemo vrelo vodo, filter pokrijemo s pokrovčkom in pustimo, da voda počasi pronica (perkolira) skozi kavno mešanico. V tem času med kavo in vodo poteče ekstrakcija trdno-tekoče. Tako nastane močan in koncentriran kavni ekstrakt. Ko je proces zaključen, 75 mL ekstrakta zmešamo s 75 mL vročega spenjenega mleka (vroče mleko, do 65 °C, ki mu ob površini vnesemo zrak), ki ga pripravimo bodisi s pomočjo espresso aparata bodisi penilnika mleka, in po želji sladkamo.",
     caffeine: {min: 1, max: 1.5},
     alternativeNames: "Madras filter coffee, Madras kaapi, Kumbakonam degree coffee, Mylapore filter coffee (Tamil Nadu, Indija), Mysore filter coffee (Karnataka, Indija), south indian filter coffee (angleško govoreče države).",
-    origin: "Tamil Nadu in Karnataka, Indija, 17. stol."
+    origin: "Tamil Nadu in Karnataka, Indija, 17. stoletje."
 },
 
+{
+    id: "kopi",
+    name: "Kopi",
+    category: "regional",
+    cardImage: "images/kopi.png",
+    detailImage: "images/kopi_1.jpg",
+    description: "Kopi (kit. 㗝呸 oziroma 咖啡) je nepogrešljiv del ponudbe tradicionalnih singapurskih in malezijskih kavarn, imenovanih kopitiam. Pripravlja se iz kavnih zrn C. canephora var. robusta, praženih z margarino in sladkorjem, nato pa se prefiltrira skozi poseben filter iz muslina v obliki nogavice. Na koncu ji dodajo kondenzirano ali uparjeno mleko. Praženje v Nanyang stilu mu daje izrazito temno, karamelizirano aromo, ki se dobro ujame s sladkim mlekom. Postrežejo ga vročega ali z ledom v majhni skodelici okoli 200 mL, tako na Kitajskem kot v Singapurju pa je nepogrešljiv del zajtrka. V uličnih prehrambnih središčih (hawker centres) kavni napitek za s seboj pogosto postrežejo kar v plastični vrečki. Skodelica kopi vsebuje približno od 100 mg do 130 mg kofeina. Pri naročanju kopi-ja se uporablja poseben sistem izrazov, s katerimi določimo vrsto mleka, sladkost, jakost in temperaturo napitka: kopi-C – z uparjenim mlekom in sladkorjem, kopi-O – s sladkorjem, brez mleka, kosong – brez sladkorja, gao – močan napitek, poh – šibek napitek, peng – ledeni napitek, siew dai – s kondenziranim mlekom in manj sladkorja, gah dai – z dodatno količino sladkorja, di lo – nerazredčen napitek, cham oz. yuanyang – napitek iz mešanice kave in čaja. Izraze lahko poljubno kombiniramo, npr. kopi-C kosong peng pomeni ledeno kavo z uparjenim mlekom, brez sladkorja. V začetku 20. stoletja so kopi običajno stregli v porcelanastih skodelicah, okrašenih z motivi ali logotipi dobaviteljev kave. V 30. letih 20. stoletja so nekateri pražarji pri praženju kavnih zrn uporabljali vodo, prepojeno z opijem, da bi pri kupcih povzročili odvisnost od njihove kave. Obstajala je tudi praksa pogrevanja ohlajene napitka v keramičnih skodelicah na žerjavici, s čimer so ustvarili vtis, da je bila pravkar pripravljena.",
+    preparation: "Za pripravo kavnega napitka kopi najprej zmleto kavo stresemo v poseben muslinski filter. Čeznjo nato prelijemo vrelo vodo, nato pa mešanico premešamo z dolgo paličico. Kavni napitek nato večkrat prelivamo med dvema večjima kovinskima posodama z dolgim izlivom. S tem se napitek prezrači in nekoliko ohladi. Po pripravi mu dodamo kondenzirano mleko (priprava: polnomastnemu mleku dodamo sladkor v razmerju od 1:2 do 1:3. Mešamo in počasi segrevamo, dokler ne izhlapi cca. 60 % vode) ali uparjeno mleko (priprava: mleko mešamo in počasi segrevamo, dokler ne izhlapi cca. 60 % vode) ter sladkor, odvisno od naročene različice.",
+    caffeine: {min: 2, max: 2.5},
+    alternativeNames: "Kopitiam coffee (Indonezija, Malezija, Singapur, Brunej in Tajska), Nanyang coffee (Kitajska).",
+    origin: "Britanska Malaja, konec 19. stoletja."
+},
+    
 ];
