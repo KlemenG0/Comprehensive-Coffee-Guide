@@ -783,5 +783,18 @@ const coffees = [
     alternativeNames: "Oleang, olieng, o-liang (Tajska), thai iced coffee (globalno).",
     origin: "Tajska, konec 19. in začetek 20. stoletja."
 },
+
+{
+    id: "yuanyang",
+    name: "Yuanyang",
+    category: "regional",
+    cardImage: "images/yuanyang.png",
+    detailImage: "images/yuanyang_1.jpg",
+    description: "Yuanyang (kit.: 鸳鸯) je hongkonška kombinacija kavnega napitka in mlečnega čajnega napitka, običajno pripravljena v razmerju približno 3:7. Postreže se lahko vroč ali hladen v veliki skodelici. Običajen volumen yuanyang-a je okoli 240 mL, vsebnost kofeina pa med 70 mg in 100 mg. Z dodatkom uparjenega mleka se preplet čajnih in kavnih arom zaokroži v svilnato gladek napitek, ki je bolj nežen od obeh izvornih pijač. Yuanyang je nastal več desetletij pred dirty chaijem – srečanje vzhodne in zahodne tradicije v enem kozarcu se je zgodilo že dolgo pred njegovo poznejšo zahodno različico. Napitek je značilen predvsem za mestne restavracije cha chaan teng. Njegovo ime se nanaša na vrsti race z imenom mandarinki (Aix galericulata). Znak 鴛 (yuān) označuje samca, znak 鴦 (yāng) pa samico. V kitajski kulturi sta mandarinki simbol povezanega, neločljivega para. Prav tako je za mandarinko značilna spolna dvoličnost, kar pomeni da sta samec in samica zelo različna, kar se lepo zrcali pri kombinaciji kave in čaja. Obstaja tudi brezkofeinska različica, imenovana otroški yuanyang (兒童鴛鴦). Namesto kavnega in čajnega napitka se le-ta pripravi iz napitkov v prahu Horlicks in Ovaltine, ki temeljita na sladnem mleku (angl. malted milk), kar je prašek, pripravljen iz mešanice slajenega ječmena, moke in mleka.",
+    preparation: "Za pripravo napitka najprej pripravimo čajni napitek. Liste ali čajne vrečke črnega cejlonskega čaja prelijemo z vročo vodo in pustimo namakati približno 5 minut. Nato pripravimo še drugo komponento – kavno komponento. Le-to lahko pripravimo bodisi s pomočjo espresso aparata bodisi na kateri koli drugi način, ki je opisan v rubriki »Načini priprave« tega vodnika. Komponenti zmešamo skupaj in dodamo uparjeno mleko. Tako da imamo na koncu razmerje kavni napitek proti mlečno-čajnemu 72 mL proti 168 mL. Postrežemo ga lahko vročega ali ohlajenega z ledom.",
+    caffeine: {min: 1.5, max: 2},
+    alternativeNames: "Yuenyeung, yinyeung, yinyong, yuānyāng (Kitajska), coffee with tea (globalno).",
+    origin: "Hong Kong, Kitajska, 5. in 6. desetletje 20. stoletja."
+},
     
 ];
