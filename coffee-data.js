@@ -815,7 +815,7 @@ const coffees = [
     name: "Buna",
     category: "regional",
     cardImage: "images/buna.png",
-    detailImage: "images/buna_1.jpg",
+    detailImage: "images/buna_1.webp",
     description: "Buna je tradicionalni etiopski kavni obred, med katerim zelena kavna zrna sproti pražijo v ponvi, jih zmeljejo in skuhajo v posebni glineni posodi z ozkim vratom, imenovani jebena. Kavni napitek nato postrežejo vroč v majhni skodelici brez ročaja v treh zaporednih rundah, imenovanih abol, tona in baraka. Napitek običajno sladkajo s sladkorjem, na podeželju pa ji včasih dodajo sol ali tradicionalno začinjeno maslo, imenovano niter kibbeh. Obred spremljata dišeče kadilo in postrežba pokovke. Zanj si je treba vzeti vsaj eno uro – bistvo ni zgolj v pitju kave, temveč v druženju in ohranjanju tradicije v deželi, kjer se je začela zgodba kave. Napitka pogosto znese okoli 80 mL na skodelico z vsebnostjo kofeina od 60 mg do 80 mg. Povabilo »buna tetu«, kar pomeni »pridi na kavo«, pa v etiopski kulturi pomeni veliko več kot zgolj povabilo na napitek – je izraz gostoljubnosti in povabilo, da postaneš del družine.",
     preparation: "Priprava bune poteka v naslednji korakih. Zelena kavna zrna najprej spražijo v ponvi nad odprtim ognjem. Pražena zrna zmeljejo v tradicionalnem lesenem možnarju in s tolkačem, imenovanem mukecha. Mleto kavo tudi presejejo, da odstranijo globe delce. Kavo pripravijo v tradicionalnem glinenem loncu z ozkim vratom, imenovanem jebena. V njem najprej zavrejo vodo, nato dodajo mleto kavo in lonec za nekaj minut postavijo nad odprt ogenj. V tem času med kavo in vodo poteče ekstrakcija trdno-tekoče. 80 mL napitka se postreže brez filtriranja.",
     caffeine: {min: 1, max: 1.5},
