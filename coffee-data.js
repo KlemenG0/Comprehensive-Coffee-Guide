@@ -823,4 +823,17 @@ const coffees = [
     origin: "Kaffa, Etiopija, 9. stoletje."
 },
 
+{
+    id: "scandinavian egg coffee",
+    name: "Scandinavian egg coffee",
+    category: "regional",
+    cardImage: "images/scandinavian_egg.png",
+    detailImage: "images/scandinavian_egg_1.webp",
+    description: "Scandinavian egg coffee (slo. skandinavski jajčni kavni napitek) je tradicionalni kavni napitek, pri katerem se mleta kava zmeša s celim jajcem, vključno z lupino. Metodo so v ameriški srednji zahod prinesli norveški in švedski priseljenci. Jajce pomaga vezati drobne delce kavne usedline in tanine. Rezultat je presenetljivo gladka kava jantarne barve, ki je kljub kuhanju bistra in skoraj brez usedline. Običajen volumen napitka je 240 mL z vsebnostjo kofeina cca. 95 mg. Postreže se ga vročega v veliki skodelici. Napitek je popularen v dobršnem delu Minnesote, Nebraske, Illinoisa in Wisconsina predvsem na srečanjih v luteranskih cerkvah.",
+    preparation: "Za pripravo napitka najprej zmešamo mleto in jajce (skupaj z lupino). To mešanico nato prelijemo z vrelo vodo in počakamo do pet minut, da med kavo in vodo poteče ekstrakcija trdno-tekoče. Po preteku tega časa zraven vlijemo malo hladne vode. To bo povzročilo, da se penasta gmota skupaj z vso usedlino in kavnimi zrni hitro sesede na dno posode. Mešanico nato pustimo stati približno 10 minut. Na koncu še cca. 240 mL napitka precedimo preko kavnega filtra v želeno skodelico.",
+    caffeine: 2,
+    alternativeNames: "church-basement coffee (ZDA), Swedish egg coffee, norwegian coffee (globalno).",
+    origin: "ZDA, konec 19. stoletja."
+},
+    
 ];
