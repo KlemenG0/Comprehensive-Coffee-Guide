@@ -357,7 +357,7 @@ const coffees = [
     category: "milk",
     cardImage: "images/dirty_chai.jpg",
     detailImage: "images/dirty_chai_1.webp",
-    description: "Dirty chai je chai latte (začinjen črni čaj, pogosto masala chai, s parjenim mlekom), ki je “umazana” z od eno do dvema porcijama espressa (doppio). Napitek se postreže vroč ali z ledom pogosto v veliki skodelici, saj ga znese okoli 300 mL. Začinjeni čaj in espresso skupaj povečata vsebnost kofeina, ki znaša med 100 mg in 160 mg na skodelico. Napitek združuje tople in sladke začimbe, kot so cimet, kardamom, klinčki, ingver in črni poper, z bogatim in izrazitim okusom kave. Obstaja anekdota, da je napitek nastal po nesreči, ko je barista v londonski kavarni pomotoma v chai latte gostu dodal espresso.",
+    description: "Dirty chai (slo. Umazan čajni napitek) je chai latte (začinjen črni čajni napitek, pogosto masala chai, s parjenim mlekom), ki je “umazan” z od eno do dvema porcijama espressa (doppio). Napitek se postreže vroč ali z ledom pogosto v veliki skodelici, saj ga znese okoli 300 mL. Začinjeni čaj in espresso skupaj povečata vsebnost kofeina, ki znaša med 100 mg in 160 mg na skodelico. Napitek združuje tople in sladke začimbe, kot so cimet, kardamom, klinčki, ingver in črni poper, z bogatim in izrazitim okusom kave. Obstaja anekdota, da je napitek nastal po nesreči, ko je barista v londonski kavarni pomotoma v chai latte gostu dodal espresso.",
     preparation: "Za pripravo napitka dirty chai, najprej pripravimo sam čajni napitek iz ustreznega čaja in začimb, tako za čaj in začimbe namakamo v vrečki ali proste v vroči vodi (ekstrakcija trdno-tekoče). 85 mL čajnega napitka natočimo v veliko skodelico in dodamo 170 mL parjenega mleka (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), ki ga pripravimo s pomočjo espresso aparata. Z isto napravo pripravimo še cca. 45 mL espressa, ki ga na koncu dodamo na vrh napitka.",
     caffeine: {min: 2, max: 3},
     alternativeNames: "Java chai (Evropa), red-eye chai, or turbo-charger chai, tough-guy chai, (ZDA, Združeno kraljestvo), dirty chai latte, espresso chai (globalno).",
@@ -834,6 +834,19 @@ const coffees = [
     caffeine: 2,
     alternativeNames: "church-basement coffee (ZDA), Swedish egg coffee, norwegian coffee (globalno).",
     origin: "ZDA, konec 19. stoletja."
+},
+
+{
+    id: "kaffeost",
+    name: "Kaffeost",
+    category: "regional",
+    cardImage: "images/kaffeost.jpg",
+    detailImage: "images/kaffeost_1.jpg",
+    description: "Kaffeost je tradicionalni kavni napitek ljudstva Sámi iz pokrajine Sápmi, ki obsega dele Švedske, Finske, Norveške in Rusije. Napitek se ponavadi postreže vroč v količini 200 mL v majhni skodelici. Vsebnost kofeina znese okoli 95 mg. Vroči kavni napitek prelijejo čez kocke posebnega sira leipäjuusto ali juustoleipä (slo. dob. krušni sir), ki je tradicionalno izdelan iz mleka samice severnega jelena, danes pa pogosto iz kozjega ali kravjega mleka. Kocke sira se v kavi segrejejo in zmehčajo, vendar ohranijo svojo značilno prožno teksturo. Opcionalno se lahko doda tudi meso severnega jelena. Kombinacija se morda sliši nenavadno, vendar ponuja presenetljivo prijetno, domačno kulinarično izkušnjo. Običaj dodajanja sira in mesa v kavni napitek naj bi nastal iz praktične potrebe po pripravi hrane v ostrem podnebju severne Skandinavije. Živila so pogosto zamrznila, zato so jih pred zaužitjem odtajali s segrevanjem oziroma kuhanjem. Tako so nastali topli obroki iz sira, kruha in mesa. Ko se je v 18. stoletju v regiji uveljavila kava, so napitke začeli pripravljati v istem loncu kot druga živila. Združevanje kave, sira in mesa je bilo predvsem praktično: omogočalo je pripravo toplega obroka in napitka hkrati.",
+    preparation: "Za pripravo najprej potrebujemo sir leipäjuusto, ki ga narežemo na majhne kocke in ga nekaj kosov prenesemo v skodelico. Nato pripravimo kavni napitek, ki je lahko na katerikoli način pripravljen filtriran kavni napitek npr. drip coffee. Načini priprave kavnih napitkov so opisani v rubriki »Načini priprave« tega vodnika. Kavni napitek prelijemo čez kose sira in napitek je pripravljen. Dodatek tanko narezanega sušenega mesa severnega jelena je opcionalen.",
+    caffeine: 2,
+    alternativeNames: "Coffee cheese (angleško govoreče države).",
+    origin: "Švedska, Finska, Norveška in Rusija, konec 18. stoletja."
 },
     
 ];
