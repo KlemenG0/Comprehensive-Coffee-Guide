@@ -825,7 +825,7 @@ const coffees = [
 
 {
     id: "scandinavian egg coffee",
-    name: "Scandinavian egg coffee",
+    name: "Scandinavian",
     category: "regional",
     cardImage: "images/scandinavian_egg.jpg",
     detailImage: "images/scandinavian_egg_1.webp",
