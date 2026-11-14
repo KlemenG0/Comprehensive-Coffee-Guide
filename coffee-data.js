@@ -848,5 +848,18 @@ const coffees = [
     alternativeNames: "Coffee cheese (angleško govoreče države).",
     origin: "Švedska, Finska, Norveška in Rusija, konec 18. stoletja."
 },
+
+{
+    id: "kopi joss",
+    name: "Kopi joss",
+    category: "regional",
+    cardImage: "images/kopi_joss.jpg",
+    detailImage: "images/kopi_joss_1.jpg",
+    description: "Kopi joss je posebnost indonezijskega mesta Yogyakarta. Pripravijo ga iz močnega pogosto sladkanega kavnega napitka kopi tubruk, v katerega neposredno potopijo kos razžarjenega oglja. Postreže se ga vročega v majhni skodelici, saj ga običajno znese okoli 200 mL. Vsebnost kofeina na skodelico napitka se giblje okoli 100 mg. Napitek naj bi nastal v 7. desetletju prejšnjega stoletja na majhni stojnici ob železniški postaji Tugu, imenovani angkringan. Tam se je običajno stregel napitek kopi tubruk, ki pa ga vodja stojnice Lek Man ni znak pripraviti, zato je improviziral z dodatkom oglja. Nato se je napitek populariziral po celotni Indoneziji. Po pripovedovanju domačinov naj bi oglje ublažilo kislost kave. Kopi joss je zanimiv tako zaradi svojega okusa kot zaradi nenavadnega načina priprave – žareče oglje ob stiku s kavo povzroči značilno sikanje in mehurčke, od koder izvira tudi njegovo ime. Beseda joss je onomatopoija, saj posnema značilno sikanje oziroma cvrčanje, ki nastane, ko razžarjen kos oglja pride v stik z napitkom.",
+    preparation: "Priprava naptika kopi joss sledi navodilom priprave napitka kopi tubruk. Najprej v ustrezno posodo nasujemo mleto kavo in sladkor ter mešanico prelijemo z vrelo vodo. Nato počakamo okoli 5 minut, da med kavo in vodo poteče ekstrakcija trdno-tekoče in da se sladkor raztopi. Nato sledi korak, ki je unikaten za kopi joss, kar je dodatek vročega kosa oglja. Le-tega pustimo v napitku okoli 5 minut, nato ga pred pitjem odstranimo, napitek premešamo in ga postrežemo s skodelici okoli 200 mL.",
+    caffeine: 2,
+    alternativeNames: "Kopi Jos (Indonezija), charcoal coffee (globalno).",
+    origin: "Yogyakarta, Indonezija, 7. desetletje 20. stoletja."
+},
     
 ];
