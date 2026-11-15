@@ -87,7 +87,7 @@ const coffees = [
     description: "Red eye je ameriški kavni napitek, ki združuje filtriran kavni napitek in eno porcijo espressa. Ime je dobil po nočnih letih od zahodne do vzhodne obale Severne Amerike, ki so potnike tako izmučili, da so dobili rdeče oči (angl. red eyes). Ta napitek naj bi pomagal premagovati to utrujenost. Ena skodelica vsebuje 300 mL napitka s približno 160 mg kofeina. Obstajajo tudi različice red-eye-a, ki vsebujejo več espressa. Ti sta black eye (dve porciji espressa) in dead eye ali green eye (tri porcije espressa). Obstaja pa tudi različica z imenom lazy eye, ki vsebuje eno porcijo espressa in dekofeiniziran filtriran kavni napitek. Napitek se postreže vroč v veliki skodelici.",
     preparation: "Napitek red eye se pripravi tako, da se eno porcijo espressa, ki je narejen s pomočjo espresso aparata (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg), prelije čez 170 mL drip coffe-ja, ki je pripravljen s pomočjo kavnega aparata.",
     caffeine: 3,
-    alternativeNames: "A shot in the dark, a depth charge, an eye opener, a sludge cup, a hammerhead, foglifter, a devil’s crowbar, an oil spill, turbo hot coffee (ZDA).",
+    alternativeNames: "Shot in the dark, depth charge, eye opener, sludge cup, hammerhead, foglifter, devil’s crowbar, oil spill, turbo hot coffee, wellard coffee, stink eye, train wreck, mondo (ZDA), double drip (Kanada).",
     origin: "ZDA, konec 20. stoletja."
 },
 
