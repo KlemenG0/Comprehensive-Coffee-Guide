@@ -879,7 +879,7 @@ const coffees = [
     id: "café lágrima",
     name: "Café lágrima",
     category: "regional",
-    cardImage: "images/lagrima.jpg",
+    cardImage: "images/lagrima.png",
     detailImage: "images/lagrima_1.jpg",
     description: "Café lágrima je argentinska kavna specialiteta iz Buenos Airesa, sestavljena iz parjenega mleka, ki ga zaznamuje le »solzica« (šp. lágrima) kavne komponente, podobno kot latte macchiato. Vsebuje med 10 mg 15 mg kofeina, kar je najmanj med vsemi kavnimi napitki v tem vodniku. Postreže se ga vročega v majhni skodelici, cca. 150 mL. Izvor napitka sega v čas, ko je bila kava, uvožena v Argentino, precej slabe kakovosti. Država je večinoma uvažala manj kakovostno kavo iz sosednje Brazilije, ki so ji med praženjem pogosto dodajali celo sladkor, da bi prikrili njen pomanjkljiv okus. Takšen napitek je bilo seveda težko piti samostojno, zato so začeli dodajati veliko mleka. Tako se je razvil café lágrima. Danes imajo Argentinci dostop tudi do kakovostne kave, vendar se je veliko spremenilo tudi v priljubljenosti samega napitka. Café lágrima je namreč postal priljubljena navada, ki se ji mnogi ne nameravajo odpovedati.",
     preparation: "Za pripravo café lágrima-ja najprej pripravimo parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro) s pomočjo espresso aparata. V skodelico nalijemo približno 135 mL parjenega mleka, nato pa dodamo espresso (približno 15 mL) – razmerje med parjenim mlekom in espressom približno 9:1.",
