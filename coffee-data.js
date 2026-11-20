@@ -23,7 +23,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno fino mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Ekstrakcija za 20 mL napitka traja okoli 20 sekund.",
     caffeine: 1,
     alternativeNames: "Café serré (Francija), short shot, restricted shot (angleško govoreče države), caffè corto (Italija).",
-    origin: "Italija, začetek 20. stoletja."
+    oririn: "Italija, začetek 20. stoletja."
 },
 
 {
@@ -62,7 +62,7 @@ const coffees = [
     preparation: "Pri pripravi americana se najprej s pomočjo espresso aparata pripravi dve porciji espressa – doppio – (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg)kar je 60 mL, nato pa se dolije vroča voda (180 mL), kar je glavna razlika v primerjavi z napitkom long black.",
     caffeine: {min: 1.5, max: 2.5},
     alternativeNames: "Americano (globalno).",
-    origin: "Italija (vojaki ZDA), med letoma 1939 in 1945."
+    origin: "Italija, med letoma 1939 in 1945."
 },
 
 {
@@ -101,7 +101,7 @@ const coffees = [
     preparation: "Za pripravo se uporablja espresso aparat. Napitek je pripravljen z ekstrakcijo tekoče-trdno bolj grobo mlete kave z vročo vodo (do 96 °C) pri relativnem tlaku cca. 9 bar. Čas ekstrakcije za 180 mL napitka je nekoliko daljši od 30 sekund.",
     caffeine: 2,
     alternativeNames: "Kaffee crème, schümli (Območje Alp), cream coffee (angleško govoreče države).",
-    origin: "Italija (koncept), 1948. Območje Alp, Švica, Italija (moderni recept), 9. desetletje 20. stoletja."
+    origin: "Italija, 1948 (koncept). Območje Alp, Švica, Italija, 9. desetletje 20. stoletja (moderni recept)."
 },
 
 {
@@ -140,7 +140,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, ene (espresso, 30 mL) ali dveh porcij espressa (doppio, 60 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi cca. 240 mL parjenega mleka (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še z mlečno peno, ki se pripravi s penilnikom mleka.",
     caffeine: {min: 1.5, max: 2.5},
     alternativeNames: "Caffellatte, caffè e latte (Italija), café crème (Paris, Francija), milchkaffee (Nemčija), latte (globalno).",
-    origin: "Italija (koncept), 17. stoletje. ZDA (moderni recept), začetek 20. stoletja."
+    origin: "Italija, 17. stoletje (koncept). ZDA, začetek 20. stoletja (moderni recept)."
 },
 
 {
@@ -153,7 +153,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, dveh porcij espressa (doppio), 60 mL, se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Prav tako se z njim pogosto pripravi parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), okoli 60 mL, s katerim prekrijemo osnovo. Na koncu pa se celotna tekočina prekrije še s 60 mL goste mlečne pene, ki se pripravi s penilnikom mleka.",
     caffeine: 1.5,
     alternativeNames: "-",
-    origin: "Avstrija, Habsburška monarhija (koncept), 18. stoletje. Italija (moderni recept), začetek 20. stoletja."
+    origin: "Avstrija, Habsburška monarhija, 18. stoletje (koncept). Italija, začetek 20. stoletja (moderni recept)."
 },
 
 {
@@ -192,7 +192,7 @@ const coffees = [
     preparation: "Za pripravo osnove napitka, ena porcija espressa (30 mL), se uporablja espresso aparat (fino mleta kava in do 96 °C voda, 30 sekundna ekstrakcija tekoče-trdno pri cca. 9 barg). Preko tekočine nato prelijemo kanček (5 mL) mlečne pene, ki jo pripravimo s pomočjo penilnika mleka.",
     caffeine: 1.5,
     alternativeNames: "Caffè macchiato, macchiato (Italija).",
-    origin: "Italija, 9. desetletje, 20. stoletja."
+    origin: "Italija, 9. desetletje 20. stoletja."
 },
 
 {
@@ -218,7 +218,7 @@ const coffees = [
     preparation: "Najprej v visok kozarec nalijemo čokoladni sirup ali staljeno čokolado (30 mL). Nato dodamo dve porciji espressa (doppio, 60 mL) in premešamo. Na koncu dodamo še parjeno mleko (toplo mleko, ki ga segrejemo in kremasto prezračimo z vročo vodno paro), 210 mL, ki ga ponavadi pripravimo s pomočjo espresso aparata.",
     caffeine: {min: 2, max: 2.5},
     alternativeNames: "Mocha, mocaccino, mochachino, mochaccino (globalno).",
-    origin: "Turin, Italija (koncept), 18. stoletje. ZDA (moderni recept), 20. stoletje."
+    origin: "Turin, Italija, 18. stoletje (koncept). ZDA, 20. stoletje (moderni recept)."
 },
 
 {
@@ -385,7 +385,7 @@ const coffees = [
     description: "Pour-over (slo. prelito čez) je ročni način priprave kavnega napitka (podobno kot filtriran kavni napitek), pri kateri vročo vodo postopoma prelivamo čez mleto kavo. Gre za počasen in natančen gravitacijsko gnan način priprave, ki se je izpopolnil v japonskih kavarnah kissaten, pozneje pa ga je standardiziral predvsem oprema Hario V60, predstavljena leta 2005. V primerjavi z drip coffee način pour-over običajno proizvede čistejši in svetlejši napitek, pri katerem bolje pridejo do izraza značilnosti izvora kavnih zrn. Priprava pour-over se običajno začne tako, da papirnati filter prelijemo z majhno količino vroče vode, s čimer odstranimo morebiten okus po papirju. Nato dodamo mleto kavo in jo enakomerno poravnamo. Na kavo zlijemo manjšo količino vroče vode in počakamo približno 40 sekund, preden nadaljujemo s prelivanjem. To predhodno omočenje, imenovano “blooming” (slo. cvetenje), povzroči sproščanje ogljikovega dioksida (CO₂) iz kavne usedline v obliki mehurčkov ali pene ter lahko izboljša okus napitka. Preostalo odmerjeno količino vode nato počasi in enakomerno dolivamo s krožnimi gibi čez kavo, kar omogoča počasnejšo perkolacijo in ekstrakcijo trdno-tekoče. Prehitro dolivanje lahko povzroči bolj vodeno napitek, medtem ko lahko počasnejše prelivanje ustvari bogatejši okus. Za standardno količino 240 mL znese vsebnost kofeina od 95 mg. V nasprotju s pripravo v francoski stiskalnici (french press), kjer je kavna usedlina ves čas potopljena v vodi, pour-over omogoča natančnejši nadzor nad ekstrakcijo. Tudi dodatno mešanje oziroma premikanje kavne usedline, na primer z rahlim vrtenjem, lahko izboljša ekstrakcijo.",
     caffeine: 2, 
     alternativeNames: "Hand-drip coffee, manual drip (angleško govoreče države), filter coffee (globalno).",
-    origin: "ZDA, Japonska, začetek 20. stoletja."
+    origin: "ZDA in Japonska, začetek 20. stoletja."
 },
     
 {
@@ -482,7 +482,7 @@ const coffees = [
     preparation: "Priprava napitka se začne s pripravo osnove kavnega napitka, ki je lahko na katerikoli način pripravljen kavni napitek, bodisi drip coffee, french press coffee, itd. Priprava vsake posamezne osnove je opisana v rubriki »« tega vodnika. 480 mL osnove ponavadi prelijemo neposredno na led, ki je v velikem kozarcu.",
     caffeine: {min: 2, max: 3},
     alternativeNames: "-",
-    origin: "ZDA in Evropa, konec 19. stoletja (koncept). ZDA, 1920."
+    origin: "ZDA in Evropa, konec 19. stoletja (koncept). ZDA, 1920 (moderni način)."
 },
 
 {
@@ -508,7 +508,7 @@ const coffees = [
     preparation: "Priprava nitro cold brew-a se začne s pripravo cold brew-a (namakanje kave v hladni vodi in s tem ekstrakcija trdno-tekoče od 12 ur do 24 ur). Ko se je mleta kava dovolj dolgo namakala, se 480 mL pripravljenega napitka prelije v steklenico ali sod pri sobni temperaturi. Pri točenju v velik kozarec se mu doda dušik (analogno kot pri dodajanju ogljikovega dioksida), ki ustvari bogato, kremasto plast pene (mikromehurčki), podobno peni pri točenem pivu.",
     caffeine: 5,
     alternativeNames: "Nitrogen-infused cold brew (angleško govoreče države), nitro brew, nitro coffee (globalno).",
-    origin: "Dilema med Austin in Portland, ZDA, 2. desetletje 21. stoletja."
+    origin: "Dilema med Austin, Texas in Portland, Oregon, ZDA, 2. desetletje 21. stoletja."
 },
 
 {
