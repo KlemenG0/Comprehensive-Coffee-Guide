@@ -900,5 +900,18 @@ const coffees = [
     alternativeNames: "Cafecito chorreado (Kostarika).",
     origin: "Kostarika, začetek 19. stoletja."
 },
+
+{
+    id: "new orleans-style chicory coffee",
+    name: "New Orleans-style chicory coffee",
+    category: "regional",
+    cardImage: "images/chicory.png",
+    detailImage: "images/chicory_1.webp",
+    description: "New Orleans-style chicory coffee je kavni napitek iz temno praženih kavnih zrn, ki mu dodajo praženo korenino cikorije. Navada dodajanja cikorije izvira iz obdobij pomanjkanja kave v Franciji, nato pa se je v New Orleansu uveljavila kot trajna tradicija. Napitek se postreže vroč v veliki skodelici. Njegov volumen je običajno 240 mL, vsebnost kofeina pa nekoliko nižja, med 50 mg in 70 mg. Blokade med ameriško državljansko vojno so prisilile prebivalce, da so kavo razredčili oziroma »podaljšali« s cikorijo, vendar je njen značilni okus poskrbel, da se je navada ohranila tudi po koncu pomanjkanja. Cikorija ne vsebuje kofeina, zato klasični café au lait s cikorijo, ki ga v New Orleansu pogosto postrežejo s pecivom beignets, vsebuje nekoliko manj kofeina, kot bi pričakovali glede na njegov izrazit okus. Kavarna Café du Monde je cikorijo uveljavila kot značilen okus New Orleansa, po drugi strani pa južnoindijski napitek kaapi prav tako vključuje to sestavino v svojo tradicionalen filtriran kavni napitek.",
+    preparation: "New Orleans-style chicory coffee pripravimo tako, da najprej pripravimo drip coffee s pomočjo kavnega aparata (120 mL), pri čemer voda perkolira skozi kavni sloj in poteče ekstrakcija trdno-tekoče. Pri tem uporabimo mešanico kave in cikorije. Nato zagrejemo mleko in ga cca. 120 mL prelijemo čez kavno osnovo.",
+    caffeine: {min: 1, max: 1.5},
+    alternativeNames: "Cafecito chorreado (Kostarika).",
+    origin: "Francija, 1801 (koncept). New Orleans, Lousiana, ZDA, 19. stoletje (moderni koncept)."
+},
     
 ];
