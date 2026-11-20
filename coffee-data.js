@@ -892,7 +892,7 @@ const coffees = [
     id: "café chorreado",
     name: "Café chorreado",
     category: "regional",
-    cardImage: "images/chorreado.png",
+    cardImage: "images/chorreado.jpg",
     detailImage: "images/chorreado_1.jpg",
     description: "Café chorreado je kostariška različica filtriranega kavnega napitka, pri katerem vročo vodo prelivamo skozi majhno platneno vrečko (bolsita), obešeno na lesenem stojalu, imenovanem chorreador. Počasno prelivanje vode skozi platneni filter je bistveni del celotnega postopka priprave. Postreže se ga vročega, običajno okoli 240 mL v veliki skodelici. Vsebnost kofeina v skodelici napitka znaša cca. 95 mg. Gre za tradicionalen način priprave kavnega napitka, ki izvira iz podeželskega življenja in kmečkega okolja ter se je ohranil vse do danes. Še danes ga lahko naročimo v kateri koli gorski sodi (kot v Kostariki pravijo manjšim preprostim restavracijam), kjer je lesen chorreador še vedno nepogrešljiv del opreme. Beseda chorreador izhaja iz španskega glagola chorrear, ki pomeni kapljati oziroma curljati. Ime se torej nanaša na način priprave, pri katerem vroča voda pronica skozi mleto kavo in nato kaplja v posodo.",
     preparation: "Za pripravo napitka najprej v platneno vrečko z imenom bolsita nasujemo fino ali srednje fino mleto kavo in vrečko vpnemo v stojalo (chorreador). Spodaj postavimo skodelico in čez kavo prelijemo vročo vodo. Voda počasi pronica skozi kavo in s tem poteče ekstrakcija trdno-tekoče. Napitka običajno postrežemo 240 mL.",
