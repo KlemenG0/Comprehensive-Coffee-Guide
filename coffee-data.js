@@ -915,11 +915,11 @@ const coffees = [
 },
 
 {
-    id: "new orleans-style chicory coffee",
-    name: "New Orleans-style chicory coffee",
+    id: "double-double",
+    name: "Double-double",
     category: "regional",
-    cardImage: "images/chicory.jpg",
-    detailImage: "images/chicory_1.webp",
+    cardImage: "images/double-double.jpg",
+    detailImage: "images/double-double_1.avif",
     description: "Double-double (slo. dvojno-dvojno) je kanadsko naročilo kavnega napitka, ki pomeni filtriran kavni napitek z dvema porcijama smetane in dvema porcijama sladkorja. Postreže se vroč pogosto 295 mL, v veliki skodelici. Vsebnost kofeina napitka znaša med 140 mg in 205 mg. Izraz double-double je popularizirala veriga Tim Hortons, dokler ni postal skoraj sinonim s kanadsko identiteto. Leta 2004 je bil celo uvrščen v Canadian Oxford Dictionary (slo. Kanadski Oxfordov slovar). Tim Hortons zagotavlja doslednost okusa pri različnih velikostih skodelic s pomočjo dveh namenskih avtomatov: eden dozira smetano in mleko, drugi pa beli kristalni sladkor. Oba imata gumbe za izbiro velikosti skodelice in količine dodatkov. Kavo vedno nalijejo čez smetano in sladkor, da zagotovijo ustrezno razmerje sestavin. Napitek je mogoče pripraviti s smetano ali mlekom. Poleg napitka Double-double v Kanadi poznajo tudi različice kot so: regular (ena porcija smetane in ena porcija sladkorja), triple-triple (tri porcije smetane in tri porcije sladkorja), four-by-four  (štiri porcije smetane in štiri porcije sladkorja) ter Wayne Gretzky (devet porcij smetane in devet porcij sladkorja) poimenovano po hokejistu Waynu Gretzkyju in njegovi številki dresa 99.",
     preparation: "Za pripravo napitka double-double najprej s pomočjo kavnega aparata pripravimo drip coffee, pri čemer voda perkolira skozi kavni sloj in poteče ekstrakcija trdno-tekoče. Nato 295 mL filtrata dodamo dve žlički sladkorja in premešamo. Sledi dodatek dveh porcij smetane, da se napitek obarva v karamelno rjavo. Napitek dodatno premešamo in postrežemo.",
     caffeine: {min: 2.5, max: 3.5},
